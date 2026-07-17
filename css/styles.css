@@ -229,6 +229,17 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   from { transform: translateY(-100%); }
   to { transform: translateY(0); }
 }
+.hdr-esp { padding-left: 23px; border-left: 1px solid #9b9da1; margin-right: 22px; }
+.hdr-esp p {
+  font-size: 17px;
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--red-accent);
+  margin: 0;
+  white-space: nowrap;
+}
 .hdr-scl-icns { display: flex; align-items: center; gap: 10px; padding-left: 23px; border-left: 1px solid #9b9da1; }
 .hdr-scl-icns p { font-size: 16px; font-family: 'Asta Sans', sans-serif; font-weight: 300; color: #fff; margin: 0; }
 .hdr-scl-icns a {
@@ -337,6 +348,18 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 }
 .hm-bnr-rgt p::after, .hm-consultation-blk p::after { left: inherit; right: 0; border-left: 0; border-right: 3px solid var(--red-accent); transform: skewX(14deg); }
 .hm-bnr-btn a.cmn-btn { padding: 23px 36px; }
+.hm-bnr-esp {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 30px 0 0;
+  position: relative;
+  z-index: 1;
+}
+.hm-bnr-esp::before, .hm-bnr-esp::after { display: none; }
 
 /* ============ SCROLLING TICKER ============ */
 .hm-scrolling-sec {
