@@ -4,7 +4,6 @@
    is licensed to the reference site, so those slots are CSS-drawn or
    labeled placeholders awaiting real Shapiro assets. */
 
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Asta+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@400;600;800&display=swap');
 
 :root {
   --maroon: #003a66;
@@ -252,7 +251,8 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   padding: 175px 0 0;
   position: relative;
   background:
-    radial-gradient(ellipse at 70% 10%, rgba(64,80,98,0.5) 0%, transparent 55%),
+    radial-gradient(ellipse at 70% 10%, rgba(20,32,46,0.55) 0%, rgba(13,18,24,0.88) 60%, rgba(13,18,24,0.97) 100%),
+    url('../images/skyline-hero.jpg') center 30% / cover no-repeat,
     linear-gradient(180deg, #232e3a 0%, #141b23 55%, #0d1218 100%);
 }
 .hm-banner-sec::after {
@@ -351,6 +351,9 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   width: -moz-fit-content;
   width: fit-content;
   white-space: nowrap;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 .hm-scrolling-sec ul:hover { animation-play-state: paused; }
 .hm-scrolling-sec ul li { margin: 0; padding: 0 100px; position: relative; line-height: 1; white-space: nowrap; display: inline-block; }
@@ -403,13 +406,12 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   z-index: 0;
 }
 .hm-case-results-list {
-  padding: 0 100px;
-  display: flex;
-  gap: 30px;
-  overflow-x: auto;
-  scrollbar-width: none;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 26px;
+  align-items: stretch;
 }
-.hm-case-results-list::-webkit-scrollbar { display: none; }
 .strip-nav { display: flex; justify-content: center; gap: 25px; margin-top: 45px; }
 .strip-nav button {
   background: none;
@@ -425,8 +427,6 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .strip-nav button:hover { color: var(--maroon); }
 .hm-case-results-item {
   padding: 30px 10px 60px;
-  flex: 0 0 calc(25% - 23px);
-  min-width: 250px;
   text-align: center;
   background: linear-gradient(180deg, #fbfbfb 0%, #eef0f2 100%);
   border: 1px solid var(--line-grey);
@@ -460,7 +460,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 }
 .hm-case-results-item:hover .case-icon { color: var(--maroon); }
 .hm-case-results-item h3 {
-  font-size: 60px;
+  font-size: clamp(34px, 3vw, 46px);
   font-family: 'Staatliches', sans-serif;
   font-weight: 400;
   line-height: 1;
@@ -585,12 +585,23 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .hm-practice-itm:hover .hm-practice-icon { display: none; }
 .hm-practice-hvr-image {
   display: block;
-  opacity: 0;
-  width: 100%; height: 100%;
-  transition: 0.5s;
-  background: linear-gradient(145deg, #262f3a 0%, #12181f 100%);
+  position: absolute;
+  inset: 0;
+  opacity: 0.28;
+  transition: opacity 0.5s, transform 0.6s;
+  background: linear-gradient(145deg, #262f3a 0%, #12181f 100%) center / cover no-repeat;
+  transform: scale(1.001);
+  will-change: transform, opacity;
 }
-.hm-practice-itm:hover .hm-practice-hvr-image { opacity: 0.5; }
+.hm-practice-itm:hover .hm-practice-hvr-image { opacity: 0.55; transform: scale(1.07); }
+.hm-practice-itm.pa-scaffold .hm-practice-hvr-image { background-image: url('../images/pa-scaffold.jpg'); }
+.hm-practice-itm.pa-construction .hm-practice-hvr-image { background-image: url('../images/pa-construction.jpg'); }
+.hm-practice-itm.pa-car .hm-practice-hvr-image { background-image: url('../images/pa-car.jpg'); }
+.hm-practice-itm.pa-truck .hm-practice-hvr-image { background-image: url('../images/pa-truck.jpg'); }
+.hm-practice-itm.pa-pedestrian .hm-practice-hvr-image { background-image: url('../images/pa-pedestrian.jpg'); }
+.hm-practice-itm.pa-premises .hm-practice-hvr-image { background-image: url('../images/pa-premises.jpg'); }
+.hm-practice-itm.pa-medical .hm-practice-hvr-image { background-image: url('../images/pa-medical.jpg'); }
+.hm-practice-itm.pa-childbirth .hm-practice-hvr-image { background-image: url('../images/pa-childbirth.jpg'); }
 .hm-pract-cont { position: absolute; bottom: 32px; left: 41px; }
 .hm-pract-cont h4 {
   font-size: 46px;
@@ -634,6 +645,41 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 }
 .hm-practice-itm.btn a:hover { color: #000; }
 .hm-practice-itm.btn:hover { box-shadow: none; background: var(--red-grad); }
+
+/* ============ BOOK ============ */
+.hm-book-sec {
+  padding: 120px 0;
+  background:
+    linear-gradient(180deg, rgba(19,19,19,0.94) 0%, rgba(19,19,19,0.97) 100%),
+    url('../images/bronx-skyline.jpg') center / cover no-repeat #131313;
+}
+.hm-book-blk { display: flex; align-items: center; gap: 80px; justify-content: center; }
+.hm-book-lft { flex: 0 0 300px; text-align: center; }
+.hm-book-lft img {
+  width: 100%;
+  max-width: 300px;
+  box-shadow: rgba(0,0,0,0.6) 0 30px 60px -15px;
+  transform: rotate(-2deg);
+  transition: transform 0.5s;
+}
+.hm-book-lft img:hover { transform: rotate(0deg) scale(1.03); }
+.hm-book-rgt { max-width: 640px; }
+.hm-book-rgt h5 {
+  font-size: 22px;
+  letter-spacing: 6px;
+  color: var(--red-accent);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.hm-book-rgt h2.text-heading { color: #fff; font-size: 64px; margin-bottom: 24px; }
+.hm-book-rgt h2.text-heading strong { color: var(--red-accent); }
+.hm-book-rgt p {
+  font-size: 19px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.82);
+  margin-bottom: 34px;
+}
+.hm-book-btns { display: flex; gap: 22px; flex-wrap: wrap; }
 
 /* ============ ATTORNEY ============ */
 .hm-attorney-sec { padding: 130px 0 0; position: relative; }
@@ -1149,7 +1195,6 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .text-heading { font-size: 58px; }
   .hm-consultation-blk h2 { font-size: 78px; letter-spacing: 8.2px; }
   .hm-consultation-blk h5 { font-size: 42px; letter-spacing: 11px; }
-  .hm-case-results-item h3 { font-size: 50px; }
   .ftr-form-sctn h2.text-heading { font-size: 46px; }
   .ftr-form-sctn .hm-map-sec h2.text-heading { margin-bottom: 28px; }
   #main-navigation ul li { margin: 0 16px; }
@@ -1177,13 +1222,14 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .ftr-form-sctn h2.text-heading { font-size: 40px; }
   .hm-map-sec .ftr-map { padding: 30px 26px; }
   #main-heading h1 { font-size: 64px; }
-  .hm-case-results-item h3 { font-size: 44px; }
+  .hm-case-results-list { grid-template-columns: repeat(3, 1fr); }
   .testi-item h5 { font-size: 30px; }
   .testi-item p { font-size: 21px; }
   .ftr-menu ul { gap: 20px 56px; }
 }
 @media (max-width: 992px) {
   .site-header { position: relative; background: #10151b; padding-bottom: 20px; }
+  .hm-case-results-list { grid-template-columns: repeat(2, 1fr); }
   .site-header.is-sticky { position: relative; animation: none; background: #10151b; }
   .logo-section { align-items: center; }
   .header-rit { display: none; }
@@ -1274,7 +1320,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .hm-scrolling-sec ul li a { font-size: 18px; }
   .hm-practice-itm { width: 100%; border-left: 1px solid #000; }
   .hm-why-choose-item { width: 100%; }
-  .hm-case-results-item { flex: 0 0 85%; }
+  .hm-case-results-list { grid-template-columns: 1fr; }
   a.cmn-btn { padding: 20px 28px; font-size: 17px; }
   .hm-form .field { width: 100%; }
   .hm-form { padding: 0 10px; }

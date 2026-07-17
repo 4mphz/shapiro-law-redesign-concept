@@ -20,17 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }, { passive: true });
   }
 
-  var caseList = document.querySelector('.hm-case-results-list');
-  var casePrev = document.querySelector('.case-prev');
-  var caseNext = document.querySelector('.case-next');
-  if (caseList && casePrev && caseNext) {
-    var step = function () {
-      var item = caseList.querySelector('.hm-case-results-item');
-      return item ? item.offsetWidth + 30 : 300;
-    };
-    casePrev.addEventListener('click', function () { caseList.scrollBy({ left: -step(), behavior: 'smooth' }); });
-    caseNext.addEventListener('click', function () { caseList.scrollBy({ left: step(), behavior: 'smooth' }); });
-  }
 
   var testiItems = document.querySelectorAll('.hm-testi-list .testi-item');
   var testiPrev = document.querySelector('.testi-prev');
