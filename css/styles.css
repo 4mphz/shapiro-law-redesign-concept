@@ -30,6 +30,7 @@ body {
   font-family: 'Asta Sans', 'Work Sans', Arial, sans-serif;
   font-weight: normal;
   background: #fff;
+  overflow-x: clip;
   overscroll-behavior-y: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1257,6 +1258,8 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 }
 @media (max-width: 992px) {
   .site-header { position: relative; background: #10151b; padding-bottom: 20px; }
+  .hm-case-results-rgt::after { right: 0; }
+  .hm-premier-lft::before { right: 0; bottom: -14px; }
   .hm-case-results-list { grid-template-columns: repeat(2, 1fr); }
   .hm-book-sec { padding: 70px 0; }
   .hm-book-blk { flex-direction: column; text-align: center; gap: 44px; }
@@ -1279,6 +1282,12 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   }
   .header-rit.open #main-navigation ul { text-align: left; }
   .header-rit.open #main-navigation ul li { display: block; margin: 0 0 16px; }
+  .header-rit.open .header-number { flex-direction: column; align-items: flex-start; gap: 12px; width: 100%; }
+  .header-rit.open .hdr-cntct-cal { flex-direction: column; align-items: flex-start; gap: 6px; margin: 0; }
+  .header-rit.open .hdr-cntct-cal p { font-size: 15px; }
+  .header-rit.open .hdr-call { font-size: 27px; }
+  .header-rit.open .hdr-esp { border: none; padding: 0; margin: 0; }
+  .header-rit.open .hdr-scl-icns { border: none; padding: 0; }
   .nav-toggle { display: block; }
   .hm-banner-sec { padding-top: 60px; }
   .hm-bnr-blk { flex-direction: column; align-items: center; }
