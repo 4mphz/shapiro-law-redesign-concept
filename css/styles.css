@@ -817,7 +817,12 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .hm-book-btns { display: flex; gap: 22px; flex-wrap: wrap; }
 
 /* ============ ATTORNEY ============ */
-.hm-attorney-sec { padding: 130px 0 0; position: relative; }
+/* Bottom padding used to be 0 because the old single-attorney layout ended in a
+   full-bleed photo that was meant to run into the next section. The card grid
+   ends in a button instead, and with no padding it sat flat against the dark
+   book section below — the button read as clipped. 150px puts it back in the
+   same family as the sections either side (138/160/190). */
+.hm-attorney-sec { padding: 130px 0 150px; position: relative; }
 .hm-attorney-blk { display: flex; justify-content: flex-end; gap: 90px; position: relative; padding-top: 90px; }
 .hm-attorney-lft { width: 53.5%; padding-top: 53px; }
 .hm-attorney-lft h2.text-heading { text-align: left; margin: 0 0 20px; letter-spacing: 0; }
@@ -1540,7 +1545,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .hm-practice-lft, .hm-practice-rit { width: 100%; }
   .hm-practice-rit { margin-bottom: 0; }
   .hm-practice-itm { width: 50%; }
-  .hm-attorney-sec { padding-top: 70px; }
+  .hm-attorney-sec { padding-top: 70px; padding-bottom: 80px; }
   .hm-attorney-blk { flex-direction: column-reverse; padding-top: 40px; }
   .hm-attorney-lft, .hm-attorney-rit { width: 100%; padding: 0; }
   .hm-why-choose-sec { padding: 90px 0 70px; }
