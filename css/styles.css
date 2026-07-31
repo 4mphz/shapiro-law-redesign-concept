@@ -91,6 +91,15 @@ p { font-family: 'Asta Sans', sans-serif; margin: 0 0 10px; }
   color: var(--ink-heading);
   text-transform: uppercase;
   margin: 0 0 40px;
+  /* This display type is heavily tracked-out, so a phrase a few characters
+     longer than its English source (routine in Spanish) easily wraps one word
+     past where the English version did, stranding it alone on its own line —
+     "PLLC", "COMPROBADOS", "PERSONALES" hanging by themselves. balance spreads
+     an already-wrapping heading evenly across its lines instead of leaving a
+     ragged last line; a heading that fits on one line is untouched either way.
+     Text-wrap:balance is line-breaking only — it does not affect a hard <br>,
+     so the two-line award badges that use one on purpose are unaffected. */
+  text-wrap: balance;
 }
 .text-heading strong { font-weight: 400; color: var(--red-text); }
 
@@ -360,6 +369,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   margin-bottom: 36px;
   position: relative;
   z-index: 1;
+  text-wrap: balance;
 }
 .hm-bnr-rgt h1 strong {
   font-size: 50px;
@@ -370,6 +380,10 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* the Spanish tagline is routinely longer than the English one it replaces
+     (e.g. "Abogado de Lesiones Personales" vs "Personal Injury Attorney") —
+     balance is what keeps a longer translation from stranding its last word */
+  text-wrap: balance;
 }
 .hm-bnr-rgt p {
   font-size: 30px;
@@ -901,6 +915,9 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   text-transform: uppercase;
   line-height: 1;
   margin: 0 0 6px;
+  /* "Hon. Ernest Buonocore" is longer than "Jason Shapiro, Esq" and strands the
+     surname alone at narrow widths without this */
+  text-wrap: balance;
 }
 .attorney-card__role {
   font-family: 'Asta Sans', sans-serif;
