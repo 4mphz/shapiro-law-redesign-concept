@@ -21,6 +21,29 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ---- Decoration must never eat a tap ----------------------------------------
+   Every pseudo-element below is a drawn accent — a bracket, a rule, a tinted
+   panel behind a photo. Several are sized in percentages and grow to overlap
+   real buttons once the layout stacks on a phone, and because they paint after
+   their sibling content they win the hit test. Listing them here keeps the
+   whole decorative layer transparent to pointers in one reviewable place. */
+.ph-slot::before,
+.hm-bnr-rgt p::before, .hm-bnr-rgt p::after,
+.hm-consultation-blk p::before, .hm-consultation-blk p::after,
+.hm-case-results-rgt::after,
+.hm-case-results-item::after,
+.hm-case-results-item h3::before,
+.hm-premier-lft::before,
+.hm-practice-itm::before,
+.hm-attorney-cntnt::before,
+.hm-attorney-blk::after,
+.hm-why-choose-item h5::after,
+.hm-testi-lft::after,
+.testi-item::before,
+.hm-award-img::before,
+#main-navigation ul li a:hover::before,
+#main-navigation ul li a.current::before { pointer-events: none; }
 html {
   scroll-behavior: smooth;
   background: #0d1218; /* shows in the overscroll bounce areas instead of white */
@@ -166,6 +189,18 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   text-transform: uppercase;
   margin-top: 6px;
 }
+/* PLLC is part of the registered name, set small and trailing the mark the way
+   the firm's own logo does — not dropped into the tagline. */
+.site-logo .logo-mark em,
+.ftr-logo .logo-mark em {
+  font-style: normal;
+  font-size: 0.42em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,0.7);
+  margin-left: 0.5em;
+  vertical-align: 0.55em;
+}
 .header-rit { gap: 23px; display: flex; flex-direction: column; padding-top: 10px; align-items: flex-end; }
 .header-number { color: #fff; display: flex; justify-content: flex-end; align-items: center; }
 .header-number p { font-size: 19px; font-family: 'Asta Sans', sans-serif; font-weight: 300; line-height: 1; margin: 0; color: #fff; }
@@ -284,6 +319,10 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .hm-bnr-lft { width: 37.4%; margin: 0 0 0 -10px; padding: 90px 0 0 100px; }
 .hm-bnr-lft .ph-slot { aspect-ratio: 545 / 736; }
 .hm-bnr-rgt { width: 58.1%; text-align: center; padding: 180px 0 65px; position: relative; }
+/* The four corner brackets below are pure decoration. They are 190px boxes that
+   overlap the CTA on narrow screens, so they MUST stay transparent to taps —
+   without pointer-events:none they swallow the "Book Your Free Consultation"
+   click on mobile. Same rule as .hm-banner-sec::after above. */
 .hm-bnr-rgt::before,
 .hm-consultation-blk::before {
   content: "";
@@ -294,6 +333,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   border-bottom: 3px solid rgba(10,80,140,0.85);
   -webkit-mask-image: linear-gradient(to bottom right, transparent 55%, #000 100%);
   mask-image: linear-gradient(to bottom right, transparent 55%, #000 100%);
+  pointer-events: none;
 }
 .hm-bnr-rgt::after,
 .hm-consultation-blk::after {
@@ -305,6 +345,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   border-top: 3px solid rgba(10,80,140,0.85);
   -webkit-mask-image: linear-gradient(to top left, transparent 55%, #000 100%);
   mask-image: linear-gradient(to top left, transparent 55%, #000 100%);
+  pointer-events: none;
 }
 .hm-bnr-rgt h1 {
   font-size: 160px;
@@ -683,15 +724,80 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
     url('../images/bronx-skyline.jpg') center / cover no-repeat #131313;
 }
 .hm-book-blk { display: flex; align-items: center; gap: 80px; justify-content: center; }
-.hm-book-lft { flex: 0 0 300px; text-align: center; }
-.hm-book-lft img {
+.hm-book-lft { flex: 0 0 320px; text-align: center; }
+
+/* ---- The book, built as an actual object ------------------------------------
+   The flat cover scan on its own reads as a picture of a rectangle. Turning it
+   a few degrees and giving it a real spine, page block and back board is what
+   makes a viewer register "that is a book". Depth is --book-depth; the faces
+   are laid out in 3D and the browser sorts them by geometry, so the spine sits
+   correctly behind the cover's left edge at any angle. */
+.book-3d {
+  --book-depth: 44px;
+  perspective: 1700px;
+  display: inline-block;
   width: 100%;
   max-width: 300px;
-  box-shadow: rgba(0,0,0,0.6) 0 30px 60px -15px;
-  transform: rotate(-2deg);
-  transition: transform 0.5s;
+  position: relative;
 }
-.hm-book-lft img:hover { transform: rotate(0deg) scale(1.03); }
+.book-3d__inner {
+  position: relative;
+  transform-style: preserve-3d;
+  /* rotateY swings the left edge away, which is what exposes the spine */
+  transform: rotateY(21deg) rotateX(1.5deg);
+  transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.book-3d:hover .book-3d__inner { transform: rotateY(9deg) rotateX(0deg) scale(1.02); }
+.book-3d__cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  /* the bound edge falls into shadow, the outer edge catches the light */
+  box-shadow: inset 20px 0 26px -18px rgba(0,0,0,0.75),
+              inset -6px 0 14px -10px rgba(255,255,255,0.35);
+}
+.book-3d__spine,
+.book-3d__pages {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: var(--book-depth);
+  pointer-events: none;
+}
+/* spine — the bound edge, hinged at the cover's left border and running back */
+.book-3d__spine {
+  left: 0;
+  transform-origin: left center;
+  transform: rotateY(90deg);
+  background: linear-gradient(90deg, #0f1c2b 0%, #16283c 38%, #0b1420 100%);
+  box-shadow: inset 0 0 26px rgba(0,0,0,0.55);
+}
+/* page block — cream leaves, ruled so the individual pages read at a glance */
+.book-3d__pages {
+  right: 0;
+  transform-origin: right center;
+  transform: rotateY(-90deg);
+  background:
+    repeating-linear-gradient(90deg,
+      #f4f1e8 0px, #f4f1e8 1px, #d9d4c6 1px, #d9d4c6 2px),
+    linear-gradient(90deg, #cfc9ba 0%, #f6f3ec 22%, #e8e3d6 100%);
+  box-shadow: inset 0 0 16px rgba(0,0,0,0.28);
+}
+/* inner pages sit on a light background — give the book room for its shadow */
+.book-3d-wrap { padding: 10px 0 34px; display: flex; justify-content: center; }
+.book-3d-wrap .book-3d { max-width: 260px; }
+.book-3d-wrap .book-3d::after { background: radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0.32) 0%, rgba(0,0,0,0.14) 45%, transparent 72%); }
+/* grounded shadow — drawn flat under the object, not on the cover */
+.book-3d::after {
+  content: "";
+  position: absolute;
+  left: 6%; right: 2%;
+  bottom: -26px;
+  height: 34px;
+  background: radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0.28) 45%, transparent 72%);
+  filter: blur(6px);
+  pointer-events: none;
+}
 .hm-book-rgt { max-width: 640px; }
 .hm-book-rgt h5 {
   font-size: 22px;
@@ -744,6 +850,125 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   bottom: -10px; left: 0; right: 0;
   margin: auto;
   background: linear-gradient(90deg, transparent 0%, var(--line-grey) 20%, var(--line-grey) 80%, transparent 100%);
+}
+
+/* ============ ATTORNEY CARDS (multi-attorney firm) ============ */
+.attorneys-heading { text-align: center; margin-bottom: 12px; }
+.attorneys-intro {
+  text-align: center;
+  font-size: 20px;
+  color: #3d454f;
+  max-width: 780px;
+  margin: 0 auto 66px;
+  line-height: 1.7;
+}
+.attorneys-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 60px;
+  align-items: stretch;
+}
+/* The two bios are different lengths, so the bodies must stretch and the button
+   must be pushed to the bottom — otherwise the two "View Profile" buttons sit at
+   different heights and the pair reads as a mistake rather than a set. */
+.attorney-card { display: flex; flex-direction: column; height: 100%; }
+.attorney-card__photo { aspect-ratio: 4 / 5; }
+.attorney-card__body {
+  padding: 30px 0 0 31px;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.attorney-card__body::before {
+  content: "";
+  position: absolute;
+  background-color: var(--line-grey);
+  width: 1px; top: 34px; bottom: 8px;
+  left: 0;
+  pointer-events: none;
+}
+.attorney-card h3 {
+  font-size: 46px;
+  color: var(--red-text);
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0 0 6px;
+}
+.attorney-card__role {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--red-accent);
+  margin: 0 0 18px;
+}
+.attorney-card__body p {
+  font-size: 18px;
+  color: #000;
+  font-family: 'Asta Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+  margin: 0 0 12px;
+}
+.attorney-card__btn { margin-top: auto; padding-top: 20px; }
+/* Honest label for a photograph we do not have yet — never a stock stand-in
+   for a real person. */
+.ph-slot.awaiting-photo {
+  align-items: center;
+  border: 1px dashed rgba(255,255,255,0.22);
+}
+.ph-slot.awaiting-photo span { color: rgba(255,255,255,0.55); }
+
+/* The headshot's backdrop — the office shelving with potted plants the client
+   objected to — is no longer a CSS problem. The subject was lifted out of the
+   original frame and set on a navy studio field in the image itself; the frame
+   as shot is kept beside it as images/jason-shapiro-office-bg.jpg, so the
+   change is one file swap away from being undone. The gradient overlays that
+   used to hide those plants are gone with them. */
+
+/* ============ LANGUAGE SWITCH ============ */
+/* The bilingual control was a nav item indistinguishable from Home or Contact.
+   A large share of this firm's clients speak only Spanish, so it is promoted to
+   a bordered pill and given its own always-visible control on mobile — a phone
+   visitor should never have to open a hamburger to find their language. */
+#main-navigation ul li.lang-switch { margin-right: 0; margin-left: 30px; }
+#main-navigation ul li.lang-switch a {
+  padding: 11px 20px;
+  border: 2px solid var(--red-accent);
+  border-radius: 4px;
+  background: rgba(28,141,224,0.16);
+  font-weight: 800;
+  letter-spacing: 1.6px;
+  position: relative;
+  top: -10px;
+}
+#main-navigation ul li.lang-switch a:hover,
+#main-navigation ul li.lang-switch a.current {
+  background: var(--red-accent);
+  color: #fff;
+}
+#main-navigation ul li.lang-switch a:hover::before,
+#main-navigation ul li.lang-switch a.current::before { content: none; }
+.site-header.is-sticky #main-navigation ul li.lang-switch a { padding: 9px 18px; top: -6px; }
+
+.lang-pill-mobile {
+  display: none;
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid var(--red-accent);
+  border-radius: 4px;
+  background: rgba(28,141,224,0.2);
+  padding: 8px 13px;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 /* ============ WHY CHOOSE ============ */
@@ -1289,6 +1514,13 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .header-rit.open .hdr-esp { border: none; padding: 0; margin: 0; }
   .header-rit.open .hdr-scl-icns { border: none; padding: 0; }
   .nav-toggle { display: block; }
+  /* language switch stays reachable without opening the menu */
+  .lang-pill-mobile { display: inline-flex; align-items: center; }
+  .mobile-header-controls { display: flex; align-items: center; gap: 10px; }
+  .attorneys-grid { grid-template-columns: 1fr; gap: 64px; }
+  .attorneys-intro { font-size: 18px; margin-bottom: 46px; }
+  .attorney-card h3 { font-size: 38px; }
+  .book-3d { --book-depth: 26px; }
   .hm-banner-sec { padding-top: 60px; }
   .hm-bnr-blk { flex-direction: column; align-items: center; }
   .hm-bnr-lft { width: 70%; margin: 0; padding: 0; }
