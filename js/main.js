@@ -20,6 +20,23 @@ document.addEventListener('DOMContentLoaded', function () {
     }, { passive: true });
   }
 
+  /* iPhone / touch phones: "Book your free consultation" must do something
+     tangible on tap. On this preview the contact form is inert (no backend),
+     which feels like a dead button. Coarse-pointer devices get the dialer
+     instead — same number already used for the Call CTA. Desktop keeps the
+     contact page. */
+  var coarse = window.matchMedia('(hover: none) and (pointer: coarse)');
+  if (coarse.matches) {
+    document.querySelectorAll('a.cmn-btn[href]').forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      if (!/contact\.html(?:#.*)?$/i.test(href)) return;
+      var label = (a.textContent || '').replace(/\s+/g, ' ').trim();
+      // Match consultation CTAs only — not "Purchase The Book"
+      if (!/^(book your free consultation|reserve su consulta)/i.test(label)) return;
+      a.setAttribute('href', 'tel:7182957000');
+      a.setAttribute('data-preview-mobile-cta', 'tel');
+    });
+  }
 
   var testiItems = document.querySelectorAll('.hm-testi-list .testi-item');
   var testiPrev = document.querySelector('.testi-prev');
@@ -37,7 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      alert('This is a design preview. The form is not connected to a backend, so nothing was sent.');
+      var go = window.confirm(
+        'This is a design preview — the form is not connected yet, so nothing was sent.\n\nCall 718.295.7000 now instead?'
+      );
+      if (go) window.location.href = 'tel:7182957000';
     });
   }
 });

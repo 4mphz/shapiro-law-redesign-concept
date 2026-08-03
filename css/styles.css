@@ -428,9 +428,32 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   margin: auto;
   border-left: 3px solid var(--red-accent);
   transform: skewX(-14deg);
+  pointer-events: none; /* slash marks must never steal taps from the CTA below */
 }
 .hm-bnr-rgt p::after, .hm-consultation-blk p::after { left: inherit; right: 0; border-left: 0; border-right: 3px solid var(--red-accent); transform: skewX(14deg); }
 .hm-bnr-btn a.cmn-btn { padding: 23px 36px; }
+
+/* iPhone / touch: keep consultation CTAs above every decorative layer.
+   Jason reported "Book your free consultation" doing nothing on his phone —
+   overlays with pointer-events were the prior theory; these rules make the
+   tap target explicit and kill the old 300ms tap delay. */
+.hm-bnr-btn,
+.hm-booking-btn,
+.hm-call-btn {
+  position: relative;
+  z-index: 10;
+}
+.hm-bnr-btn a.cmn-btn,
+.hm-booking-btn a.cmn-btn,
+.hm-call-btn a.cmn-btn,
+a.cmn-btn {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(28, 141, 224, 0.35);
+  cursor: pointer;
+}
 .hm-bnr-esp {
   font-family: 'Staatliches', sans-serif;
   font-size: 26px;
