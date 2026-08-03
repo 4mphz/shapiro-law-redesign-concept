@@ -1601,7 +1601,7 @@ a.cmn-btn {
   .attorneys-grid { grid-template-columns: 1fr; gap: 64px; }
   .attorneys-intro { font-size: 18px; margin-bottom: 46px; }
   .attorney-card h3 { font-size: 38px; }
-  .book-3d { --book-depth: 26px; }
+  .book-3d { --book-depth: 42px; }
   .hm-banner-sec { padding-top: 60px; }
   .hm-bnr-blk { flex-direction: column; align-items: center; }
   .hm-bnr-lft { width: 70%; margin: 0; padding: 0; }
