@@ -176,8 +176,13 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   z-index: 99;
   transition: opacity 0.3s ease;
 }
-.logo-section { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; }
-.site-logo { display: block; }
+/* nowrap is load-bearing for Spanish: "Llame para una Consulta Gratis" + the
+   longer nav labels ("Nuestros Abogados", "Áreas de Práctica") are wider than
+   the English cluster they replace. With wrap enabled, the entire right header
+   dropped under the logo at every desktop width — English stayed on one row,
+   Spanish always broke. Compress the right cluster instead of wrapping it. */
+.logo-section { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; gap: 20px; }
+.site-logo { display: block; flex: 0 0 auto; }
 .site-logo .logo-mark {
   font-family: 'Staatliches', sans-serif;
   font-size: 44px;
@@ -193,7 +198,9 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   font-family: 'Asta Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: 6.5px;
+  /* 5px (was 6.5) — "LESIONES PERSONALES · BRONX, NY" is wider than the
+     English tagline and was contributing to the Spanish header overflow */
+  letter-spacing: 5px;
   color: #fff;
   text-transform: uppercase;
   margin-top: 6px;
@@ -210,10 +217,10 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   margin-left: 0.5em;
   vertical-align: 0.55em;
 }
-.header-rit { gap: 23px; display: flex; flex-direction: column; padding-top: 10px; align-items: flex-end; }
-.header-number { color: #fff; display: flex; justify-content: flex-end; align-items: center; }
+.header-rit { gap: 23px; display: flex; flex-direction: column; padding-top: 10px; align-items: flex-end; flex: 1 1 auto; min-width: 0; }
+.header-number { color: #fff; display: flex; justify-content: flex-end; align-items: center; flex-wrap: nowrap; }
 .header-number p { font-size: 19px; font-family: 'Asta Sans', sans-serif; font-weight: 300; line-height: 1; margin: 0; color: #fff; }
-.hdr-cntct-cal { display: flex; padding: 0; align-items: center; gap: 18px; margin-right: 22px; }
+.hdr-cntct-cal { display: flex; padding: 0; align-items: center; gap: 14px; margin-right: 16px; flex-shrink: 0; }
 .header-number .hdr-call {
   font-size: 35px;
   font-family: 'Staatliches', sans-serif;
@@ -236,10 +243,25 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
     radial-gradient(circle at 35% 35%, var(--red-accent) 0 3px, transparent 3px);
 }
 .header-number .hdr-call:hover { color: #fff; }
-#main-navigation ul { margin: 0; text-align: end; }
-#main-navigation ul li { display: inline-block; position: relative; margin: 0 36px; }
+#main-navigation ul {
+  margin: 0;
+  text-align: end;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* 22px side padding via margin — tighter than the old 36 so Spanish labels
+   ("Nuestros Abogados", "Áreas de Práctica") + the language pill stay on one row */
+#main-navigation ul li { display: block; position: relative; margin: 0 0 0 22px; flex-shrink: 0; }
 #main-navigation ul li:first-child { margin-left: 0; }
 #main-navigation ul li:last-child { margin-right: 0; }
+/* Spanish strings are longer; shave a little more so the pill never wraps under */
+:lang(es) #main-navigation ul li { margin-left: 14px; }
+:lang(es) #main-navigation ul li:first-child { margin-left: 0; }
+:lang(es) #main-navigation ul li a { font-size: 17px; letter-spacing: 0.2px; }
+:lang(es) #main-navigation ul li.lang-switch { margin-left: 12px; }
+:lang(es) #main-navigation ul li.lang-switch a { padding: 10px 14px; letter-spacing: 1.2px; }
 #main-navigation ul li a {
   font-size: 19px;
   font-family: 'Asta Sans', sans-serif;
@@ -279,7 +301,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   from { transform: translateY(-100%); }
   to { transform: translateY(0); }
 }
-.hdr-esp { padding-left: 23px; border-left: 1px solid #9b9da1; margin-right: 22px; }
+.hdr-esp { padding-left: 16px; border-left: 1px solid #9b9da1; margin-right: 16px; flex-shrink: 0; }
 .hdr-esp p {
   font-size: 17px;
   font-family: 'Staatliches', sans-serif;
@@ -290,7 +312,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   margin: 0;
   white-space: nowrap;
 }
-.hdr-scl-icns { display: flex; align-items: center; gap: 10px; padding-left: 23px; border-left: 1px solid #9b9da1; }
+.hdr-scl-icns { display: flex; align-items: center; gap: 10px; padding-left: 16px; border-left: 1px solid #9b9da1; flex-shrink: 0; }
 .hdr-scl-icns p { font-size: 16px; font-family: 'Asta Sans', sans-serif; font-weight: 300; color: #fff; margin: 0; }
 .hdr-scl-icns a {
   width: 34px; height: 34px;
@@ -607,8 +629,13 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .hm-premier-rgt h6 { font-size: 25px; font-family: 'Staatliches', sans-serif; line-height: 1.2; letter-spacing: 0; font-weight: 400; color: #000; margin-bottom: 0; }
 
 /* ============ PRACTICE AREAS ============ */
+/* Bottom padding used to be 0 with a -121px margin on the grid, so the tiles
+   overhang into the white attorney band. That left a hard white rectangle under
+   the left-side "We Handle" / "Que Manejamos" heading while the grid still hung
+   over on the right — reads as broken whitespace, not deliberate overlap.
+   Keep the grid inside the dark band. */
 .hm-practice-areas-sec {
-  padding: 159px 0 0;
+  padding: 159px 0 90px;
   position: relative;
   background-color: #10151b;
   background-image:
@@ -634,7 +661,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 }
 .hm-practice-lft h2.text-heading { color: #fff; text-align: left; margin: 0 0 5px; }
 .hm-practice-lft h2.text-heading strong { color: var(--maroon); }
-.hm-practice-rit { width: 64.8%; margin: 0 0 -121px; }
+.hm-practice-rit { width: 64.8%; margin: 0; }
 .hm-practice-areas-lst { display: flex; justify-content: center; flex-wrap: wrap; }
 .hm-practice-itm {
   width: 33.32%;
@@ -957,7 +984,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
    A large share of this firm's clients speak only Spanish, so it is promoted to
    a bordered pill and given its own always-visible control on mobile — a phone
    visitor should never have to open a hamburger to find their language. */
-#main-navigation ul li.lang-switch { margin-right: 0; margin-left: 30px; }
+#main-navigation ul li.lang-switch { margin-right: 0; margin-left: 18px; }
 #main-navigation ul li.lang-switch a {
   padding: 11px 20px;
   border: 2px solid var(--red-accent);
@@ -1455,7 +1482,8 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .hm-bnr-rgt h1 { font-size: 130px; letter-spacing: 11px; margin-bottom: 30px; }
   .hm-bnr-rgt h1 strong { font-size: 43px; letter-spacing: 11px; }
   .text-heading { font-size: 70px; }
-  #main-navigation ul li { margin: 0 24px; }
+  #main-navigation ul li { margin-left: 18px; }
+  :lang(es) #main-navigation ul li { margin-left: 12px; }
 }
 @media (max-width: 1600px) {
   .text-heading { font-size: 65px; margin: 0 0 32px; }
@@ -1463,6 +1491,9 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .ftr-form-sctn h2.text-heading { font-size: 54px; }
   .ftr-form-sctn .hm-map-sec h2.text-heading { margin-bottom: 32px; }
   .hm-pract-cont h4 { font-size: 40px; }
+  #main-navigation ul li { margin-left: 14px; }
+  :lang(es) #main-navigation ul li { margin-left: 10px; }
+  :lang(es) #main-navigation ul li a { font-size: 16px; }
 }
 @media (max-width: 1440px) {
   .hm-pract-cont h4 { font-size: 33px; }
@@ -1473,8 +1504,11 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .hm-consultation-blk h5 { font-size: 42px; letter-spacing: 11px; }
   .ftr-form-sctn h2.text-heading { font-size: 46px; }
   .ftr-form-sctn .hm-map-sec h2.text-heading { margin-bottom: 28px; }
-  #main-navigation ul li { margin: 0 16px; }
-  #main-navigation ul li a { font-size: 17px; }
+  #main-navigation ul li { margin-left: 12px; }
+  #main-navigation ul li a { font-size: 16px; }
+  :lang(es) #main-navigation ul li { margin-left: 8px; }
+  :lang(es) #main-navigation ul li a { font-size: 15px; }
+  :lang(es) #main-navigation ul li.lang-switch a { padding: 9px 12px; }
   .hm-google-rvw h5 { font-size: 30px; }
 }
 @media (max-width: 1240px) {
@@ -1488,7 +1522,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   .hm-consultation-blk h5 { font-size: 32px; letter-spacing: 8px; }
   .hm-premier-blk, .hm-attorney-blk, .hm-testi-blk { gap: 50px; }
   .hm-practice-lft { padding-top: 40px; }
-  .hm-practice-rit { margin-bottom: -60px; }
+  .hm-practice-rit { margin-bottom: 0; }
   .hm-pract-cont { left: 24px; bottom: 22px; }
   .hm-pract-cont h4 { font-size: 34px; }
   .hm-practice-icon { left: 22px; }
@@ -1505,6 +1539,8 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 }
 @media (max-width: 992px) {
   .site-header { position: relative; background: #10151b; padding-bottom: 20px; }
+  /* Mobile keeps the original wrap — hamburger layout, not the desktop row */
+  .logo-section { flex-wrap: wrap; }
   .hm-case-results-rgt::after { right: 0; }
   .hm-premier-lft::before { right: 0; bottom: -14px; }
   .hm-case-results-list { grid-template-columns: repeat(2, 1fr); }
@@ -1527,7 +1563,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
     align-items: flex-start;
     z-index: 99;
   }
-  .header-rit.open #main-navigation ul { text-align: left; }
+  .header-rit.open #main-navigation ul { text-align: left; flex-direction: column; flex-wrap: wrap; align-items: flex-start; }
   .header-rit.open #main-navigation ul li { display: block; margin: 0 0 16px; }
   .header-rit.open .header-number { flex-direction: column; align-items: flex-start; gap: 12px; width: 100%; }
   .header-rit.open .hdr-cntct-cal { flex-direction: column; align-items: flex-start; gap: 6px; margin: 0; }
