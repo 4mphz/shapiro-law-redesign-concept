@@ -797,7 +797,7 @@ a.cmn-btn {
    are laid out in 3D and the browser sorts them by geometry, so the spine sits
    correctly behind the cover's left edge at any angle. */
 .book-3d {
-  --book-depth: 44px;
+  --book-depth: 72px; /* was 44 — thicker hardcover page block / spine */
   perspective: 1700px;
   display: inline-block;
   width: 100%;
