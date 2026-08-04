@@ -330,12 +330,19 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .hdr-scl-icns a:hover { background: var(--red-accent); border-color: var(--red-accent); }
 
 /* ============ HERO BANNER ============ */
+/* Hero backdrop. Was a Manhattan-at-night stock skyline — wrong borough for a
+   Bronx firm and exactly the "generic photo" the client said does nothing. It
+   is now the Bronx County Courthouse: a real Bronx legal landmark, the building
+   this firm actually litigates in, and an answer to his "more legal" note.
+   Still stock scenery, so it is a candidate for replacement by the August
+   shoot; the Grand Concourse streetscape (images/bronx-skyline.jpg — the firm's
+   own street) is the ready alternative if he prefers it. */
 .hm-banner-sec {
   padding: 175px 0 0;
   position: relative;
   background:
-    radial-gradient(ellipse at 70% 10%, rgba(20,32,46,0.55) 0%, rgba(13,18,24,0.88) 60%, rgba(13,18,24,0.97) 100%),
-    url('../images/skyline-hero.jpg') center 30% / cover no-repeat,
+    radial-gradient(ellipse at 70% 10%, rgba(20,32,46,0.62) 0%, rgba(13,18,24,0.9) 60%, rgba(13,18,24,0.97) 100%),
+    url('../images/bronx-courthouse.jpg') center 35% / cover no-repeat,
     linear-gradient(180deg, #232e3a 0%, #141b23 55%, #0d1218 100%);
 }
 .hm-banner-sec::after {
@@ -717,25 +724,28 @@ a.cmn-btn {
 .hm-practice-icon { position: absolute; top: 15px; left: 36px; width: 102px; height: 95px; color: var(--maroon); transition: 0.5s; }
 .hm-practice-icon svg { width: 74px; height: 74px; margin-top: 12px; }
 .hm-practice-itm:hover .hm-practice-icon { display: none; }
+/* These eight cards used to carry a stock photograph each — a scaffold in
+   Amsterdam, a hospital corridor in Ontario, trucks on I-95 in Maryland. The
+   client's note was that generic photos "don't really do much of anything" and
+   he would rather see his own firm. Rather than swap one stock library for
+   another, the photographs are out and the cards are the firm's own blues, with
+   the drawn icon carrying the meaning. Real practice-area photography from the
+   August shoot drops straight back into these rules. */
 .hm-practice-hvr-image {
   display: block;
   position: absolute;
   inset: 0;
-  opacity: 0.28;
+  opacity: 0.5;
   transition: opacity 0.5s, transform 0.6s;
-  background: linear-gradient(145deg, #262f3a 0%, #12181f 100%) center / cover no-repeat;
+  background: linear-gradient(145deg, #1b2836 0%, #0e141b 100%) center / cover no-repeat;
   transform: scale(1.001);
   will-change: transform, opacity;
 }
-.hm-practice-itm:hover .hm-practice-hvr-image { opacity: 0.55; transform: scale(1.07); }
-.hm-practice-itm.pa-scaffold .hm-practice-hvr-image { background-image: url('../images/pa-scaffold.jpg'); }
-.hm-practice-itm.pa-construction .hm-practice-hvr-image { background-image: url('../images/pa-construction.jpg'); }
-.hm-practice-itm.pa-car .hm-practice-hvr-image { background-image: url('../images/pa-car.jpg'); }
-.hm-practice-itm.pa-truck .hm-practice-hvr-image { background-image: url('../images/pa-truck.jpg'); }
-.hm-practice-itm.pa-pedestrian .hm-practice-hvr-image { background-image: url('../images/pa-pedestrian.jpg'); }
-.hm-practice-itm.pa-premises .hm-practice-hvr-image { background-image: url('../images/pa-premises.jpg'); }
-.hm-practice-itm.pa-medical .hm-practice-hvr-image { background-image: url('../images/pa-medical.jpg'); }
-.hm-practice-itm.pa-childbirth .hm-practice-hvr-image { background-image: url('../images/pa-childbirth.jpg'); }
+.hm-practice-itm:hover .hm-practice-hvr-image {
+  opacity: 1;
+  transform: scale(1.07);
+  background: linear-gradient(145deg, #005291 0%, #00263f 100%) center / cover no-repeat;
+}
 .hm-pract-cont { position: absolute; bottom: 32px; left: 41px; }
 .hm-pract-cont h4 {
   font-size: 46px;
@@ -995,6 +1005,23 @@ a.cmn-btn {
 }
 .ph-slot.awaiting-photo span { color: rgba(255,255,255,0.55); }
 
+/* A slot we are deliberately NOT filling: copy we cannot source, or a name we
+   cannot confirm. Same rule as an unfilled photo slot — say so on the page
+   rather than publish a guess. */
+.pending-note {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #5a636d;
+  border-left: 3px solid var(--red-accent);
+  background: #f4f7fa;
+  padding: 14px 18px;
+  margin: 0 0 14px;
+}
+.attorney-card__body .pending-note { font-size: 15px; }
+
+
 /* The headshot's backdrop — the office shelving with potted plants the client
    objected to — is no longer a CSS problem. The subject was lifted out of the
    original frame and set on a navy studio field in the image itself; the frame
@@ -1009,14 +1036,17 @@ a.cmn-btn {
    visitor should never have to open a hamburger to find their language. */
 #main-navigation ul li.lang-switch { margin-right: 0; margin-left: 18px; }
 #main-navigation ul li.lang-switch a {
-  padding: 11px 20px;
+  padding: 12px 22px;
   border: 2px solid var(--red-accent);
   border-radius: 4px;
-  background: rgba(28,141,224,0.16);
+  background: var(--red-accent);
+  color: #fff;
   font-weight: 800;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
   position: relative;
   top: -10px;
+  box-shadow: 0 0 0 3px rgba(28,141,224,0.28);
 }
 #main-navigation ul li.lang-switch a:hover,
 #main-navigation ul li.lang-switch a.current {
@@ -1030,17 +1060,18 @@ a.cmn-btn {
 .lang-pill-mobile {
   display: none;
   font-family: 'Asta Sans', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 800;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #fff;
   border: 2px solid var(--red-accent);
   border-radius: 4px;
-  background: rgba(28,141,224,0.2);
-  padding: 8px 13px;
+  background: var(--red-accent);
+  padding: 9px 14px;
   line-height: 1;
   white-space: nowrap;
+  box-shadow: 0 0 0 3px rgba(28,141,224,0.28);
 }
 
 /* ============ WHY CHOOSE ============ */
