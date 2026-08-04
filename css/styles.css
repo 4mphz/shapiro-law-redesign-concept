@@ -975,8 +975,8 @@ a.cmn-btn {
   text-transform: uppercase;
   line-height: 1;
   margin: 0 0 6px;
-  /* "Hon. Ernest Buonocore" is longer than "Jason Shapiro, Esq" and strands the
-     surname alone at narrow widths without this */
+  /* Longer attorney names (two-word surnames, honorifics) strand the last
+     word alone at narrow widths without this */
   text-wrap: balance;
 }
 .attorney-card__role {
