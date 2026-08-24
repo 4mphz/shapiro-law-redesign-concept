@@ -195,6 +195,7 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .site-logo .logo-mark strong { font-weight: 400; color: var(--red-accent); }
 .site-logo .logo-sub {
   display: block;
+  margin-top: 9px;
   font-family: 'Asta Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -205,17 +206,22 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   text-transform: uppercase;
   margin-top: 6px;
 }
-/* PLLC is part of the registered name, set small and trailing the mark the way
-   the firm's own logo does — not dropped into the tagline. */
+/* Jason, 2026-08-20: the name reads on two lines — "Shapiro" across the top,
+   "Law Offices, PLLC" underneath — and PLLC sits on the baseline with a comma,
+   not raised up in superscript. Header and footer are set identically. */
+.site-logo .logo-mark strong,
+.ftr-logo .logo-mark strong { display: block; margin-top: 4px; }
+.site-logo .logo-mark strong { font-size: 0.62em; letter-spacing: 3px; }
+.ftr-logo .logo-mark strong { font-size: 0.62em; letter-spacing: 3px; }
 .site-logo .logo-mark em,
 .ftr-logo .logo-mark em {
   font-style: normal;
-  font-size: 0.42em;
+  font-size: 0.78em;
   font-weight: 400;
   letter-spacing: 2px;
-  color: rgba(255,255,255,0.7);
-  margin-left: 0.5em;
-  vertical-align: 0.55em;
+  color: rgba(255,255,255,0.72);
+  margin-left: 0.08em;
+  vertical-align: baseline;
 }
 .header-rit { gap: 23px; display: flex; flex-direction: column; padding-top: 10px; align-items: flex-end; flex: 1 1 auto; min-width: 0; }
 .header-number { color: #fff; display: flex; justify-content: flex-end; align-items: center; flex-wrap: nowrap; }
@@ -337,13 +343,27 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
    Still stock scenery, so it is a candidate for replacement by the August
    shoot; the Grand Concourse streetscape (images/bronx-skyline.jpg — the firm's
    own street) is the ready alternative if he prefers it. */
+/* Jason, 2026-08-20: he could not tell what the backdrop was — "it almost looks
+   like a tire". It was the courthouse corner buried under a heavy radial wash.
+   Same photograph, read differently: framed on the colonnade rather than the
+   corner, lifted in contrast, and the darkening moved to a bottom-weighted
+   gradient so the building stays recognisable while the headline keeps its
+   contrast. */
 .hm-banner-sec {
   padding: 175px 0 0;
   position: relative;
   background:
-    radial-gradient(ellipse at 70% 10%, rgba(20,32,46,0.62) 0%, rgba(13,18,24,0.9) 60%, rgba(13,18,24,0.97) 100%),
-    url('../images/bronx-courthouse.jpg') center 35% / cover no-repeat,
+    linear-gradient(180deg, rgba(13,18,24,0.5) 0%, rgba(11,17,24,0.66) 42%, rgba(13,18,24,0.95) 100%),
+    url('../images/bronx-courthouse.jpg') center 62% / cover no-repeat,
     linear-gradient(180deg, #232e3a 0%, #141b23 55%, #0d1218 100%);
+}
+.hm-banner-sec::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: url('../images/bronx-courthouse.jpg') center 62% / cover no-repeat;
+  filter: contrast(1.14) saturate(1.05) brightness(1.02);
+  opacity: 0.34;
+  pointer-events: none;
 }
 .hm-banner-sec::after {
   content: "";
@@ -807,8 +827,13 @@ a.cmn-btn {
    are laid out in 3D and the browser sorts them by geometry, so the spine sits
    correctly behind the cover's left edge at any angle. */
 .book-3d {
-  --book-depth: 72px; /* was 44 — thicker hardcover page block / spine */
-  perspective: 1700px;
+  /* Jason, 2026-08-20: "they were going to change the way the book looks so that
+     it actually looks like a book — they didn't". Depth alone was not reading.
+     The object now has all five faces a real hardcover shows at this angle:
+     printed spine, page block, top edge and back board, turned far enough that
+     the spine is unmistakable. */
+  --book-depth: 62px;
+  perspective: 1500px;
   display: inline-block;
   width: 100%;
   max-width: 300px;
@@ -818,18 +843,20 @@ a.cmn-btn {
   position: relative;
   transform-style: preserve-3d;
   /* rotateY swings the left edge away, which is what exposes the spine */
-  transform: rotateY(21deg) rotateX(1.5deg);
+  transform: rotateY(28deg) rotateX(2deg);
   transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.3, 1);
 }
-.book-3d:hover .book-3d__inner { transform: rotateY(9deg) rotateX(0deg) scale(1.02); }
+.book-3d:hover .book-3d__inner { transform: rotateY(14deg) rotateX(1deg) scale(1.03); }
 .book-3d__cover {
   display: block;
   width: 100%;
   height: auto;
   position: relative;
   /* the bound edge falls into shadow, the outer edge catches the light */
+  border-radius: 2px 6px 6px 2px;
   box-shadow: inset 20px 0 26px -18px rgba(0,0,0,0.75),
-              inset -6px 0 14px -10px rgba(255,255,255,0.35);
+              inset -6px 0 14px -10px rgba(255,255,255,0.35),
+              0 18px 40px rgba(0,0,0,0.45);
 }
 .book-3d__spine,
 .book-3d__pages {
@@ -843,8 +870,50 @@ a.cmn-btn {
   left: 0;
   transform-origin: left center;
   transform: rotateY(90deg);
-  background: linear-gradient(90deg, #0f1c2b 0%, #16283c 38%, #0b1420 100%);
+  background: linear-gradient(90deg, #0b1420 0%, #16283c 42%, #0f1c2b 100%);
   box-shadow: inset 0 0 26px rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+/* the title printed down the spine — the detail that makes it read as a book */
+.book-3d__spine-txt {
+  writing-mode: vertical-rl;
+  /* the spine face is turned away from the viewer, so its text would print
+     mirrored — flip the label back to face out */
+  transform: rotateY(180deg);
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 10.5px;
+  line-height: 1;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: rgba(233,225,205,0.92);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+}
+.book-3d__spine-txt b { color: var(--red-accent); font-weight: 400; }
+/* top edge — the stacked leaves seen from above */
+.book-3d__top {
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  height: var(--book-depth);
+  transform-origin: top center;
+  transform: rotateX(90deg);
+  background:
+    repeating-linear-gradient(0deg, #f4f1e8 0px, #f4f1e8 1px, #ddd8ca 1px, #ddd8ca 2px),
+    linear-gradient(0deg, #cdc7b8 0%, #f6f3ec 30%, #e6e1d4 100%);
+  box-shadow: inset 0 0 18px rgba(0,0,0,0.32);
+  pointer-events: none;
+}
+/* back board — closes the object so it is a solid book, not a propped cover */
+.book-3d__back {
+  position: absolute;
+  inset: 0;
+  transform: translateZ(calc(-1 * var(--book-depth)));
+  background: linear-gradient(135deg, #16283c 0%, #0e1a28 60%, #0a1017 100%);
+  border-radius: 2px 6px 6px 2px;
+  box-shadow: inset 0 0 40px rgba(0,0,0,0.6);
+  pointer-events: none;
 }
 /* page block — cream leaves, ruled so the individual pages read at a glance */
 .book-3d__pages {
@@ -1632,7 +1701,6 @@ a.cmn-btn {
   .attorneys-grid { grid-template-columns: 1fr; gap: 64px; }
   .attorneys-intro { font-size: 18px; margin-bottom: 46px; }
   .attorney-card h3 { font-size: 38px; }
-  .book-3d { --book-depth: 42px; }
   .hm-banner-sec { padding-top: 60px; }
   .hm-bnr-blk { flex-direction: column; align-items: center; }
   .hm-bnr-lft { width: 70%; margin: 0; padding: 0; }
@@ -1718,4 +1786,84 @@ a.cmn-btn {
   .testi-item h5 { font-size: 26px; }
   .testi-item p { font-size: 19px; }
   #main-heading h1 { font-size: 34px; letter-spacing: 2px; }
+}
+
+/* ===========================================================================
+   2026-08-20 review with Jason — hero credentials + WhatsApp
+   =========================================================================== */
+
+/* He asked for the differentiators the old site led with — the textbook and the
+   Ivy League education — to be visible on the front page, not only further
+   down. Set as a quiet credential rail under the hero CTA. */
+.hm-bnr-creds {
+  list-style: none;
+  margin: 26px auto 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  gap: 10px 40px;
+  max-width: 1040px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+.hm-bnr-creds li {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: rgba(255,255,255,0.88);
+  display: flex;
+  align-items: center;
+  line-height: 1.3;
+}
+.hm-bnr-creds li::before {
+  content: "";
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--red-accent);
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+.hm-bnr-creds li em { font-style: italic; text-transform: none; letter-spacing: 1.2px; margin-left: 5px; }
+
+/* Floating WhatsApp chat button */
+.wa-float {
+  position: fixed;
+  right: 22px; bottom: 22px;
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px 12px 14px;
+  border-radius: 999px;
+  background: #25d366;
+  color: #08331a;
+  text-decoration: none;
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wa-float:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0,0,0,0.42); }
+.wa-float svg { width: 26px; height: 26px; fill: #08331a; flex-shrink: 0; }
+
+@media (max-width: 992px) {
+  .hm-bnr-creds { grid-template-columns: 1fr; gap: 7px; justify-items: center; padding: 0 12px; }
+  /* block, not flex, so a long credential wraps as one sentence instead of
+     stacking the words beside the bullet */
+  .hm-bnr-creds li { display: block; font-size: 12px; letter-spacing: 1.4px; white-space: normal; text-align: center; }
+  .hm-bnr-creds li::before { display: inline-block; vertical-align: middle; margin: 0 8px 2px 0; }
+  .hm-bnr-creds li em { display: inline; }
+  .hm-bnr-creds li + li::before { margin-right: 18px; }
+  /* on phones the label would crowd the dial CTA — icon only */
+  .wa-float { right: 16px; bottom: 16px; padding: 14px; }
+  .wa-float__label { display: none; }
+  .book-3d { --book-depth: 44px; }
+  .book-3d__spine-txt { font-size: 8px; letter-spacing: 1.2px; }
 }
