@@ -1354,6 +1354,11 @@ a.cmn-btn {
   padding: 34px 20px;
   width: 85%;
 }
+/* a slot holding a real credential mark is no longer a labeled placeholder */
+.hm-award-img .award-slot img { display: block; margin: 0 auto 10px; max-width: 100%;
+  /* the wordmark ships in its pale on-dark blue; deepen it for the white row */
+  filter: brightness(0.62) saturate(1.35); }
+.hm-award-img .award-slot:has(img) { border-color: transparent; }
 
 /* ============ MAP + FORM ============ */
 .ftr-form-sctn {
