@@ -660,6 +660,9 @@ a.cmn-btn {
 .hm-premier-blk { display: flex; justify-content: flex-start; align-items: flex-start; gap: 110px; }
 .hm-premier-lft { width: 47.1%; position: relative; }
 .hm-premier-lft .ph-slot { aspect-ratio: 800 / 547; position: relative; z-index: 1; }
+/* the Top Lawyers award photo is portrait: aim the landscape crop at the
+   faces and the trophy, not the banner above them */
+.hm-premier-lft .ph-slot img { object-position: center 35%; }
 .hm-premier-lft::before {
   content: "";
   position: absolute;
