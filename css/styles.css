@@ -191,11 +191,13 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 /* type sized so the glyphs themselves nearly fill the 280-unit measure —
    textLength then only trues the edges instead of gap-filling with tracking,
    which is what kept SHAPIRO from reading as a word */
-.logo-lockup { display: block; width: 220px; height: auto; overflow: visible; }
+.logo-lockup { display: block; width: 254px; height: auto; overflow: visible; }
 .logo-lockup text { font-family: 'Staatliches', sans-serif; font-weight: 400; }
 .logo-lockup .ll-1 { font-size: 82px; fill: #fff; }
-.logo-lockup .ll-2 { font-size: 52px; fill: var(--red-accent); }
-.logo-lockup .ll-3 { font-size: 19px; fill: rgba(255, 255, 255, 0.72); }
+/* both lines span the same 280-unit measure, like the original logo.png;
+   the grey ", PLLC" hangs off the right edge beyond it */
+.logo-lockup .ll-2 { font-size: 62px; fill: var(--red-accent); }
+.logo-lockup .ll-3 { font-size: 15px; fill: rgba(255, 255, 255, 0.6); }
 .site-logo .logo-sub {
   display: block;
   margin-top: 9px;
@@ -1597,7 +1599,7 @@ a.cmn-btn {
 .ftr-itm.cnct p a:hover { color: #fff; }
 .ftr-itm.cnct .fax-line { margin-top: 12px; font-size: 18px; }
 .ftr-logo { margin: 0 auto 40px; width: 66%; }
-.ftr-logo .logo-lockup { width: 200px; margin: 0 auto; }
+.ftr-logo .logo-lockup { width: 232px; margin: 0 auto; }
 .ftr-logo .logo-sub { display: block; font-size: 13px; letter-spacing: 5px; color: #fff; text-transform: uppercase; margin-top: 6px; font-family: 'Asta Sans', sans-serif; }
 .ftr-social { display: flex; justify-content: center; gap: 12px; margin: 0 0 24px; }
 .ftr-social a {
@@ -1850,7 +1852,7 @@ a.cmn-btn {
   body { overflow-x: hidden; }
   /* one override for BOTH header and footer — the footer previously had no
      mobile size-down at all */
-  .logo-lockup { width: 150px; }
+  .logo-lockup { width: 172px; }
   /* cap the tagline so the long Spanish line wraps instead of silently
      zooming the whole mobile page out past the viewport */
   .site-logo { max-width: 100%; }
