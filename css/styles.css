@@ -337,17 +337,20 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .hm-banner-sec {
   padding: 175px 0 0;
   position: relative;
+  /* navy duotone over the courthouse: one blue world shared by the scene and
+     the award photo's step-and-repeat, instead of grey clouds fighting it */
   background:
-    linear-gradient(180deg, rgba(13,18,24,0.5) 0%, rgba(11,17,24,0.66) 42%, rgba(13,18,24,0.95) 100%),
+    linear-gradient(102deg, rgba(5,13,23,0.96) 0%, rgba(7,18,32,0.86) 38%, rgba(8,21,37,0.55) 74%, rgba(10,26,45,0.38) 100%),
+    linear-gradient(180deg, rgba(0,58,102,0.4) 0%, rgba(0,30,56,0.52) 100%),
     url('../images/bronx-courthouse.jpg') center 62% / cover no-repeat,
-    linear-gradient(180deg, #232e3a 0%, #141b23 55%, #0d1218 100%);
+    linear-gradient(180deg, #14202e 0%, #0c141d 55%, #0a1016 100%);
 }
 .hm-banner-sec::before {
   content: "";
   position: absolute; inset: 0;
   background: url('../images/bronx-courthouse.jpg') center 62% / cover no-repeat;
-  filter: contrast(1.14) saturate(1.05) brightness(1.02);
-  opacity: 0.34;
+  filter: contrast(1.12) saturate(0.72) brightness(0.94);
+  opacity: 0.26;
   pointer-events: none;
 }
 .hm-banner-sec::after {
@@ -358,9 +361,68 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, transparent 100%);
   pointer-events: none;
 }
-.hm-bnr-blk { display: flex; align-items: flex-start; gap: 35px; position: relative; z-index: 1; }
-.hm-bnr-lft { width: 37.4%; margin: 0 0 0 -10px; padding: 90px 0 0 100px; }
+.hm-bnr-blk { display: flex; align-items: flex-start; gap: 60px; position: relative; z-index: 1; }
+.hm-bnr-lft { width: 37.4%; margin: 0; padding: 40px 0 70px 60px; }
 .hm-bnr-lft .ph-slot { aspect-ratio: 545 / 736; }
+/* ---- the exhibit: the award photo presented as a mounted, captioned record —
+   a document gets a frame, not a feathered edge ---- */
+.hero-exhibit { position: relative; margin: 0; max-width: 460px; }
+.hero-exhibit img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(174, 224, 255, 0.3);
+  box-shadow: 0 36px 70px rgba(0, 0, 0, 0.55), 0 8px 22px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+}
+.hero-exhibit::before {
+  content: "";
+  position: absolute;
+  inset: 20px -16px -16px 20px;
+  border: 2px solid rgba(28, 141, 224, 0.42);
+  pointer-events: none;
+}
+/* caption plate: mounted over the photo's bottom-left corner like a museum
+   label, so the record names itself */
+.hero-exhibit figcaption {
+  position: absolute;
+  left: -16px;
+  bottom: 26px;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  max-width: calc(100% - 8px);
+  background: rgba(6, 15, 26, 0.94);
+  border: 1px solid rgba(28, 141, 224, 0.45);
+  border-left: 3px solid var(--red-accent);
+  padding: 10px 18px 11px 14px;
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #aee0ff;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+}
+.hero-exhibit figcaption strong {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #fff;
+  line-height: 1;
+}
+.hero-exhibit figcaption em { font-style: normal; color: rgba(174, 224, 255, 0.6); }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-exhibit { animation: exhibit-in 0.9s cubic-bezier(0.2, 0.7, 0.3, 1) both; }
+  @keyframes exhibit-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: none; }
+  }
+}
 /* Jason 2026-08-26: the portrait "looks like a box copied and pasted on top of
    a photo". Drop the slot's own card background and feather the portrait's
    top and sides into the banner scene; the bottom stays solid where the
@@ -373,7 +435,17 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
       #000 42%, rgba(0, 0, 0, 0.85) 60%, transparent 90%);
   filter: saturate(0.92) brightness(0.97);
 }
-.hm-bnr-rgt { width: 58.1%; text-align: center; padding: 180px 0 65px; position: relative; }
+.hm-bnr-rgt { width: 58.1%; text-align: left; padding: 120px 0 80px 50px; position: relative; }
+/* hero uses a single accent rule, not the corner brackets (kept elsewhere) */
+.hm-bnr-rgt::before {
+  width: 3px !important; height: auto !important;
+  left: 0 !important; right: auto !important; top: 138px !important; bottom: 96px !important;
+  border: 0 !important;
+  background: linear-gradient(180deg, #1c8de0 0%, rgba(28, 141, 224, 0.5) 45%, rgba(28, 141, 224, 0.04) 100%);
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+.hm-bnr-rgt::after { content: none; }
 /* The four corner brackets below are pure decoration. They are 190px boxes that
    overlap the CTA on narrow screens, so they MUST stay transparent to taps —
    without pointer-events:none they swallow the "Book Your Free Consultation"
@@ -1895,38 +1967,68 @@ a.cmn-btn {
    The distinctive points lead at the largest size (the textbook, then the
    founder line); "Personal Injury Attorneys" stays the h1 but reads as a
    category kicker; no-fee is a single quiet line under the CTA. */
-.hm-bnr-rgt h1.hm-bnr-kicker { font-size: 20px; margin: 0 0 20px; padding: 0; letter-spacing: 0; }
-.hm-bnr-rgt h1.hm-bnr-kicker strong { font-size: 20px; letter-spacing: 7px; }
+.hm-bnr-rgt h1.hm-bnr-kicker { font-size: 15px; margin: 0 0 26px; padding: 0; letter-spacing: 0; }
+.hm-bnr-rgt h1.hm-bnr-kicker strong {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  background: none;
+  -webkit-text-fill-color: #aee0ff;
+  color: #aee0ff;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+.hm-bnr-rgt h1.hm-bnr-kicker strong::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background: var(--red-accent);
+}
 .hm-bnr-rgt p.hm-bnr-lead {
-  font-size: clamp(27px, 3.3vw, 46px);
-  line-height: 1.14;
-  letter-spacing: 2.5px;
-  color: #fff;
+  font-size: 21px;
+  line-height: 1.2;
+  letter-spacing: 4.5px;
+  color: rgba(255, 255, 255, 0.92);
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
   display: block;
   text-wrap: balance;
 }
-.hm-bnr-rgt p.hm-bnr-lead em { font-style: normal; color: var(--red-accent); display: block; margin-top: 6px; }
+.hm-bnr-rgt p.hm-bnr-lead em {
+  font-style: normal;
+  color: var(--red-accent);
+  display: block;
+  margin-top: 10px;
+  /* the title is the thesis — the one dominant element in the hero */
+  font-size: clamp(38px, 3.9vw, 60px);
+  line-height: 1.04;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.45);
+}
 .hm-bnr-rgt p.hm-bnr-tagline {
   font-family: 'Asta Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.92);
+  color: rgba(255, 255, 255, 0.9);
   padding: 0;
-  margin-bottom: 36px;
+  margin-bottom: 38px;
   display: block;
-  line-height: 1.5;
+  line-height: 1.6;
+  max-width: 560px;
 }
 .hm-bnr-rgt p.hm-bnr-nofee {
   font-family: 'Asta Sans', sans-serif;
   font-size: 13px;
   letter-spacing: 2.6px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(174, 224, 255, 0.85);
   padding: 0;
-  margin: 18px 0 0;
+  margin: 16px 0 0;
   display: block;
 }
 /* the slash brackets belong to the old subhead only */
@@ -1935,9 +2037,23 @@ a.cmn-btn {
 .hm-bnr-rgt p.hm-bnr-nofee::before, .hm-bnr-rgt p.hm-bnr-nofee::after { display: none; }
 /* two remaining rail items read a touch larger now that the rail is shorter */
 .hm-bnr-creds li { font-size: 15px; }
+/* left-aligned hero: the rail and language line follow the text edge */
+.hm-bnr-rgt .hm-bnr-creds { justify-content: flex-start; margin: 26px 0 0; }
+.hm-bnr-rgt .hm-bnr-esp { text-align: left; }
 @media (max-width: 992px) {
+  /* stacked layout: recenter the whole column, drop the accent rule */
+  .hm-bnr-rgt { text-align: center; }
+  .hm-bnr-rgt::before { content: none; }
   .hm-bnr-rgt h1.hm-bnr-kicker { width: auto; padding: 0; margin: 0 auto 16px; }
-  .hm-bnr-rgt h1.hm-bnr-kicker strong { font-size: 16px; letter-spacing: 4px; }
-  .hm-bnr-rgt p.hm-bnr-lead { padding: 0 14px; }
-  .hm-bnr-rgt p.hm-bnr-tagline { padding: 0 14px; letter-spacing: 1.8px; }
+  .hm-bnr-rgt h1.hm-bnr-kicker strong { font-size: 13px; letter-spacing: 4px; }
+  .hm-bnr-rgt h1.hm-bnr-kicker strong::before { display: none; }
+  .hm-bnr-rgt p.hm-bnr-lead { padding: 0 14px; letter-spacing: 3px; }
+  .hm-bnr-rgt p.hm-bnr-lead em { font-size: clamp(30px, 7.4vw, 44px); }
+  .hm-bnr-rgt p.hm-bnr-tagline { padding: 0 14px; letter-spacing: 1.8px; margin-left: auto; margin-right: auto; }
+  .hm-bnr-rgt .hm-bnr-creds { justify-content: center; margin: 22px auto 0; }
+  .hm-bnr-rgt .hm-bnr-esp { text-align: center; }
+  .hm-bnr-lft { padding: 0; }
+  .hero-exhibit { margin: 0 auto; max-width: min(420px, 84vw); }
+  .hero-exhibit::before { inset: 14px -10px -10px 14px; }
+  .hero-exhibit figcaption { left: -10px; bottom: 18px; }
 }
