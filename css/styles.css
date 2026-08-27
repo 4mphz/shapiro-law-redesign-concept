@@ -1885,3 +1885,56 @@ a.cmn-btn {
   .wa-float__label { display: none; }
   .book-3d__spine-txt { font-size: 8px; letter-spacing: 1.2px; }
 }
+
+/* ===========================================================================
+   2026-08-26 — Jason's text: credential-first hierarchy, like his current site
+   ===========================================================================
+   The distinctive points lead at the largest size (the textbook, then the
+   founder line); "Personal Injury Attorneys" stays the h1 but reads as a
+   category kicker; no-fee is a single quiet line under the CTA. */
+.hm-bnr-rgt h1.hm-bnr-kicker { font-size: 20px; margin: 0 0 20px; padding: 0; letter-spacing: 0; }
+.hm-bnr-rgt h1.hm-bnr-kicker strong { font-size: 20px; letter-spacing: 7px; }
+.hm-bnr-rgt p.hm-bnr-lead {
+  font-size: clamp(27px, 3.3vw, 46px);
+  line-height: 1.14;
+  letter-spacing: 2.5px;
+  color: #fff;
+  padding: 0;
+  margin-bottom: 20px;
+  display: block;
+  text-wrap: balance;
+}
+.hm-bnr-rgt p.hm-bnr-lead em { font-style: normal; color: var(--red-accent); display: block; margin-top: 6px; }
+.hm-bnr-rgt p.hm-bnr-tagline {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  padding: 0;
+  margin-bottom: 36px;
+  display: block;
+  line-height: 1.5;
+}
+.hm-bnr-rgt p.hm-bnr-nofee {
+  font-family: 'Asta Sans', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.82);
+  padding: 0;
+  margin: 18px 0 0;
+  display: block;
+}
+/* the slash brackets belong to the old subhead only */
+.hm-bnr-rgt p.hm-bnr-lead::before, .hm-bnr-rgt p.hm-bnr-lead::after,
+.hm-bnr-rgt p.hm-bnr-tagline::before, .hm-bnr-rgt p.hm-bnr-tagline::after,
+.hm-bnr-rgt p.hm-bnr-nofee::before, .hm-bnr-rgt p.hm-bnr-nofee::after { display: none; }
+/* two remaining rail items read a touch larger now that the rail is shorter */
+.hm-bnr-creds li { font-size: 15px; }
+@media (max-width: 992px) {
+  .hm-bnr-rgt h1.hm-bnr-kicker { width: auto; padding: 0; margin: 0 auto 16px; }
+  .hm-bnr-rgt h1.hm-bnr-kicker strong { font-size: 16px; letter-spacing: 4px; }
+  .hm-bnr-rgt p.hm-bnr-lead { padding: 0 14px; }
+  .hm-bnr-rgt p.hm-bnr-tagline { padding: 0 14px; letter-spacing: 1.8px; }
+}
