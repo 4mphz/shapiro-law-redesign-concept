@@ -188,11 +188,14 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
    in every header and footer: textLength justifies SHAPIRO and LAW OFFICES,
    flush at both edges with PLLC hung off the right end — the geometry of the
    current site's logo.png — and it holds regardless of font-loading state. */
+/* type sized so the glyphs themselves nearly fill the 280-unit measure —
+   textLength then only trues the edges instead of gap-filling with tracking,
+   which is what kept SHAPIRO from reading as a word */
 .logo-lockup { display: block; width: 220px; height: auto; overflow: visible; }
 .logo-lockup text { font-family: 'Staatliches', sans-serif; font-weight: 400; }
-.logo-lockup .ll-1 { font-size: 47px; fill: #fff; }
-.logo-lockup .ll-2 { font-size: 26px; fill: var(--red-accent); }
-.logo-lockup .ll-3 { font-size: 15px; fill: rgba(255, 255, 255, 0.72); }
+.logo-lockup .ll-1 { font-size: 82px; fill: #fff; }
+.logo-lockup .ll-2 { font-size: 52px; fill: var(--red-accent); }
+.logo-lockup .ll-3 { font-size: 19px; fill: rgba(255, 255, 255, 0.72); }
 .site-logo .logo-sub {
   display: block;
   margin-top: 9px;
