@@ -376,6 +376,18 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
 .hm-bnr-blk { display: flex; align-items: flex-start; gap: 35px; position: relative; z-index: 1; }
 .hm-bnr-lft { width: 37.4%; margin: 0 0 0 -10px; padding: 90px 0 0 100px; }
 .hm-bnr-lft .ph-slot { aspect-ratio: 545 / 736; }
+/* Jason 2026-08-26: the portrait "looks like a box copied and pasted on top of
+   a photo". Drop the slot's own card background and feather the portrait's
+   top and sides into the banner scene; the bottom stays solid where the
+   section edge crops him, like a person standing in the frame. */
+.hm-bnr-lft .ph-slot.has-img { background: none; overflow: visible; }
+.hm-bnr-lft .ph-slot.has-img img {
+  -webkit-mask-image: radial-gradient(66% 120% at 50% 72%,
+      #000 42%, rgba(0, 0, 0, 0.85) 60%, transparent 90%);
+  mask-image: radial-gradient(66% 120% at 50% 72%,
+      #000 42%, rgba(0, 0, 0, 0.85) 60%, transparent 90%);
+  filter: saturate(0.92) brightness(0.97);
+}
 .hm-bnr-rgt { width: 58.1%; text-align: center; padding: 180px 0 65px; position: relative; }
 /* The four corner brackets below are pure decoration. They are 190px boxes that
    overlap the CTA on narrow screens, so they MUST stay transparent to taps —
@@ -1716,6 +1728,14 @@ a.cmn-btn {
   .hm-banner-sec { padding-top: 60px; }
   .hm-bnr-blk { flex-direction: column; align-items: center; }
   .hm-bnr-lft { width: 70%; margin: 0; padding: 0; }
+  /* stacked layout: the portrait floats mid-hero with backdrop on every side,
+     so the bottom edge must feather too — a full oval vignette on the face */
+  .hm-bnr-lft .ph-slot.has-img img {
+    -webkit-mask-image: radial-gradient(60% 100% at 50% 52%,
+        #000 42%, rgba(0, 0, 0, 0.85) 58%, transparent 84%);
+    mask-image: radial-gradient(60% 100% at 50% 52%,
+        #000 42%, rgba(0, 0, 0, 0.85) 58%, transparent 84%);
+  }
   .hm-bnr-rgt { width: 100%; padding: 60px 0; }
   .hm-bnr-rgt h1 { font-size: 55px; letter-spacing: 3px; margin: 0 auto 20px; padding: 20px; width: -moz-max-content; width: max-content; max-width: 100%; }
   .hm-bnr-rgt h1 strong { font-size: 24px; letter-spacing: 4px; }
