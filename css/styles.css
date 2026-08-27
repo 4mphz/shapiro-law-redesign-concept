@@ -1716,10 +1716,10 @@ a.cmn-btn {
   /* stacked layout: the portrait floats mid-hero with backdrop on every side,
      so the bottom edge must feather too — a full oval vignette on the face */
   .hm-bnr-lft .ph-slot.has-img img {
-    -webkit-mask-image: radial-gradient(60% 100% at 50% 52%,
-        #000 42%, rgba(0, 0, 0, 0.85) 58%, transparent 84%);
-    mask-image: radial-gradient(60% 100% at 50% 52%,
-        #000 42%, rgba(0, 0, 0, 0.85) 58%, transparent 84%);
+    -webkit-mask-image: radial-gradient(78% 92% at 50% 50%,
+        #000 58%, rgba(0, 0, 0, 0.9) 76%, transparent 98%);
+    mask-image: radial-gradient(78% 92% at 50% 50%,
+        #000 58%, rgba(0, 0, 0, 0.9) 76%, transparent 98%);
   }
   .hm-bnr-rgt { width: 100%; padding: 60px 0; }
   .hm-bnr-rgt h1 { font-size: 55px; letter-spacing: 3px; margin: 0 auto 20px; padding: 20px; width: -moz-max-content; width: max-content; max-width: 100%; }
