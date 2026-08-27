@@ -974,13 +974,15 @@ a.cmn-btn {
   text-shadow: 0 1px 1px rgba(0,0,0,0.6);
 }
 .book-3d__spine-txt b { color: var(--red-accent); font-weight: 400; }
-/* top edge — the stacked leaves seen from above */
+/* top edge — the stacked leaves seen from above. Hinged at the cover's top
+   edge and receding BACKWARD (-90deg): +90deg swings it toward the viewer,
+   which read as a folded flap above the cover. */
 .book-3d__top {
   position: absolute;
   left: 0; right: 0; top: 0;
   height: var(--book-depth);
   transform-origin: top center;
-  transform: rotateX(90deg);
+  transform: rotateX(-90deg);
   background:
     repeating-linear-gradient(0deg, #f4f1e8 0px, #f4f1e8 1px, #ddd8ca 1px, #ddd8ca 2px),
     linear-gradient(0deg, #cdc7b8 0%, #f6f3ec 30%, #e6e1d4 100%);
