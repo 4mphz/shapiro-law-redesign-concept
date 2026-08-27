@@ -183,16 +183,16 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
    Spanish always broke. Compress the right cluster instead of wrapping it. */
 .logo-section { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; gap: 20px; }
 .site-logo { display: block; flex: 0 0 auto; }
-.site-logo .logo-mark {
-  font-family: 'Staatliches', sans-serif;
-  font-size: 44px;
-  line-height: 1;
-  letter-spacing: 2px;
-  color: #fff;
-  text-transform: uppercase;
-  display: block;
-}
-.site-logo .logo-mark strong { font-weight: 400; color: var(--red-accent); }
+/* Jason, 2026-08-26: "the firm name should align top and bottom (see current
+   website) and should be consistent throughout." The lockup is one inline SVG
+   in every header and footer: textLength justifies SHAPIRO and LAW OFFICES,
+   flush at both edges with PLLC hung off the right end — the geometry of the
+   current site's logo.png — and it holds regardless of font-loading state. */
+.logo-lockup { display: block; width: 220px; height: auto; overflow: visible; }
+.logo-lockup text { font-family: 'Staatliches', sans-serif; font-weight: 400; }
+.logo-lockup .ll-1 { font-size: 47px; fill: #fff; }
+.logo-lockup .ll-2 { font-size: 26px; fill: var(--red-accent); }
+.logo-lockup .ll-3 { font-size: 15px; fill: rgba(255, 255, 255, 0.72); }
 .site-logo .logo-sub {
   display: block;
   margin-top: 9px;
@@ -206,23 +206,8 @@ a.cmn-btn.outline:hover { background: #003a66; border-color: transparent; }
   text-transform: uppercase;
   margin-top: 6px;
 }
-/* Jason, 2026-08-20: the name reads on two lines — "Shapiro" across the top,
-   "Law Offices, PLLC" underneath — and PLLC sits on the baseline with a comma,
-   not raised up in superscript. Header and footer are set identically. */
-.site-logo .logo-mark strong,
-.ftr-logo .logo-mark strong { display: block; margin-top: 4px; }
-.site-logo .logo-mark strong { font-size: 0.62em; letter-spacing: 3px; }
-.ftr-logo .logo-mark strong { font-size: 0.62em; letter-spacing: 3px; }
-.site-logo .logo-mark em,
-.ftr-logo .logo-mark em {
-  font-style: normal;
-  font-size: 0.78em;
-  font-weight: 400;
-  letter-spacing: 2px;
-  color: rgba(255,255,255,0.72);
-  margin-left: 0.08em;
-  vertical-align: baseline;
-}
+/* (2026-08-20 two-line text lockup replaced by the SVG lockup above,
+   2026-08-26 — comma kept, PLLC on the baseline, header == footer.) */
 .header-rit { gap: 23px; display: flex; flex-direction: column; padding-top: 10px; align-items: flex-end; flex: 1 1 auto; min-width: 0; }
 .header-number { color: #fff; display: flex; justify-content: flex-end; align-items: center; flex-wrap: nowrap; }
 .header-number p { font-size: 19px; font-family: 'Asta Sans', sans-serif; font-weight: 300; line-height: 1; margin: 0; color: #fff; }
@@ -1532,15 +1517,7 @@ a.cmn-btn {
 .ftr-itm.cnct p a:hover { color: #fff; }
 .ftr-itm.cnct .fax-line { margin-top: 12px; font-size: 18px; }
 .ftr-logo { margin: 0 auto 40px; width: 66%; }
-.ftr-logo .logo-mark {
-  font-family: 'Staatliches', sans-serif;
-  font-size: 40px;
-  letter-spacing: 2px;
-  color: #fff;
-  text-transform: uppercase;
-  display: block;
-}
-.ftr-logo .logo-mark strong { color: var(--red-accent); font-weight: 400; }
+.ftr-logo .logo-lockup { width: 200px; margin: 0 auto; }
 .ftr-logo .logo-sub { display: block; font-size: 13px; letter-spacing: 5px; color: #fff; text-transform: uppercase; margin-top: 6px; font-family: 'Asta Sans', sans-serif; }
 .ftr-social { display: flex; justify-content: center; gap: 12px; margin: 0 0 24px; }
 .ftr-social a {
@@ -1791,8 +1768,13 @@ a.cmn-btn {
 @media (max-width: 576px) {
   .container { padding: 0 20px; }
   body { overflow-x: hidden; }
-  .site-logo .logo-mark { font-size: 26px; letter-spacing: 1px; }
-  .site-logo .logo-sub { font-size: 11px; letter-spacing: 3px; }
+  /* one override for BOTH header and footer — the footer previously had no
+     mobile size-down at all */
+  .logo-lockup { width: 150px; }
+  /* cap the tagline so the long Spanish line wraps instead of silently
+     zooming the whole mobile page out past the viewport */
+  .site-logo { max-width: 100%; }
+  .site-logo .logo-sub { font-size: 11px; letter-spacing: 3px; max-width: 86vw; white-space: normal; line-height: 1.6; }
   .nav-toggle { font-size: 20px; padding: 5px 11px; }
   .hm-bnr-lft { width: 82%; }
   .hm-bnr-lft .ph-slot { aspect-ratio: 545 / 480; }
