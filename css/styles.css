@@ -833,20 +833,30 @@ a.cmn-btn {
      printed spine, page block, top edge and back board, turned far enough that
      the spine is unmistakable. */
   --book-depth: 62px;
-  perspective: 1500px;
+  perspective: 1800px;
   display: inline-block;
   width: 100%;
   max-width: 300px;
   position: relative;
+  container-type: inline-size;
+}
+/* depth follows the cover's rendered width, so the spine keeps the same
+   cover-to-thickness proportion at every viewport instead of a fixed 62px
+   ballooning against a shrunken cover */
+@supports (width: 1cqw) {
+  .book-3d { --book-depth: 20.5cqw; }
 }
 .book-3d__inner {
   position: relative;
   transform-style: preserve-3d;
-  /* rotateY swings the left edge away, which is what exposes the spine */
-  transform: rotateY(28deg) rotateX(2deg);
+  /* rotateY swings the left edge away, which is what exposes the spine.
+     translateZ (applied first) shifts the volume so the rotation axis runs
+     through the book's centre, not its front cover — without it the object
+     hangs hinged off its own face and distorts under perspective */
+  transform: rotateY(20deg) rotateX(2deg) translateZ(calc(var(--book-depth) / 2));
   transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.3, 1);
 }
-.book-3d:hover .book-3d__inner { transform: rotateY(14deg) rotateX(1deg) scale(1.03); }
+.book-3d:hover .book-3d__inner { transform: rotateY(12deg) rotateX(1deg) translateZ(calc(var(--book-depth) / 2)) scale(1.03); }
 .book-3d__cover {
   display: block;
   width: 100%;
@@ -1669,7 +1679,9 @@ a.cmn-btn {
   .hm-case-results-list { grid-template-columns: repeat(2, 1fr); }
   .hm-book-sec { padding: 70px 0; }
   .hm-book-blk { flex-direction: column; text-align: center; gap: 44px; }
-  .hm-book-lft { flex: 0 0 auto; max-width: 220px; margin: 0 auto; }
+  /* explicit width, not content-sized: .book-3d is an inline-size container,
+     so its contents can no longer size this box for it */
+  .hm-book-lft { flex: 0 0 auto; width: 220px; max-width: 220px; margin: 0 auto; }
   .hm-book-rgt { max-width: 100%; }
   .hm-book-rgt h2.text-heading { font-size: 42px; }
   .hm-book-rgt p { font-size: 17px; }
@@ -1864,6 +1876,5 @@ a.cmn-btn {
   /* on phones the label would crowd the dial CTA — icon only */
   .wa-float { right: 16px; bottom: 16px; padding: 14px; }
   .wa-float__label { display: none; }
-  .book-3d { --book-depth: 44px; }
   .book-3d__spine-txt { font-size: 8px; letter-spacing: 1.2px; }
 }
