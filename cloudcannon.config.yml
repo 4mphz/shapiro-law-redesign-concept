@@ -1,0 +1,20 @@
+paths:
+  static: ''
+  uploads: uploads
+timezone: America/New_York
+markdown:
+  engine: commonmark
+  options: {}
+collections_config:
+  pages:
+    path: ''
+    icon: wysiwyg
+  es:
+    path: es
+    icon: 1k
+  images:
+    path: images
+    icon: image
+  practice_areas:
+    path: practice-areas
+    icon: inactive_order
