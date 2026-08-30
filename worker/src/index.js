@@ -73,9 +73,13 @@ export default {
           'content-type': 'application/json',
           'user-agent': 'shapiro-preview-feedback-worker'
         },
-        body: JSON.stringify({ title: `[Preview feedback] ${titleTarget}`, body: issueBody({ ...note, comment }, reviewer), labels: ['preview-feedback'] })
+        body: JSON.stringify({ title: `[Preview feedback] ${titleTarget}`, body: issueBody({ ...note, comment }, reviewer) })
       });
-      if (!response.ok) return json({ error: 'GitHub issue creation failed.', detail: await response.text() }, 502, origin);
+      if (!response.ok) {
+        const detail = await response.text();
+        console.error('GitHub issue creation failed:', detail);
+        return json({ error: 'GitHub issue creation failed.', detail }, 502, origin);
+      }
       const issue = await response.json();
       results.push({ number: issue.number, url: issue.html_url });
     }

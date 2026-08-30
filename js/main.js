@@ -217,8 +217,10 @@ document.addEventListener('DOMContentLoaded', function () {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ notes: notes, reviewer: config.reviewer || 'Preview reviewer' })
     }).then(function (response) {
-      if (!response.ok) throw new Error('Unable to send feedback.');
-      return response.json();
+      return response.json().catch(function () { return {}; }).then(function (body) {
+        if (!response.ok) throw new Error(body.detail || body.error || 'Unable to send feedback.');
+        return body;
+      });
     }).then(function () {
       notes = [];
       persist();
