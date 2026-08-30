@@ -221,11 +221,12 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!response.ok) throw new Error(body.detail || body.error || 'Unable to send feedback.');
         return body;
       });
-    }).then(function () {
+    }).then(function (body) {
       notes = [];
       persist();
       renderCount();
-      window.alert('Feedback sent. Each note is now a GitHub issue for the build team.');
+      var triggerFailed = (body.issues || []).some(function (issue) { return issue.codexTriggered === false; });
+      window.alert(triggerFailed ? 'Feedback was saved as a GitHub issue, but Codex could not be started automatically. Ask the site owner to tag @codex in the issue.' : 'Feedback sent. Each note is now a GitHub issue and Codex has been asked to implement it.');
     }).catch(function (error) {
       window.alert(error.message || 'Unable to send feedback. Please try again.');
     }).finally(function () {

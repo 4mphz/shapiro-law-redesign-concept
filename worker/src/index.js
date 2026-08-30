@@ -81,7 +81,18 @@ export default {
         return json({ error: 'GitHub issue creation failed.', detail }, 502, origin);
       }
       const issue = await response.json();
-      results.push({ number: issue.number, url: issue.html_url });
+      const triggerResponse = await fetch(`https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/issues/${issue.number}/comments`, {
+        method: 'POST',
+        headers: {
+          accept: 'application/vnd.github+json',
+          authorization: `Bearer ${env.GITHUB_TOKEN}`,
+          'content-type': 'application/json',
+          'user-agent': 'shapiro-preview-feedback-worker'
+        },
+        body: JSON.stringify({ body: '@codex implement this' })
+      });
+      if (!triggerResponse.ok) console.error('Codex trigger comment failed:', await triggerResponse.text());
+      results.push({ number: issue.number, url: issue.html_url, codexTriggered: triggerResponse.ok });
     }
     return json({ issues: results }, 201, origin);
   }
