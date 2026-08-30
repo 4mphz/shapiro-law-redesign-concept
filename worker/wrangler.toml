@@ -1,0 +1,13 @@
+name = "shapiro-preview-feedback"
+main = "src/index.js"
+compatibility_date = "2026-08-29"
+
+[vars]
+GITHUB_OWNER = "4mphz"
+GITHUB_REPO = "shapiro-law-redesign-concept"
+ALLOWED_ORIGINS = "https://shapiro-law-redesign-concept.pages.dev"
+ALLOWED_ORIGIN_SUFFIXES = ".shapiro-law-redesign-concept.pages.dev"
+
+# Set this with `wrangler secret put`, never commit its value:
+# GITHUB_TOKEN
+# ALLOWED_ORIGIN_SUFFIXES permits pull-request previews for this Pages project.
