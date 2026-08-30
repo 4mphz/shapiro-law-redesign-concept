@@ -62,10 +62,9 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-/* Preview review mode
-   This is intentionally client-only until the Worker endpoint is configured.
-   It lets a reviewer pin a note to any page element, then submits the batch
-   to the Worker, which creates the corresponding GitHub issues. */
+/* Preview review mode.
+   Reviewers can pin notes to page elements, submit them to the shared review
+   inbox, and browse both local drafts and previously submitted comments. */
 (function () {
   'use strict';
 
@@ -78,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var endpoint = config.endpoint || '';
   var storageKey = 'shapiro-preview-feedback-v1';
   var notes = [];
+  var submittedNotes = [];
   var selecting = false;
   var selectedElement = null;
   var hoverTarget = null;
@@ -131,7 +131,120 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function renderCount() {
     var count = document.querySelector('[data-review-count]');
-    if (count) count.textContent = 'Feedback (' + notes.length + ')';
+    if (count) count.textContent = 'Comments (' + (notes.length + submittedNotes.length) + ')';
+  }
+
+  function renderPins() {
+    document.querySelectorAll('[data-review-pin]').forEach(function (pin) { pin.remove(); });
+    notes.concat(submittedNotes).forEach(function (note, index) {
+      if (!note.selector || !note.pageUrl) return;
+      var noteUrl;
+      try { noteUrl = new URL(note.pageUrl, window.location.href); } catch (_) { return; }
+      if (noteUrl.pathname !== window.location.pathname) return;
+      var target;
+      try { target = document.querySelector(note.selector); } catch (_) { return; }
+      if (!target || target.closest('.review-bar, .review-notice, .review-modal-backdrop')) return;
+      var rect = target.getBoundingClientRect();
+      var pin = make('button', 'review-pin', String(index + 1));
+      pin.type = 'button';
+      pin.setAttribute('data-review-pin', '');
+      pin.setAttribute('aria-label', 'Open comment: ' + (note.comment || 'Website comment'));
+      pin.style.left = Math.max(4, Math.round(rect.left + window.scrollX - 12)) + 'px';
+      pin.style.top = Math.max(4, Math.round(rect.top + window.scrollY - 12)) + 'px';
+      pin.addEventListener('click', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        openFeedbackList();
+      });
+      document.body.appendChild(pin);
+    });
+  }
+
+  function noteCard(note, isDraft) {
+    var card = make('article', 'review-comment-card');
+    var meta = make('div', 'review-comment-meta');
+    meta.appendChild(make('span', 'review-comment-status ' + (isDraft ? 'is-draft' : 'is-submitted'), isDraft ? 'Draft' : 'Submitted'));
+    var date = note.createdAt ? new Date(note.createdAt) : null;
+    if (date && !isNaN(date.getTime())) meta.appendChild(make('time', '', date.toLocaleString()));
+    var target = make('p', 'review-comment-target', note.selectedText || note.title || note.element || 'Website element');
+    var comment = make('p', 'review-comment-text', note.comment || 'No comment supplied.');
+    card.append(meta, target, comment);
+    if (note.pageUrl) {
+      var page = make('a', 'review-comment-link', 'Open page');
+      page.href = note.pageUrl;
+      card.appendChild(page);
+    }
+    if (note.url) {
+      var issue = make('a', 'review-comment-link', 'View issue #' + note.number);
+      issue.href = note.url;
+      issue.target = '_blank';
+      issue.rel = 'noopener';
+      card.appendChild(issue);
+    }
+    if (isDraft) {
+      var remove = make('button', 'review-comment-remove', 'Delete draft');
+      remove.type = 'button';
+      remove.addEventListener('click', function () {
+        notes = notes.filter(function (item) { return item.id !== note.id; });
+        persist();
+        renderCount();
+        renderPins();
+        card.remove();
+        var draftList = document.querySelector('[data-review-drafts]');
+        if (draftList && !notes.length) draftList.innerHTML = '<p class="review-empty">No unsent drafts.</p>';
+      });
+      card.appendChild(remove);
+    }
+    return card;
+  }
+
+  function openFeedbackList() {
+    closeModal();
+    modal = make('div', 'review-modal-backdrop');
+    var panel = make('section', 'review-modal review-comments-modal');
+    panel.setAttribute('role', 'dialog');
+    panel.setAttribute('aria-modal', 'true');
+    var close = make('button', 'review-modal-close', '×');
+    close.type = 'button';
+    close.setAttribute('aria-label', 'Close comments');
+    close.addEventListener('click', closeModal);
+    panel.append(close, make('h2', '', 'Website comments'));
+    panel.appendChild(make('p', 'review-comments-intro', 'Drafts stay in this browser. Submitted comments are shared and remain visible here.'));
+
+    var draftsTitle = make('h3', '', 'Drafts (' + notes.length + ')');
+    var drafts = make('div', 'review-comment-list');
+    drafts.setAttribute('data-review-drafts', '');
+    if (notes.length) notes.forEach(function (note) { drafts.appendChild(noteCard(note, true)); });
+    else drafts.appendChild(make('p', 'review-empty', 'No unsent drafts.'));
+
+    var submittedTitle = make('h3', '', 'Submitted (' + submittedNotes.length + ')');
+    var submitted = make('div', 'review-comment-list');
+    if (submittedNotes.length) submittedNotes.forEach(function (note) { submitted.appendChild(noteCard(note, false)); });
+    else submitted.appendChild(make('p', 'review-empty', 'No submitted comments yet.'));
+    panel.append(draftsTitle, drafts, submittedTitle, submitted);
+    modal.appendChild(panel);
+    modal.addEventListener('click', function (event) { if (event.target === modal) closeModal(); });
+    document.body.appendChild(modal);
+  }
+
+  function loadSubmittedFeedback() {
+    if (!endpoint) return Promise.resolve();
+    return fetch(endpoint, { headers: { Accept: 'application/json' } })
+      .then(function (response) {
+        return response.json().catch(function () { return {}; }).then(function (body) {
+          if (!response.ok) throw new Error(body.error || 'Unable to load submitted comments.');
+          return body;
+        });
+      })
+      .then(function (body) {
+        submittedNotes = Array.isArray(body.issues) ? body.issues : [];
+        renderCount();
+        renderPins();
+      })
+      .catch(function () {
+        submittedNotes = [];
+        renderCount();
+      });
   }
 
   function closeModal() {
@@ -152,21 +265,21 @@ document.addEventListener('DOMContentLoaded', function () {
     panel.setAttribute('aria-modal', 'true');
     var close = make('button', 'review-modal-close', '×');
     close.type = 'button';
-    close.setAttribute('aria-label', 'Close feedback form');
+    close.setAttribute('aria-label', 'Close comment form');
     close.addEventListener('click', closeModal);
-    var title = make('h2', '', 'Add feedback');
+    var title = make('h2', '', 'Add comment');
     var detail = make('p', 'review-modal-target', selectedSummary(element));
-    var label = make('label', '', 'What should change here?');
+    var label = make('label', '', 'What would you like us to know?');
     var input = document.createElement('textarea');
     input.required = true;
     input.maxLength = 1600;
-    input.placeholder = 'Describe the change you want.';
+    input.placeholder = 'Write your comment here.';
     label.appendChild(input);
     var actions = make('div', 'review-modal-actions');
     var cancel = make('button', 'review-button review-button-secondary', 'Cancel');
     cancel.type = 'button';
     cancel.addEventListener('click', closeModal);
-    var save = make('button', 'review-button', 'Save feedback');
+    var save = make('button', 'review-button', 'Save comment');
     save.type = 'button';
     save.addEventListener('click', function () {
       var message = input.value.trim();
@@ -187,6 +300,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
       persist();
       renderCount();
+      renderPins();
       closeModal();
     });
     actions.append(cancel, save);
@@ -207,11 +321,11 @@ document.addEventListener('DOMContentLoaded', function () {
   function submitFeedback() {
     if (!notes.length) return;
     if (!endpoint) {
-      window.alert('Feedback is saved in this browser, but the review inbox is not connected yet. Ask the site owner to configure the review endpoint.');
+      window.alert('Your comments are saved in this browser, but the shared review inbox is not connected yet.');
       return;
     }
     var send = document.querySelector('[data-review-send]');
-    if (send) { send.disabled = true; send.textContent = 'Sending feedback…'; }
+    if (send) { send.disabled = true; send.textContent = 'Submitting comments…'; }
     fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -225,32 +339,32 @@ document.addEventListener('DOMContentLoaded', function () {
       notes = [];
       persist();
       renderCount();
-      var triggerFailed = (body.issues || []).some(function (issue) { return issue.codexTriggered === false; });
-      window.alert(triggerFailed ? 'Feedback was saved as a GitHub issue, but Codex could not be started automatically. Ask the site owner to tag @codex in the issue.' : 'Feedback sent. Each note is now a GitHub issue and Codex has been asked to implement it.');
+      return loadSubmittedFeedback().then(function () {
+        window.alert('Comments submitted. They are now saved in the shared review list.');
+        openFeedbackList();
+      });
     }).catch(function (error) {
       window.alert(error.message || 'Unable to send feedback. Please try again.');
     }).finally(function () {
-      if (send) { send.disabled = false; send.textContent = 'Send feedback'; }
+      if (send) { send.disabled = false; send.textContent = 'Submit comments'; }
     });
   }
 
   function createOverlay() {
     var notice = make('aside', 'review-notice');
     notice.setAttribute('aria-label', 'Preview notice');
-    notice.innerHTML = '<strong>Preview only</strong><span>Point at anything you want changed, then leave feedback on that exact item.</span>';
+    notice.innerHTML = '<strong>Review mode</strong><span>Click anything to leave a comment. Comments are collected for the site owner and do not change the website automatically.</span>';
     var bar = make('aside', 'review-bar');
     bar.setAttribute('aria-label', 'Website review');
     var badge = make('span', 'review-badge', 'Preview');
-    var add = make('button', 'review-button', 'Add feedback');
+    var add = make('button', 'review-button', 'Add comment');
     add.type = 'button';
     add.addEventListener('click', toggleSelection);
-    var count = make('button', 'review-button review-button-secondary', 'Feedback (' + notes.length + ')');
+    var count = make('button', 'review-button review-button-secondary', 'Comments (' + (notes.length + submittedNotes.length) + ')');
     count.type = 'button';
     count.setAttribute('data-review-count', '');
-    count.addEventListener('click', function () {
-      window.alert(notes.length ? notes.length + ' saved note' + (notes.length === 1 ? '' : 's') + ' ready to send.' : 'No feedback saved yet.');
-    });
-    var send = make('button', 'review-button review-button-send', 'Send feedback');
+    count.addEventListener('click', openFeedbackList);
+    var send = make('button', 'review-button review-button-send', 'Submit comments');
     send.type = 'button';
     send.setAttribute('data-review-send', '');
     send.addEventListener('click', submitFeedback);
@@ -258,6 +372,8 @@ document.addEventListener('DOMContentLoaded', function () {
     status.setAttribute('data-review-status', '');
     bar.append(badge, add, count, send, status);
     document.body.append(notice, bar);
+    loadSubmittedFeedback();
+    renderPins();
   }
 
   document.addEventListener('keydown', function (event) {
@@ -269,6 +385,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.addEventListener('pointerover', function (event) {
     if (!selecting) return;
+    if (event.target.closest('.review-pin')) return;
     var target = event.target.closest('body *:not(.review-notice):not(.review-bar):not(.review-modal-backdrop)');
     if (!target || target === hoverTarget) return;
     if (hoverTarget) hoverTarget.classList.remove('review-target');
@@ -278,6 +395,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.addEventListener('click', function (event) {
     if (!selecting) return;
+    if (event.target.closest('.review-pin')) return;
     var target = event.target.closest('body *:not(.review-notice):not(.review-bar):not(.review-modal-backdrop)');
     if (!target || target.closest('.review-bar, .review-notice, .review-modal-backdrop')) return;
     event.preventDefault();

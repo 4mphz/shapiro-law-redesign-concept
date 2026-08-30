@@ -1,6 +1,6 @@
 # Preview feedback Worker
 
-This Worker receives a batch of visual feedback notes from the preview overlay and creates one GitHub issue per note. Every generated issue begins with `@codex implement this`.
+This Worker powers the visual review overlay. It creates one GitHub issue per submitted comment and exposes those feedback issues back to the preview so reviewers can browse their shared comment history. It does not trigger Codex or make website changes.
 
 ## Configure
 
@@ -19,4 +19,4 @@ The Worker accepts requests only from the configured Pages production domain and
 
 ## Reviewer flow
 
-Open the preview, select **Add feedback**, click an element, write a note, then choose **Send feedback**. The Worker creates a GitHub issue for every saved note, and Codex can start from the `@codex implement this` instruction in the issue body.
+Open the preview, select **Add comment**, click an element, write a note, then choose **Submit comments**. The Worker creates a GitHub issue for every saved note. Select **Comments** to view local drafts and all submitted feedback.
