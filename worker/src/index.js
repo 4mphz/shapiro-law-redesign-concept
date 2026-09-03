@@ -108,7 +108,7 @@ export default {
     const reviewer = String(payload.reviewer || 'Preview reviewer').slice(0, 120);
     const results = [];
     for (const note of notes) {
-      const comment = String(note.comment || '').trim().slice(0, 1600);
+      const comment = String(note.comment || '').trim();
       if (!comment) continue;
       const titleTarget = String(note.selectedText || note.element || 'website element').replace(/\s+/g, ' ').slice(0, 80);
       const response = await githubRequest('/issues', env, {

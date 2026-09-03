@@ -272,7 +272,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var label = make('label', '', 'What would you like us to know?');
     var input = document.createElement('textarea');
     input.required = true;
-    input.maxLength = 1600;
     input.placeholder = 'Write your comment here.';
     label.appendChild(input);
     var actions = make('div', 'review-modal-actions');
