@@ -1899,6 +1899,241 @@ a.cmn-btn {
   #page-content h3 { font-size: 32px; }
   .ftr-menu ul { gap: 16px 32px; }
 }
+
+/* ==========================================================================
+   Jason Shapiro supplied homepage direction, September 2026
+   ========================================================================== */
+.client-home {
+  --client-navy: #020d17;
+  --client-navy-2: #071827;
+  --client-panel: #0d2639;
+  --client-blue: #1597e5;
+  --client-blue-dark: #0873bc;
+  --client-cream: #f2f1ee;
+  --client-text: #253649;
+  color: var(--client-text);
+  background: var(--client-cream);
+  font-family: 'Libre Franklin', Arial, sans-serif;
+}
+.client-home p,
+.client-home a,
+.client-home li,
+.client-home button { font-family: 'Libre Franklin', Arial, sans-serif; }
+.client-home h1,
+.client-home h2,
+.client-home h3,
+.client-home h4,
+.client-home h5,
+.client-home h6 { margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; text-transform: none; }
+.client-shell { width: min(1320px, calc(100% - 64px)); margin-inline: auto; }
+
+.client-home .site-header.client-header {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 100;
+  width: 100%;
+  padding: 0;
+  color: #fff;
+  background: rgba(2, 13, 23, .98);
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+.client-home .site-header.client-header.is-sticky {
+  position: fixed;
+  animation: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .2);
+}
+.client-header__inner { display: flex; align-items: center; min-height: 91px; gap: 44px; }
+.client-logo { flex: 0 0 auto; display: grid; width: 225px; color: #fff; line-height: 1; }
+.client-logo__name { font-family: 'Source Serif 4', Georgia, serif; font-size: 37px; letter-spacing: .035em; text-transform: uppercase; }
+.client-logo__line { display: flex; align-items: baseline; justify-content: center; gap: 9px; margin-top: 4px; color: var(--client-blue); font-family: 'Source Serif 4', Georgia, serif; font-size: 17px; letter-spacing: .16em; text-transform: uppercase; }
+.client-logo__line small { color: rgba(255, 255, 255, .75); font: 700 9px/1 'Libre Franklin', Arial, sans-serif; letter-spacing: .08em; }
+.client-home .header-rit.client-header__right { flex: 1; display: flex; flex-flow: row nowrap; align-items: center; justify-content: flex-end; gap: 36px; min-width: 0; padding: 0; }
+.client-home #main-navigation ul { display: flex; align-items: center; justify-content: flex-end; gap: clamp(17px, 2vw, 31px); }
+.client-home #main-navigation ul li { padding: 0; }
+.client-home #main-navigation ul li a { display: block; padding: 36px 0 32px; color: #fff; font-size: 12px; font-weight: 800; line-height: 1; letter-spacing: .02em; text-transform: uppercase; white-space: nowrap; }
+.client-home #main-navigation ul li a::before { display: none; }
+.client-home #main-navigation ul li a:hover,
+.client-home #main-navigation ul li a.current { color: var(--client-blue); }
+.client-header__contact { flex: 0 0 213px; position: relative; display: grid; padding-left: 20px; border-left: 1px solid rgba(255, 255, 255, .16); }
+.client-header__contact > span { color: #fff; font-size: 10px; font-weight: 800; letter-spacing: .055em; text-transform: uppercase; }
+.client-header__contact > a { color: var(--client-blue); font-size: 21px; font-weight: 800; line-height: 1.3; letter-spacing: .02em; }
+.client-header__actions { display: flex; align-items: center; gap: 7px; margin-top: 5px; }
+.client-header__actions a { display: grid; place-items: center; height: 20px; border: 1px solid rgba(255, 255, 255, .3); font-size: 8px; font-weight: 800; line-height: 1; text-transform: uppercase; }
+.client-social { width: 20px; border-radius: 3px; color: #fff; }
+.client-social--instagram { background: linear-gradient(135deg, #7d3fd2, #f05a45 58%, #f0b62c); }
+.client-social--whatsapp { background: #23b866; }
+.client-text-us { min-width: 62px; padding: 0 9px; color: #fff; background: transparent; }
+.client-lang { min-width: 62px; margin-left: auto; padding: 0 8px; color: #fff; background: var(--client-blue-dark); border-color: var(--client-blue-dark) !important; }
+.client-home .mobile-header-controls { display: none; }
+
+.client-hero { position: relative; min-height: 650px; padding-top: 91px; overflow: hidden; color: #fff; background: var(--client-navy) url('../images/bronx-courthouse.jpg') center 28%/cover no-repeat; }
+.client-hero__shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(2, 13, 23, .83) 0%, rgba(2, 13, 23, .48) 42%, rgba(2, 13, 23, .72) 100%), linear-gradient(0deg, rgba(2, 13, 23, .5), rgba(2, 13, 23, .1)); }
+.client-hero__inner { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(280px, .92fr) minmax(470px, 1.35fr) minmax(155px, .45fr); align-items: end; min-height: 559px; }
+.client-hero__portrait { align-self: stretch; position: relative; min-width: 0; }
+.client-hero__portrait::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, transparent 60%, rgba(2, 13, 23, .83) 100%), linear-gradient(0deg, rgba(2, 13, 23, .12), transparent 35%); pointer-events: none; }
+.client-hero__portrait img { position: absolute; inset: auto 0 0; width: 100%; height: 87%; object-fit: cover; object-position: 50% 15%; filter: saturate(.88) contrast(1.06) brightness(.83); }
+.client-hero__copy { align-self: center; max-width: 650px; padding: 60px 30px 30px 18px; }
+.client-hero__copy h1 { color: #fff; font-family: 'Libre Franklin', Arial, sans-serif; font-size: clamp(44px, 4.4vw, 70px); font-weight: 800; line-height: .99; letter-spacing: .015em; text-transform: uppercase; }
+.client-rule { display: block; width: 106px; height: 4px; margin: 21px 0 23px; background: var(--client-blue); }
+.client-hero__copy h2 { margin-bottom: 5px; color: var(--client-blue); font-family: 'Libre Franklin', Arial, sans-serif; font-size: clamp(24px, 2.4vw, 38px); font-weight: 800; letter-spacing: .025em; text-transform: uppercase; }
+.client-hero__credential { margin: 0; color: rgba(255, 255, 255, .87); font-size: 19px; font-weight: 500; }
+.client-hero__author { margin: 7px 0 0; color: rgba(255, 255, 255, .78); font-family: 'Source Serif 4', Georgia, serif !important; font-size: 18px; }
+.client-hero__promises { display: flex; flex-wrap: wrap; gap: 0; margin: 28px 0 24px; padding-top: 17px; border-top: 1px solid rgba(255, 255, 255, .28); }
+.client-hero__promises li { padding: 0 20px; color: rgba(255, 255, 255, .85); border-right: 1px solid rgba(255, 255, 255, .22); font-size: 11px; font-weight: 800; letter-spacing: .025em; text-transform: uppercase; }
+.client-hero__promises li:first-child { padding-left: 0; }
+.client-hero__promises li:last-child { border-right: 0; }
+.client-btn { display: inline-flex; align-items: center; justify-content: center; gap: 11px; min-height: 58px; padding: 0 29px; color: #fff; background: var(--client-blue-dark); border: 1px solid var(--client-blue-dark); font-size: 14px; font-weight: 800; letter-spacing: .02em; text-transform: uppercase; transition: background .2s ease, border-color .2s ease, transform .2s ease; }
+.client-btn:hover,
+.client-btn:focus-visible { color: #fff; background: var(--client-blue); border-color: var(--client-blue); transform: translateY(-1px); }
+.client-hero__book { align-self: center; justify-self: end; position: relative; width: min(180px, 100%); margin-top: 58px; padding: 17px; background: rgba(2, 13, 23, .8); box-shadow: 0 18px 42px rgba(0, 0, 0, .45); }
+.client-hero__book::before { content: ''; position: absolute; inset: 9px; border: 1px solid rgba(21, 151, 229, .35); }
+.client-hero__book img { position: relative; width: 100%; filter: brightness(.7) saturate(.72) contrast(1.08); }
+
+.client-proof { color: #fff; background: var(--client-navy); border-top: 1px solid rgba(255, 255, 255, .08); }
+.client-proof__grid { display: grid; grid-template-columns: .9fr 1.25fr 1.25fr .9fr; min-height: 137px; }
+.client-proof__item { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; padding: 20px 28px; text-align: center; border-right: 1px solid rgba(21, 151, 229, .25); }
+.client-proof__item:last-child { border-right: 0; }
+.client-proof__item strong { color: #fff; font-size: clamp(25px, 2.2vw, 36px); font-weight: 800; line-height: 1; text-transform: uppercase; }
+.client-proof__item span { color: rgba(255, 255, 255, .65); font-size: 9px; font-weight: 700; letter-spacing: .035em; text-transform: uppercase; }
+.client-proof__item--logo img { width: 150px; max-height: 46px; object-fit: contain; filter: brightness(0) invert(1); }
+
+.client-section { padding: 76px 0 80px; }
+.client-section h2 { max-width: 1050px; color: #24364a; font-size: clamp(39px, 4.2vw, 60px); line-height: 1.05; }
+.client-eyebrow { margin: 0 0 13px; color: var(--client-blue); font-size: 10px; font-weight: 800; letter-spacing: .19em; text-transform: uppercase; }
+.client-intro { max-width: 860px; margin: 12px 0 0; color: #526273; font-size: 15px; line-height: 1.7; }
+
+.client-results { background: var(--client-cream); }
+.client-results__grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; margin-top: 36px; }
+.client-result-card { min-height: 194px; padding: 22px 19px; background: #fff; border-top: 4px solid var(--client-blue); box-shadow: 0 7px 24px rgba(25, 44, 61, .045); }
+.client-result-card strong { display: block; margin-bottom: 13px; color: var(--client-blue); font-size: clamp(18px, 1.65vw, 27px); font-weight: 800; letter-spacing: -.03em; }
+.client-result-card p { margin: 0; color: #46586a; font-size: 12px; line-height: 1.55; }
+.client-legal-note { margin: 35px 0 0; color: #89939b; font-size: 9px; text-align: center; }
+
+.client-practice { color: #fff; background: var(--client-navy-2); }
+.client-practice h2 { color: #fff; }
+.client-practice .client-intro { color: rgba(255, 255, 255, .62); }
+.client-practice__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; margin-top: 39px; }
+.client-practice-card { display: block; min-height: 238px; padding: 24px 22px; color: #fff; background: var(--client-panel); border: 1px solid rgba(21, 151, 229, .32); transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+.client-practice-card:hover,
+.client-practice-card:focus-visible { color: #fff; background: #123149; border-color: var(--client-blue); transform: translateY(-3px); }
+.client-practice-card > span { color: var(--client-blue); font-size: 10px; font-weight: 800; letter-spacing: .17em; }
+.client-practice-card h3 { margin: 22px 0 19px; color: #fff; font-size: 25px; line-height: 1.06; }
+.client-practice-card p { margin: 0; color: rgba(255, 255, 255, .62); font-size: 12px; line-height: 1.55; }
+
+.client-firm { background: var(--client-cream); }
+.client-firm__panel { margin-top: 34px; padding: 25px 29px; background: #fff; border-left: 5px solid var(--client-blue); box-shadow: 0 7px 24px rgba(25, 44, 61, .04); }
+.client-firm__panel h3 { margin-bottom: 13px; color: #24364a; font-size: 24px; }
+.client-firm__panel ul { display: flex; flex-wrap: wrap; gap: 9px 24px; margin-bottom: 14px; }
+.client-firm__panel li { position: relative; padding-left: 13px; color: #687685; font-size: 12px; }
+.client-firm__panel li::before { content: ''; position: absolute; left: 0; top: .55em; width: 4px; height: 4px; border-radius: 50%; background: var(--client-blue); }
+.client-firm__panel strong { color: #24364a; font-size: 12px; }
+
+.client-attorneys { color: #fff; background: var(--client-navy-2); }
+.client-attorneys h2 { color: #fff; }
+.client-attorneys__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 38px; }
+.client-attorney-card { min-height: 212px; padding: 27px 29px; color: #24364a; background: #fff; border-top: 4px solid var(--client-blue); }
+.client-attorney-card h3 { margin-bottom: 6px; color: #24364a; font-size: 27px; }
+.client-attorney-card > strong { display: block; margin-bottom: 19px; color: var(--client-blue-dark); font-size: 10px; letter-spacing: .045em; text-transform: uppercase; }
+.client-attorney-card p { margin: 0; color: #61707e; font-size: 12px; line-height: 1.6; }
+.client-attorney-card a { display: inline-block; margin-top: 17px; color: var(--client-blue-dark); font-size: 11px; font-weight: 800; text-transform: uppercase; }
+
+.client-book { background: var(--client-cream); }
+.client-book__inner { display: grid; grid-template-columns: 285px 1fr; align-items: center; gap: 64px; max-width: 1020px; }
+.client-book__art { display: grid; place-items: center; padding: 20px; background: #e3e4e3; }
+.client-book__art img { width: 205px; box-shadow: 14px 14px 0 #c4c8ca, 0 18px 35px rgba(20, 39, 55, .18); }
+.client-book__copy h2 { margin-bottom: 31px; }
+.client-book__copy > p:not(.client-eyebrow) { max-width: 690px; margin: 0 0 25px; color: #637181; font-size: 13px; line-height: 1.7; }
+
+.client-cta { padding: 46px 0 43px; color: #fff; text-align: center; background: linear-gradient(105deg, #1597e5 0%, #0872bb 100%); }
+.client-cta h2 { color: #fff; font-size: clamp(39px, 4.2vw, 59px); }
+.client-cta p { margin: 11px auto 20px; color: rgba(255, 255, 255, .82); font-size: 13px; }
+.client-cta p a { color: #fff; font-weight: 800; }
+.client-btn--light { color: var(--client-blue-dark); background: #fff; border-color: #fff; }
+.client-btn--light:hover,
+.client-btn--light:focus-visible { color: #fff; background: var(--client-navy); border-color: var(--client-navy); }
+.client-cta .client-cta__promises { margin: 15px 0 0; color: #fff; font-size: 9px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.client-cta__promises span { margin: 0 10px; opacity: .7; }
+
+.client-footer { padding: 30px 0 110px; color: rgba(255, 255, 255, .65); background: var(--client-navy); }
+.client-footer__inner { display: flex; justify-content: space-between; gap: 40px; }
+.client-footer__inner > div:last-child { text-align: right; }
+.client-footer strong,
+.client-footer a { color: #fff; font-weight: 700; }
+.client-footer p { margin: 6px 0 0; font-size: 11px; line-height: 1.5; }
+.client-home > .wa-float { display: none; }
+
+@media (max-width: 1180px) {
+  .client-header__inner { gap: 24px; }
+  .client-logo { width: 185px; }
+  .client-logo__name { font-size: 31px; }
+  .client-logo__line { font-size: 14px; }
+  .client-home .header-rit.client-header__right { gap: 21px; }
+  .client-home #main-navigation ul { gap: 15px; }
+  .client-home #main-navigation ul li a { font-size: 10px; }
+  .client-header__contact { flex-basis: 188px; }
+  .client-hero__inner { grid-template-columns: .78fr 1.35fr .4fr; }
+  .client-hero__copy { padding-left: 8px; }
+}
+
+@media (max-width: 992px) {
+  .client-shell { width: min(100% - 40px, 760px); }
+  .client-home .site-header.client-header { position: absolute; padding: 0; }
+  .client-header__inner { min-height: 78px; justify-content: space-between; }
+  .client-logo { width: 175px; }
+  .client-logo__name { font-size: 29px; }
+  .client-logo__line { font-size: 13px; }
+  .client-home .mobile-header-controls { display: flex; align-items: center; gap: 10px; }
+  .client-home .lang-pill-mobile { display: inline-flex; align-items: center; min-height: 34px; padding: 0 12px; color: #fff; background: var(--client-blue-dark); border-radius: 0; font-size: 10px; font-weight: 800; text-transform: uppercase; }
+  .client-home .nav-toggle { display: grid; place-items: center; width: 38px; height: 38px; color: #fff; background: transparent; border: 1px solid rgba(255, 255, 255, .35); font-size: 21px; }
+  .client-home .header-rit.client-header__right { display: none; position: absolute; inset: 78px 0 auto; width: 100%; padding: 18px 20px 23px; background: rgba(2, 13, 23, .99); border-top: 1px solid rgba(255, 255, 255, .1); }
+  .client-home .header-rit.client-header__right.open { display: block; }
+  .client-home #main-navigation ul { display: grid; gap: 0; }
+  .client-home #main-navigation ul li a { padding: 13px 0; border-bottom: 1px solid rgba(255, 255, 255, .09); font-size: 12px; }
+  .client-header__contact { display: none; }
+  .client-hero { min-height: auto; padding-top: 78px; }
+  .client-hero__inner { grid-template-columns: minmax(0, 1fr); min-height: 620px; }
+  .client-hero__portrait { position: absolute; inset: auto auto 0 -9%; width: 54%; height: 80%; opacity: .56; }
+  .client-hero__copy { position: relative; z-index: 2; align-self: center; justify-self: end; width: 76%; padding: 55px 0 45px 28px; }
+  .client-hero__book { display: none; }
+  .client-proof__grid { grid-template-columns: repeat(2, 1fr); }
+  .client-proof__item { min-height: 115px; border-bottom: 1px solid rgba(21, 151, 229, .25); }
+  .client-results__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .client-result-card:last-child { grid-column: 1 / -1; }
+  .client-practice__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 680px) {
+  .client-shell { width: min(100% - 32px, 540px); }
+  .client-hero__inner { min-height: 650px; }
+  .client-hero__portrait { left: -24%; width: 88%; height: 72%; opacity: .45; }
+  .client-hero__copy { justify-self: stretch; width: 100%; padding: 44px 0 38px; }
+  .client-hero__copy h1 { font-size: clamp(38px, 12vw, 52px); }
+  .client-hero__copy h2 { font-size: 23px; }
+  .client-hero__credential { font-size: 15px; }
+  .client-hero__author { max-width: 360px; font-size: 15px; }
+  .client-hero__promises { display: grid; gap: 8px; }
+  .client-hero__promises li { padding: 0; border: 0; }
+  .client-btn { width: 100%; min-height: 54px; padding: 0 18px; font-size: 12px; }
+  .client-proof__grid { width: 100%; grid-template-columns: 1fr 1fr; }
+  .client-proof__item { padding: 18px 12px; }
+  .client-proof__item strong { font-size: 22px; }
+  .client-section { padding: 58px 0 61px; }
+  .client-section h2 { font-size: 37px; }
+  .client-results__grid,
+  .client-practice__grid,
+  .client-attorneys__grid { grid-template-columns: 1fr; }
+  .client-result-card:last-child { grid-column: auto; }
+  .client-result-card { min-height: 0; }
+  .client-practice-card { min-height: 0; }
+  .client-firm__panel { padding: 22px 20px; }
+  .client-firm__panel ul { display: grid; gap: 10px; }
+  .client-book__inner { grid-template-columns: 1fr; gap: 38px; }
+  .client-book__art { width: 250px; max-width: 100%; margin-inline: auto; }
+  .client-book__copy { text-align: center; }
+  .client-book__copy h2 br { display: none; }
+  .client-footer__inner { display: grid; }
+  .client-footer__inner > div:last-child { text-align: left; }
+}
 @media (max-width: 576px) {
   .container { padding: 0 20px; }
   body { overflow-x: hidden; }
