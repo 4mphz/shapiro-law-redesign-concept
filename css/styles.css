@@ -2414,7 +2414,7 @@ a.cmn-btn {
     linear-gradient(90deg, rgba(2, 13, 23, .92) 0%, rgba(2, 13, 23, .68) 58%, rgba(2, 13, 23, .78) 100%),
     linear-gradient(0deg, rgba(2, 13, 23, .82) 0%, rgba(2, 13, 23, .2) 72%);
 }
-.client-inner-hero__content { position: relative; width: 100%; }
+.client-inner-hero__content { position: relative; }
 .client-inner-hero__eyebrow {
   margin: 0 0 14px;
   color: var(--client-blue);
