@@ -2414,7 +2414,11 @@ a.cmn-btn {
     linear-gradient(90deg, rgba(2, 13, 23, .92) 0%, rgba(2, 13, 23, .68) 58%, rgba(2, 13, 23, .78) 100%),
     linear-gradient(0deg, rgba(2, 13, 23, .82) 0%, rgba(2, 13, 23, .2) 72%);
 }
-.client-inner-hero__content { position: relative; }
+.client-inner-hero__content {
+  position: relative;
+  width: min(1160px, calc(100% - 64px));
+  margin-inline: auto;
+}
 .client-inner-hero__eyebrow {
   margin: 0 0 14px;
   color: var(--client-blue);
@@ -2841,6 +2845,7 @@ a.cmn-btn {
 
 @media (max-width: 992px) {
   .client-inner-hero { min-height: 365px; padding: 136px 0 58px; background-position: 58% center; }
+  .client-inner-hero__content { width: min(760px, calc(100% - 40px)); }
   .client-inner-hero h1 { font-size: clamp(41px, 8vw, 60px); }
   .client-attorney-profile__grid,
   .client-practice-detail__grid,
@@ -2877,6 +2882,10 @@ a.cmn-btn {
   .client-footer__service-area,
   .client-footer__legal { grid-column: auto; }
   .client-footer__legal { display: grid; gap: 12px; }
+}
+
+@media (max-width: 680px) {
+  .client-inner-hero__content { width: min(540px, calc(100% - 32px)); }
 }
 
 @media (max-width: 520px) {
