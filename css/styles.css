@@ -1966,13 +1966,13 @@ a.cmn-btn {
 .client-lang { min-width: 62px; margin-left: auto; padding: 0 8px; color: #fff; background: var(--client-blue-dark); border-color: var(--client-blue-dark) !important; }
 .client-home .mobile-header-controls { display: none; }
 
-.client-hero { position: relative; min-height: 770px; padding-top: 94px; overflow: hidden; color: #fff; background: var(--client-navy) url('../images/bronx-courthouse.jpg') center top/cover no-repeat; }
+.client-hero { position: relative; min-height: 770px; padding-top: 94px; overflow: hidden; color: #fff; background: var(--client-navy) url('../images/new-york-city-hero-v2.webp') center center/cover no-repeat; }
 .client-hero__shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(2, 13, 23, .84) 0%, rgba(2, 13, 23, .38) 42%, rgba(2, 13, 23, .72) 100%), linear-gradient(0deg, rgba(2, 13, 23, .62), rgba(2, 13, 23, .2)); }
 .client-hero__inner { position: relative; z-index: 2; display: grid; grid-template-columns: 350px minmax(0, 1fr) 205px; align-items: end; min-height: 676px; }
 .client-hero__portrait { align-self: stretch; position: relative; min-width: 0; margin-left: -80px; }
-.client-hero__portrait::before { content: ''; position: absolute; inset: 112px 0 0; width: 430px; background: linear-gradient(90deg, rgba(2, 20, 35, .96), rgba(3, 25, 42, .58) 76%, transparent); pointer-events: none; }
-.client-hero__portrait::after { content: ''; position: absolute; inset: 0 -22px 0 auto; width: 95px; background: linear-gradient(90deg, transparent, rgba(2, 13, 23, .5)); pointer-events: none; }
-.client-hero__portrait img { position: absolute; z-index: 1; left: 0; top: 26px; width: 400px; max-width: none; height: auto; object-fit: contain; filter: saturate(.84) contrast(1.08) brightness(.77); }
+.client-hero__portrait::before,
+.client-hero__portrait::after { content: none; }
+.client-hero__portrait img { position: absolute; z-index: 1; left: 0; top: 26px; width: 400px; max-width: none; height: auto; object-fit: contain; filter: saturate(.94) contrast(1.04) brightness(.9) drop-shadow(0 18px 24px rgba(0, 0, 0, .35)); }
 .client-hero__copy { align-self: center; max-width: 640px; padding: 55px 12px 28px 0; }
 .client-hero__copy h1 { color: #fff; font-family: 'Libre Franklin', Arial, sans-serif; font-size: clamp(46px, 4.55vw, 60px); font-weight: 800; line-height: 1.05; letter-spacing: .015em; text-transform: uppercase; white-space: nowrap; }
 .client-rule { display: block; width: 168px; height: 4px; margin: 20px 0 22px; background: var(--client-blue); }
@@ -1987,9 +1987,9 @@ a.cmn-btn {
 .client-btn:hover,
 .client-btn:focus-visible { color: #fff; background: var(--client-blue); border-color: var(--client-blue); transform: translateY(-1px); }
 .client-hero__copy > .client-btn { min-width: 465px; }
-.client-hero__book { align-self: center; justify-self: end; position: relative; width: 215px; margin-top: 15px; margin-right: -70px; padding: 0; background: rgba(2, 13, 23, .76); box-shadow: 0 18px 42px rgba(0, 0, 0, .45); }
+.client-hero__book { align-self: center; justify-self: end; position: relative; width: 215px; margin-top: 15px; margin-right: -70px; padding: 0; background: transparent; box-shadow: none; }
 .client-hero__book::before { display: none; }
-.client-hero__book img { position: relative; width: 100%; filter: brightness(.72) saturate(.78) contrast(1.08); }
+.client-hero__book img { position: relative; width: 100%; filter: brightness(.94) saturate(.92) contrast(1.04) drop-shadow(0 18px 24px rgba(0, 0, 0, .42)); }
 
 .client-proof { color: #fff; background: var(--client-navy); border-top: 1px solid rgba(255, 255, 255, .08); }
 .client-proof__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: min(1320px, 100%); min-height: 145px; }
