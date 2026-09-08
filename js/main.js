@@ -2,8 +2,22 @@ document.addEventListener('DOMContentLoaded', function () {
   var toggle = document.querySelector('.nav-toggle');
   var rit = document.querySelector('.header-rit');
   if (toggle && rit) {
+    toggle.setAttribute('aria-expanded', rit.classList.contains('open') ? 'true' : 'false');
     toggle.addEventListener('click', function () {
       rit.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', rit.classList.contains('open') ? 'true' : 'false');
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key !== 'Escape' || !rit.classList.contains('open')) return;
+      rit.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.focus();
+    });
+    rit.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        rit.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
     });
   }
 
@@ -27,12 +41,12 @@ document.addEventListener('DOMContentLoaded', function () {
      contact page. */
   var coarse = window.matchMedia('(hover: none) and (pointer: coarse)');
   if (coarse.matches) {
-    document.querySelectorAll('a.cmn-btn[href]').forEach(function (a) {
+    document.querySelectorAll('a.cmn-btn[href], a.client-btn[href]').forEach(function (a) {
       var href = a.getAttribute('href') || '';
       if (!/contact\.html(?:#.*)?$/i.test(href)) return;
       var label = (a.textContent || '').replace(/\s+/g, ' ').trim();
       // Match consultation CTAs only — not "Purchase The Book"
-      if (!/^(book your free consultation|reserve su consulta)/i.test(label)) return;
+      if (!/^(book your free consultation|request a free consultation|reserve su consulta|solicite una consulta)/i.test(label)) return;
       a.setAttribute('href', 'tel:7182957000');
       a.setAttribute('data-preview-mobile-cta', 'tel');
     });
@@ -54,8 +68,11 @@ document.addEventListener('DOMContentLoaded', function () {
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
+      var isSpanish = document.documentElement.lang === 'es';
       var go = window.confirm(
-        'This is a design preview — the form is not connected yet, so nothing was sent.\n\nCall 718.295.7000 now instead?'
+        isSpanish
+          ? 'Esta es una vista previa del diseño. El formulario todavía no está conectado, por lo que no se envió nada.\n\n¿Desea llamar al 718.295.7000 ahora?'
+          : 'This is a design preview. The form is not connected yet, so nothing was sent.\n\nCall 718.295.7000 now instead?'
       );
       if (go) window.location.href = 'tel:7182957000';
     });

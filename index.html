@@ -13,6 +13,7 @@
 <link rel="alternate" hreflang="es" href="https://4mphz.github.io/shapiro-law-redesign-concept/es/index.html">
 </head>
 <body class="client-home">
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
 <header class="site-header client-header" id="site-header">
   <div class="client-shell client-header__inner">
@@ -23,13 +24,13 @@
 
     <div class="mobile-header-controls">
       <a class="lang-pill-mobile" href="es/index.html" lang="es">Espa&ntilde;ol</a>
-      <button class="nav-toggle" type="button" aria-label="Menu">&#9776;</button>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="header-menu">&#9776;</button>
     </div>
 
-    <div class="header-rit client-header__right">
+    <div class="header-rit client-header__right" id="header-menu">
       <nav id="main-navigation" aria-label="Main navigation">
         <ul>
-          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="index.html" class="current" aria-current="page">Home</a></li>
           <li><a href="about.html">Our Attorneys</a></li>
           <li><a href="practice-areas.html">Practice Areas</a></li>
           <li><a href="results.html">Results</a></li>
@@ -51,7 +52,7 @@
   </div>
 </header>
 
-<main>
+<main id="main-content">
   <section class="client-hero">
     <div class="client-hero__shade"></div>
     <div class="client-shell client-hero__inner">
