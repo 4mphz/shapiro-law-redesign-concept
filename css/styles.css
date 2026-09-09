@@ -2898,3 +2898,655 @@ a.cmn-btn {
   .client-cta__actions { display: grid; }
   .client-inner > .wa-float { right: 14px; bottom: 126px; }
 }
+
+/* ==========================================================================
+   Jason feedback refinement, September 2026
+   ========================================================================== */
+
+/* Refined firm lockup and quieter language control */
+.client-logo {
+  width: 276px;
+  justify-items: start;
+}
+.client-logo__name {
+  font-size: 41px;
+  letter-spacing: .025em;
+}
+.client-logo__line {
+  justify-content: flex-start;
+  gap: 7px;
+  margin: 2px 0 0 24px;
+  font-size: 21px;
+  letter-spacing: .12em;
+}
+.client-logo__line small {
+  color: rgba(255, 255, 255, .82);
+  font-size: 9px;
+  letter-spacing: .06em;
+}
+.client-lang {
+  min-width: 56px;
+  color: rgba(255, 255, 255, .78);
+  background: rgba(21, 151, 229, .08);
+  border-color: rgba(89, 183, 235, .46) !important;
+}
+.client-lang:hover,
+.client-lang:focus-visible {
+  color: #fff;
+  background: rgba(21, 151, 229, .2);
+}
+
+/* Courthouse hero with brighter photography and an editorial composition */
+.client-home .client-hero {
+  min-height: 720px;
+  background-color: #102235;
+  background-image: url('../images/bronx-courthouse.jpg');
+  background-position: center 57%;
+  background-size: cover;
+}
+.client-home .client-hero__shade {
+  background:
+    linear-gradient(90deg, rgba(2, 13, 23, .56) 0%, rgba(2, 13, 23, .34) 48%, rgba(2, 13, 23, .52) 100%),
+    linear-gradient(0deg, rgba(2, 13, 23, .58) 0%, rgba(2, 13, 23, .1) 72%);
+}
+.client-home .client-hero__inner {
+  grid-template-columns: 350px minmax(0, 1fr) 190px;
+  min-height: 626px;
+}
+.client-home .client-hero__portrait {
+  margin-left: -42px;
+}
+.client-home .client-hero__portrait img {
+  top: 18px;
+  width: 378px;
+  filter: saturate(.98) contrast(1.02) brightness(1.04) drop-shadow(0 20px 28px rgba(0, 0, 0, .32));
+}
+.client-home .client-hero__copy {
+  max-width: 605px;
+  padding: 45px 14px 32px 0;
+}
+.client-home .client-hero__copy h1 {
+  max-width: 590px;
+  font-size: clamp(38px, 3.55vw, 50px);
+  line-height: 1.04;
+  letter-spacing: .008em;
+  white-space: normal;
+  text-shadow: 0 2px 18px rgba(2, 13, 23, .5);
+}
+html[lang='es'] .client-home .client-hero__copy h1 {
+  font-size: clamp(34px, 3.05vw, 43px);
+}
+.client-home .client-rule {
+  width: 116px;
+  height: 3px;
+  margin: 17px 0 19px;
+}
+.client-home .client-hero__copy h2 {
+  font-size: clamp(24px, 2.25vw, 30px);
+}
+.client-home .client-hero__credential {
+  font-size: 17px;
+}
+.client-home .client-hero__author {
+  font-size: 16px;
+}
+.client-home .client-hero__promises {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: min(585px, 100%);
+  margin: 25px 0 23px;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(3, 22, 36, .5);
+  border: 1px solid rgba(255, 255, 255, .23);
+  box-shadow: 0 10px 30px rgba(1, 11, 19, .13);
+  backdrop-filter: blur(5px);
+}
+.client-home .client-hero__promises li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 10px 13px 10px 29px;
+  border-right: 1px solid rgba(255, 255, 255, .18);
+  font-size: 9px;
+  line-height: 1.35;
+  letter-spacing: .045em;
+}
+.client-home .client-hero__promises li:first-child {
+  padding-left: 29px;
+}
+.client-home .client-hero__promises li:last-child {
+  border-right: 0;
+}
+.client-home .client-hero__promises li::before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  width: 6px;
+  height: 6px;
+  background: var(--client-blue);
+  box-shadow: 0 0 0 3px rgba(21, 151, 229, .14);
+}
+.client-home .client-hero__copy > .client-btn {
+  min-width: 420px;
+  min-height: 57px;
+}
+.client-home .client-hero__book {
+  width: 190px;
+  margin: 10px -18px 0 0;
+}
+.client-home .client-hero__book img {
+  filter: brightness(1.03) saturate(.98) contrast(1.02) drop-shadow(0 20px 26px rgba(0, 0, 0, .36));
+}
+
+/* Five distinct proof points */
+.client-home .client-proof__grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  width: min(1440px, 100%);
+  min-height: 132px;
+}
+.client-home .client-proof__item {
+  min-height: 132px;
+  padding: 19px 20px;
+}
+.client-home .client-proof__item strong {
+  font-size: clamp(22px, 1.8vw, 31px);
+}
+.client-home .client-proof__item span {
+  max-width: 205px;
+  font-size: 8px;
+  line-height: 1.45;
+}
+.client-home .client-proof__item--logo img {
+  width: min(145px, 88%);
+  filter: brightness(0) invert(1);
+}
+
+/* Editorial case-result presentation */
+.client-home .client-results {
+  padding: 92px 0 96px;
+  background: #f3f1ec;
+}
+.client-home .client-results__heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 48px;
+}
+.client-home .client-results__heading > div {
+  max-width: 850px;
+}
+.client-home .client-text-link {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 0 8px;
+  color: var(--client-blue-dark);
+  border-bottom: 2px solid currentColor;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.client-home .client-text-link:hover,
+.client-home .client-text-link:focus-visible {
+  color: #034e82;
+}
+.client-home .client-results__grid {
+  grid-template-columns: 1.25fr 1fr 1fr;
+  gap: 0;
+  margin-top: 43px;
+  border-top: 1px solid #bdc8cf;
+  border-bottom: 1px solid #bdc8cf;
+}
+.client-home .client-result-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 272px;
+  padding: 34px 31px;
+  background: transparent;
+  border: 0;
+  border-right: 1px solid #bdc8cf;
+  box-shadow: none;
+}
+.client-home .client-result-card:last-child {
+  grid-column: auto;
+  border-right: 0;
+}
+.client-home .client-result-card--featured {
+  color: #fff;
+  background:
+    linear-gradient(145deg, rgba(21, 151, 229, .12), transparent 58%),
+    var(--client-navy-2);
+}
+.client-home .client-result-card__matter {
+  display: block;
+  margin-bottom: auto;
+  color: var(--client-blue-dark);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.client-home .client-result-card strong {
+  margin: 38px 0 14px;
+  color: var(--client-text);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: clamp(31px, 3.1vw, 44px);
+  font-weight: 600;
+  letter-spacing: -.025em;
+}
+.client-home .client-result-card p {
+  max-width: 310px;
+  color: #526273;
+  font-size: 12px;
+  line-height: 1.65;
+}
+.client-home .client-result-card--featured .client-result-card__matter {
+  color: #65bceb;
+}
+.client-home .client-result-card--featured strong,
+.client-home .client-result-card--featured p {
+  color: #fff;
+}
+.client-home .client-result-card--featured p {
+  color: rgba(255, 255, 255, .7);
+}
+.client-home .client-results .client-legal-note {
+  margin-top: 28px;
+  text-align: left;
+}
+.client-home .client-practice .client-intro {
+  max-width: 940px;
+}
+
+/* Shared courthouse treatment on interior-page photography */
+.client-inner-hero {
+  background-image: url('../images/bronx-courthouse.jpg');
+  background-position: center 56%;
+}
+.client-inner-hero__shade {
+  background:
+    linear-gradient(90deg, rgba(2, 13, 23, .68) 0%, rgba(2, 13, 23, .38) 58%, rgba(2, 13, 23, .56) 100%),
+    linear-gradient(0deg, rgba(2, 13, 23, .6) 0%, rgba(2, 13, 23, .1) 72%);
+}
+.client-book__art img,
+.client-book-feature__art img {
+  filter: brightness(1.02) saturate(.98) drop-shadow(0 20px 24px rgba(2, 13, 23, .24));
+}
+.client-attorney-profile__media img,
+.client-practice-media img {
+  filter: brightness(1.04) saturate(.96);
+}
+
+/* Mobile call, WhatsApp, and Instagram access */
+.client-mobile-contactbar {
+  display: none;
+}
+
+@media (max-width: 1180px) {
+  .client-logo {
+    width: 218px;
+  }
+  .client-logo__name {
+    font-size: 33px;
+  }
+  .client-logo__line {
+    margin-left: 19px;
+    font-size: 16px;
+  }
+  .client-home .client-hero__inner {
+    grid-template-columns: 300px minmax(0, 1fr) 160px;
+  }
+  .client-home .client-hero__portrait {
+    margin-left: -25px;
+  }
+  .client-home .client-hero__portrait img {
+    top: 30px;
+    width: 340px;
+  }
+  .client-home .client-hero__copy h1 {
+    font-size: 42px;
+  }
+  html[lang='es'] .client-home .client-hero__copy h1 {
+    font-size: 36px;
+  }
+  .client-home .client-hero__book {
+    width: 158px;
+    margin-right: -18px;
+  }
+}
+
+@media (max-width: 992px) {
+  :is(.client-home, .client-site) {
+    padding-bottom: 58px;
+  }
+  .client-logo {
+    width: 188px;
+  }
+  .client-logo__name {
+    font-size: 30px;
+  }
+  .client-logo__line {
+    gap: 5px;
+    margin-left: 16px;
+    font-size: 14px;
+  }
+  .client-logo__line small {
+    font-size: 7px;
+  }
+  :is(.client-home, .client-site) .lang-pill-mobile {
+    min-height: 38px;
+    padding: 0 10px;
+    color: rgba(255, 255, 255, .72);
+    background: rgba(21, 151, 229, .06);
+    border: 1px solid rgba(89, 183, 235, .4);
+    box-shadow: none;
+    font-size: 9px;
+  }
+  .client-home .client-hero {
+    min-height: 700px;
+    background-position: center 54%;
+  }
+  .client-home .client-hero__inner {
+    display: block;
+    min-height: 622px;
+  }
+  .client-home .client-hero__portrait {
+    position: absolute;
+    inset: auto auto 0 -3%;
+    width: 54%;
+    height: 90%;
+    margin: 0;
+    opacity: .96;
+  }
+  .client-home .client-hero__portrait img {
+    top: 7%;
+    width: 100%;
+  }
+  .client-home .client-hero__copy {
+    width: 69%;
+    margin-left: auto;
+    padding: 52px 0 115px 30px;
+  }
+  .client-home .client-hero__copy h1,
+  html[lang='es'] .client-home .client-hero__copy h1 {
+    max-width: 460px;
+    font-size: clamp(32px, 5.2vw, 41px);
+  }
+  .client-home .client-hero__copy h2 {
+    font-size: 23px;
+  }
+  .client-home .client-hero__book {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 21px;
+    width: 94px;
+    margin: 0;
+  }
+  .client-home .client-proof__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .client-home .client-proof__item:last-child {
+    grid-column: 1 / -1;
+  }
+  .client-home .client-results__heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .client-home .client-results__grid {
+    grid-template-columns: 1.18fr 1fr;
+  }
+  .client-home .client-result-card--featured {
+    grid-row: span 2;
+  }
+  .client-home .client-result-card:last-child {
+    grid-column: auto;
+  }
+  .client-home .client-result-card:not(.client-result-card--featured) {
+    min-height: 210px;
+  }
+  .client-mobile-contactbar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9996;
+    display: grid;
+    grid-template-columns: 1.35fr 1fr 1fr;
+    min-height: 58px;
+    color: #fff;
+    background: rgba(2, 13, 23, .98);
+    border-top: 1px solid rgba(89, 183, 235, .45);
+    box-shadow: 0 -8px 24px rgba(2, 13, 23, .22);
+  }
+  .wa-float {
+    display: none;
+  }
+  .client-mobile-contactbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 8px 10px;
+    color: #fff;
+    border-right: 1px solid rgba(255, 255, 255, .14);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .055em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .client-mobile-contactbar a:last-child {
+    border-right: 0;
+  }
+  .client-mobile-contactbar__call {
+    flex-direction: column;
+    gap: 2px;
+    background: var(--client-blue-dark);
+  }
+  .client-mobile-contactbar__call span {
+    font-size: 8px;
+    opacity: .8;
+  }
+  .client-mobile-contactbar__call strong {
+    font-size: 13px;
+    letter-spacing: .02em;
+  }
+  .client-mobile-contactbar__whatsapp::before,
+  .client-mobile-contactbar__instagram::before {
+    display: inline-grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 8px;
+  }
+  .client-mobile-contactbar__whatsapp::before {
+    content: 'WA';
+    background: #23b866;
+  }
+  .client-mobile-contactbar__instagram::before {
+    content: 'IG';
+    background: linear-gradient(135deg, #7d3fd2, #f05a45 58%, #f0b62c);
+  }
+  :is(.client-home, .client-site) .review-bar {
+    bottom: 72px;
+  }
+  :is(.client-home, .client-site) .review-notice {
+    bottom: 188px;
+  }
+}
+
+@media (max-width: 680px) {
+  .client-home .client-hero {
+    min-height: 748px;
+    background-position: 52% center;
+  }
+  html[lang='es'] .client-home .client-hero {
+    min-height: 785px;
+  }
+  .client-home .client-hero__inner {
+    min-height: 670px;
+  }
+  html[lang='es'] .client-home .client-hero__inner {
+    min-height: 707px;
+  }
+  .client-home .client-hero__portrait {
+    left: -7%;
+    width: 66%;
+    height: 81%;
+    opacity: .98;
+  }
+  .client-home .client-hero__portrait img {
+    top: 5%;
+  }
+  .client-home .client-hero__copy {
+    width: 66%;
+    padding: 41px 0 128px 18px;
+  }
+  .client-home .client-hero__copy h1,
+  html[lang='es'] .client-home .client-hero__copy h1 {
+    max-width: 235px;
+    font-size: clamp(28px, 7.8vw, 33px);
+    line-height: 1.01;
+  }
+  html[lang='es'] .client-home .client-hero__copy h1 {
+    font-size: clamp(26px, 7vw, 30px);
+  }
+  .client-home .client-rule {
+    width: 78px;
+    height: 2px;
+    margin: 14px 0 15px;
+  }
+  .client-home .client-hero__copy h2 {
+    font-size: 19px;
+    line-height: 1.08;
+  }
+  .client-home .client-hero__credential {
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 1.45;
+  }
+  .client-home .client-hero__author {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .client-home .client-hero__promises {
+    grid-template-columns: 1fr;
+    margin: 16px 0;
+  }
+  .client-home .client-hero__promises li,
+  .client-home .client-hero__promises li:first-child {
+    justify-content: flex-start;
+    min-height: 31px;
+    padding: 7px 10px 7px 27px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .16);
+    font-size: 10px;
+    line-height: 1.35;
+    text-align: left;
+  }
+  .client-home .client-hero__promises li:last-child {
+    border-bottom: 0;
+  }
+  .client-home .client-hero__promises li::before {
+    left: 11px;
+    width: 5px;
+    height: 5px;
+    box-shadow: 0 0 0 2px rgba(21, 151, 229, .14);
+  }
+  .client-home .client-hero__copy > .client-btn {
+    min-width: 0;
+    min-height: 50px;
+    padding: 0 12px;
+    font-size: 9px;
+  }
+  .client-home .client-hero__book {
+    right: 2px;
+    bottom: 16px;
+    width: 76px;
+  }
+  .client-home .client-proof__item {
+    min-height: 110px;
+  }
+  .client-home .client-proof__item strong {
+    font-size: 23px;
+  }
+  .client-home .client-results {
+    padding: 64px 0 68px;
+  }
+  .client-home .client-results__grid {
+    grid-template-columns: 1fr;
+  }
+  .client-home .client-result-card,
+  .client-home .client-result-card:not(.client-result-card--featured) {
+    min-height: 215px;
+    border-right: 0;
+    border-bottom: 1px solid #bdc8cf;
+  }
+  .client-home .client-result-card--featured {
+    grid-row: auto;
+  }
+  .client-home .client-result-card:last-child {
+    border-bottom: 0;
+  }
+  .client-mobile-contactbar {
+    grid-template-columns: 1.3fr .9fr .9fr;
+  }
+  .client-mobile-contactbar a {
+    padding-inline: 6px;
+    font-size: 8px;
+  }
+  .client-mobile-contactbar__whatsapp::before,
+  .client-mobile-contactbar__instagram::before {
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 420px) {
+  .client-logo {
+    width: 151px;
+  }
+  .client-logo__name {
+    font-size: 25px;
+  }
+  .client-logo__line {
+    gap: 4px;
+    margin-left: 13px;
+    font-size: 12px;
+  }
+  .client-logo__line small {
+    font-size: 6px;
+  }
+  :is(.client-home, .client-site) .mobile-header-controls {
+    gap: 7px;
+  }
+  :is(.client-home, .client-site) .lang-pill-mobile {
+    min-height: 36px;
+    padding-inline: 8px;
+    font-size: 8px;
+  }
+  :is(.client-home, .client-site) .nav-toggle {
+    width: 40px;
+    height: 40px;
+  }
+  .client-mobile-contactbar__whatsapp,
+  .client-mobile-contactbar__instagram {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .client-mobile-contactbar__whatsapp::before,
+  .client-mobile-contactbar__instagram::before {
+    width: 19px;
+    height: 19px;
+    margin: 0;
+  }
+}
