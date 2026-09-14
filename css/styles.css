@@ -3282,16 +3282,35 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   }
   .client-logo {
     width: 188px;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: auto auto;
+    column-gap: 11px;
+    row-gap: 2px;
   }
   .client-logo__name {
+    grid-column: 1;
+    grid-row: 1;
     font-size: 30px;
   }
   .client-logo__line {
-    gap: 5px;
-    margin-left: 0;
+    display: contents;
     font-size: 14px;
   }
+  .client-logo__line > span {
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
+  }
+  .client-logo__comma {
+    position: absolute;
+    left: 100%;
+  }
   .client-logo__line small {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: baseline;
+    justify-self: start;
     font-size: 7px;
   }
   :is(.client-home, .client-site) .lang-pill-mobile {
@@ -3587,12 +3606,12 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   }
   .client-logo {
     width: 151px;
+    column-gap: 10px;
   }
   .client-logo__name {
     font-size: 25px;
   }
   .client-logo__line {
-    gap: 4px;
     font-size: 12px;
   }
   .client-logo__line small {
