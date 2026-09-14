@@ -3288,7 +3288,7 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   }
   .client-logo__line {
     gap: 5px;
-    margin-left: 16px;
+    margin-left: 0;
     font-size: 14px;
   }
   .client-logo__line small {
@@ -3593,7 +3593,6 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   }
   .client-logo__line {
     gap: 4px;
-    margin-left: 13px;
     font-size: 12px;
   }
   .client-logo__line small {
