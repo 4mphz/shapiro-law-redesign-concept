@@ -17,7 +17,9 @@ All web-sourced photos below are from Wikimedia Commons under free licenses (Pub
 | pa-medical.jpg | Hospital corridor | antefixus21 | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Royal_Victoria_Hospital,_Barrie,_Ontario,_Canada_(55046296281).jpg) |
 | pa-childbirth.jpg | Newborn's feet in a parent's hand | Shixart1985 | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Newborn_feet_nestled_gently_in_a_parent%27s_hand_highlighting_the_bond_of_love_and_care_at_home.jpg) |
 | logo-superlawyers.png | Super Lawyers® wordmark (154×36) | Thomson Reuters / Super Lawyers | Firm's own credential mark, taken from shapirolawoffices.com's footer where the firm already displays it | [Source](https://www.shapirolawoffices.com/wp-content/themes/shapirolawoffices/img/logo-superlawyers.png) |
-| jason-top-lawyers-2026.jpg | Jason Shapiro at the 2026 Herald "Top Lawyers of Long Island" event | Client-provided (texted by Jason Shapiro, 26 Aug 2026) | Firm's own photo | — |
+| jason-top-lawyers-2026.jpg | Jason Shapiro at the 2026 Herald "Top Lawyers of Long Island" event | Client-provided (texted by Jason Shapiro, 26 Aug 2026) | Firm's own photo | Not applicable |
 | jason-shapiro-hero.webp | Full-height hero portrait of Jason Shapiro | OpenAI image generation, using the client's `jason-shapiro.jpg` headshot for identity and the supplied homepage reference for pose and wardrobe | Client-directed generated asset | Client-provided references |
 | lawyers-guide-book.webp | Dark navy 3D rendering of *The Lawyers' Guide to Personal Injury Law* | OpenAI image generation, using the client's original book cover and supplied homepage reference | Client-directed generated asset | Client-provided references |
 | new-york-city-hero-v2.webp | New York City skyline at blue hour, composed as the homepage hero background | OpenAI image generation | Client-directed generated asset | Generated for this project |
+| icon-instagram.svg | Instagram interface icon | Project-authored vector | Original project asset | Not applicable |
+| icon-whatsapp.svg | WhatsApp interface icon | Project-authored vector | Original project asset | Not applicable |

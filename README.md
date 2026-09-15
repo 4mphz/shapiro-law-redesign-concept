@@ -1,41 +1,54 @@
-# Shapiro Law Offices — Redesign Concept
+# Shapiro Law Offices, PLLC redesign concept
 
-A static-HTML redesign concept for [shapirolawoffices.com](https://www.shapirolawoffices.com/), built to the visual language of [mad4justice.com](https://mad4justice.com/) at the client's request (bold navy/red palette, large display headlines, card-based practice-area layout, case-result strip, credential badges).
+This repository contains the review-only website concept for Shapiro Law Offices, PLLC. It is separate from the live firm website at [shapirolawoffices.com](https://www.shapirolawoffices.com/).
 
-**This is a design preview, not the live site.** shapirolawoffices.com is completely unaffected — this repo is hosted separately.
+## Review links
 
-## Content sourcing
+- GitHub Pages: <https://4mphz.github.io/shapiro-law-redesign-concept/>
+- Cloudflare Pages: <https://shapiro-law-redesign-concept.pages.dev/>
 
-All firm facts (attorney bio, address, phone, case results, credentials) are pulled from the real, live shapirolawoffices.com site and the client's Amphs AI profile record — not invented. See notes below on what's real vs. placeholder.
+The preview includes a feedback overlay for Jason and other reviewers. Add `?review=off` to a page URL only when a clean design screenshot is needed.
 
-- **Real:** firm name, attorney name/bio facts, address (3205 Grand Concourse, Suite 1, Bronx, NY 10468), phone (718.295.7000), practice-area categories and sub-categories, all five case results with case names and amounts, Super Lawyers / AV Preeminent / published-author credentials.
-- **Placeholder (marked in the page itself):** all photography. No attorney headshot, office photo, or book-cover image is licensed for this concept — those sections show a clearly labeled dashed placeholder block ready for real photography to be dropped in.
-- **Not wired up:** the contact form is static HTML only; submitting it shows a notice that nothing was sent (no backend attached).
+## Content and assets
+
+Firm facts, biographies, address, phone number, case results, and credentials come from client-approved materials or the firm&rsquo;s existing public content. The concept uses:
+
+- The supplied Bronx courthouse photograph
+- Jason Shapiro&rsquo;s supplied portrait and profile photograph
+- The approved three-dimensional book rendering based on the supplied cover
+- The supplied Super Lawyers logo
+- Licensed supporting practice-area photographs listed in [images/IMAGE-CREDITS.md](images/IMAGE-CREDITS.md)
+
+Hon. Ernest Buonocore&rsquo;s photograph is still awaiting a client-supplied asset. The contact form is a preview interaction and does not send information to the firm.
 
 ## Structure
 
-```
-index.html                              Homepage
-about.html                              Attorney profile (Jason Shapiro, Esq.)
+```text
+index.html                              English homepage
+about.html                              Attorneys
 practice-areas.html                     Practice areas overview
-practice-areas/construction-scaffold.html
-practice-areas/motor-vehicle.html
-practice-areas/premises.html
-practice-areas/medical-malpractice.html
-results.html                            Verdicts & settlements
-contact.html                            Contact + office map
+practice-areas/*.html                   English practice-area details
+results.html                            Verdicts and settlements
+contact.html                            Contact and Bronx office
+es/index.html                           Spanish homepage
+es/about.html                           Spanish attorneys page
+es/practice-areas.html                  Spanish practice areas
+es/practice-areas/*.html                Spanish practice-area details
+es/results.html                         Spanish results
+es/contact.html                         Spanish contact page
 css/styles.css                          Shared design system
-js/main.js                              Mobile nav toggle
+js/main.js                              Navigation and preview feedback UI
+worker/                                 Cloudflare feedback service
 ```
 
 ## Local preview
 
-```
+```sh
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000/`.
+Open <http://localhost:8000/>. Add `?review=off` for clean screenshots.
 
-## Deploy
+## Review workflow
 
-Static site, deployed via GitHub Pages from the `main` branch root.
+Changes are made on a branch and opened as a pull request against `main`. Justin reviews the pull request before anything is merged. GitHub Pages publishes only after a reviewed change reaches `main`.

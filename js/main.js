@@ -85,6 +85,10 @@ document.addEventListener('DOMContentLoaded', function () {
 (function () {
   'use strict';
 
+  // Keep the public review controls on by default. The opt-out query is used
+  // for clean design-review screenshots and does not affect Jason's link.
+  if (new URLSearchParams(window.location.search).get('review') === 'off') return;
+
   // The Worker allows only this Pages project and its pull-request preview
   // domains. GitHub credentials remain only in Worker secrets.
   var config = window.SHAPIRO_REVIEW_CONFIG || {

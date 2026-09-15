@@ -1915,6 +1915,7 @@ a.cmn-btn {
   color: var(--client-text);
   background: var(--client-cream);
   font-family: 'Libre Franklin', Arial, sans-serif;
+  overflow-x: clip;
 }
 :is(.client-home, .client-site) p,
 :is(.client-home, .client-site) a,
@@ -1969,7 +1970,7 @@ a.cmn-btn {
 .client-lang { min-width: 62px; margin-left: auto; padding: 0 8px; color: #fff; background: var(--client-blue-dark); border-color: var(--client-blue-dark) !important; }
 :is(.client-home, .client-site) .mobile-header-controls { display: none; }
 
-.client-hero { position: relative; min-height: 770px; padding-top: 94px; overflow: hidden; color: #fff; background: var(--client-navy) url('../images/new-york-city-hero-v2.webp') center center/cover no-repeat; }
+.client-hero { position: relative; min-height: 770px; padding-top: 94px; overflow: hidden; color: #fff; background: var(--client-navy) url('../images/bronx-courthouse.jpg') center 10%/cover no-repeat; }
 .client-hero__shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(2, 13, 23, .84) 0%, rgba(2, 13, 23, .38) 42%, rgba(2, 13, 23, .72) 100%), linear-gradient(0deg, rgba(2, 13, 23, .62), rgba(2, 13, 23, .2)); }
 .client-hero__inner { position: relative; z-index: 2; display: grid; grid-template-columns: 350px minmax(0, 1fr) 205px; align-items: end; min-height: 676px; }
 .client-hero__portrait { align-self: stretch; position: relative; min-width: 0; margin-left: -80px; }
@@ -2404,7 +2405,7 @@ a.cmn-btn {
   padding: 170px 0 72px;
   overflow: hidden;
   color: #fff;
-  background: var(--client-navy) url('../images/new-york-city-hero-v2.webp') center 48%/cover no-repeat;
+  background: var(--client-navy) url('../images/bronx-courthouse.jpg') center 10%/cover no-repeat;
 }
 .client-inner-hero__shade {
   position: absolute;
@@ -2918,6 +2919,7 @@ a.cmn-btn {
   margin: 2px 0 0 24px;
   font-size: 21px;
   letter-spacing: .12em;
+  white-space: nowrap;
 }
 .client-logo__line small {
   color: rgba(255, 255, 255, .82);
@@ -2935,19 +2937,45 @@ a.cmn-btn {
   color: #fff;
   background: rgba(21, 151, 229, .2);
 }
+.client-header__actions a {
+  min-height: 26px;
+  height: 26px;
+}
+.client-social {
+  width: 26px;
+  overflow: hidden;
+  color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  font-size: 0 !important;
+}
+.client-social--instagram {
+  background-image: url('../images/icon-instagram.svg'), linear-gradient(135deg, #7d3fd2, #f05a45 58%, #f0b62c);
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 15px 15px, cover;
+}
+.client-social--whatsapp {
+  background-color: #23b866;
+  background-image: url('../images/icon-whatsapp.svg');
+}
+.client-lang {
+  font-size: 9px !important;
+}
 
 /* Courthouse hero with brighter photography and an editorial composition */
 .client-home .client-hero {
   min-height: 720px;
   background-color: #102235;
   background-image: url('../images/bronx-courthouse.jpg');
-  background-position: center 57%;
+  background-position: center 10%;
   background-size: cover;
 }
 .client-home .client-hero__shade {
   background:
-    linear-gradient(90deg, rgba(2, 13, 23, .56) 0%, rgba(2, 13, 23, .34) 48%, rgba(2, 13, 23, .52) 100%),
-    linear-gradient(0deg, rgba(2, 13, 23, .58) 0%, rgba(2, 13, 23, .1) 72%);
+    linear-gradient(90deg, rgba(2, 13, 23, .48) 0%, rgba(2, 13, 23, .24) 48%, rgba(2, 13, 23, .42) 100%),
+    linear-gradient(0deg, rgba(2, 13, 23, .52) 0%, rgba(2, 13, 23, .06) 72%);
 }
 .client-home .client-hero__inner {
   grid-template-columns: 350px minmax(0, 1fr) 190px;
@@ -2960,14 +2988,27 @@ a.cmn-btn {
   top: 18px;
   width: 378px;
   filter: saturate(.98) contrast(1.02) brightness(1.04) drop-shadow(0 20px 28px rgba(0, 0, 0, .32));
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 83%, rgba(0, 0, 0, .96) 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 83%, rgba(0, 0, 0, .96) 90%, transparent 100%);
 }
 .client-home .client-hero__copy {
+  position: relative;
+  z-index: 2;
+  isolation: isolate;
   max-width: 605px;
   padding: 45px 14px 32px 0;
 }
+.client-home .client-hero__copy::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 4px -34px 0 -46px;
+  background: radial-gradient(ellipse at center, rgba(2, 13, 23, .42) 0%, rgba(2, 13, 23, .24) 47%, transparent 76%);
+  pointer-events: none;
+}
 .client-home .client-hero__copy h1 {
   max-width: 590px;
-  font-size: clamp(38px, 3.55vw, 50px);
+  font-size: clamp(36px, 3.2vw, 46px);
   line-height: 1.04;
   letter-spacing: .008em;
   white-space: normal;
@@ -3009,7 +3050,7 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   min-height: 48px;
   padding: 10px 13px 10px 29px;
   border-right: 1px solid rgba(255, 255, 255, .18);
-  font-size: 9px;
+  font-size: 10.5px;
   line-height: 1.35;
   letter-spacing: .045em;
 }
@@ -3033,10 +3074,13 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   min-height: 57px;
 }
 .client-home .client-hero__book {
-  width: 190px;
+  width: 205px;
   margin: 10px -18px 0 0;
 }
 .client-home .client-hero__book img {
+  width: 118%;
+  max-width: none;
+  transform: translateX(-8%);
   filter: brightness(1.03) saturate(.98) contrast(1.02) drop-shadow(0 20px 26px rgba(0, 0, 0, .36));
 }
 
@@ -3055,7 +3099,7 @@ html[lang='es'] .client-home .client-hero__copy h1 {
 }
 .client-home .client-proof__item span {
   max-width: 205px;
-  font-size: 8px;
+  font-size: 9px;
   line-height: 1.45;
 }
 .client-home .client-proof__item--logo img {
@@ -3166,12 +3210,12 @@ html[lang='es'] .client-home .client-hero__copy h1 {
 /* Shared courthouse treatment on interior-page photography */
 .client-inner-hero {
   background-image: url('../images/bronx-courthouse.jpg');
-  background-position: center 56%;
+  background-position: center 10%;
 }
 .client-inner-hero__shade {
   background:
-    linear-gradient(90deg, rgba(2, 13, 23, .68) 0%, rgba(2, 13, 23, .38) 58%, rgba(2, 13, 23, .56) 100%),
-    linear-gradient(0deg, rgba(2, 13, 23, .6) 0%, rgba(2, 13, 23, .1) 72%);
+    linear-gradient(90deg, rgba(2, 13, 23, .64) 0%, rgba(2, 13, 23, .34) 58%, rgba(2, 13, 23, .5) 100%),
+    linear-gradient(0deg, rgba(2, 13, 23, .56) 0%, rgba(2, 13, 23, .07) 72%);
 }
 .client-book__art img,
 .client-book-feature__art img {
@@ -3185,6 +3229,18 @@ html[lang='es'] .client-home .client-hero__copy h1 {
 /* Mobile call, WhatsApp, and Instagram access */
 .client-mobile-contactbar {
   display: none;
+}
+.wa-float svg {
+  fill: #fff;
+}
+.wa-float > span[aria-hidden='true'] {
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  overflow: hidden;
+  color: transparent;
+  background: url('../images/icon-whatsapp.svg') center / contain no-repeat;
+  font-size: 0;
 }
 
 @media (max-width: 1180px) {
@@ -3209,33 +3265,52 @@ html[lang='es'] .client-home .client-hero__copy h1 {
     width: 340px;
   }
   .client-home .client-hero__copy h1 {
-    font-size: 42px;
+    font-size: 40px;
   }
   html[lang='es'] .client-home .client-hero__copy h1 {
     font-size: 36px;
   }
   .client-home .client-hero__book {
-    width: 158px;
+    width: 170px;
     margin-right: -18px;
   }
 }
 
 @media (max-width: 992px) {
   :is(.client-home, .client-site) {
-    padding-bottom: 58px;
+    padding-bottom: calc(58px + env(safe-area-inset-bottom, 0px));
   }
   .client-logo {
     width: 188px;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: auto auto;
+    column-gap: 11px;
+    row-gap: 2px;
   }
   .client-logo__name {
+    grid-column: 1;
+    grid-row: 1;
     font-size: 30px;
   }
   .client-logo__line {
-    gap: 5px;
-    margin-left: 16px;
+    display: contents;
     font-size: 14px;
   }
+  .client-logo__line > span {
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
+  }
+  .client-logo__comma {
+    position: absolute;
+    left: 100%;
+  }
   .client-logo__line small {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: baseline;
+    justify-self: start;
     font-size: 7px;
   }
   :is(.client-home, .client-site) .lang-pill-mobile {
@@ -3249,7 +3324,7 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   }
   .client-home .client-hero {
     min-height: 700px;
-    background-position: center 54%;
+    background-position: center 8%;
   }
   .client-home .client-hero__inner {
     display: block;
@@ -3258,7 +3333,7 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   .client-home .client-hero__portrait {
     position: absolute;
     inset: auto auto 0 -3%;
-    width: 54%;
+    width: min(47%, 360px);
     height: 90%;
     margin: 0;
     opacity: .96;
@@ -3275,7 +3350,10 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   .client-home .client-hero__copy h1,
   html[lang='es'] .client-home .client-hero__copy h1 {
     max-width: 460px;
-    font-size: clamp(32px, 5.2vw, 41px);
+    font-size: clamp(31px, 4.5vw, 38px);
+  }
+  html[lang='es'] .client-home .client-hero__copy h1 {
+    font-size: clamp(29px, 4.1vw, 34px);
   }
   .client-home .client-hero__copy h2 {
     font-size: 23px;
@@ -3285,7 +3363,7 @@ html[lang='es'] .client-home .client-hero__copy h1 {
     position: absolute;
     right: 0;
     bottom: 21px;
-    width: 94px;
+    width: clamp(118px, 15vw, 150px);
     margin: 0;
   }
   .client-home .client-proof__grid {
@@ -3293,6 +3371,9 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   }
   .client-home .client-proof__item:last-child {
     grid-column: 1 / -1;
+  }
+  .client-home .client-proof__item:nth-child(2n) {
+    border-right: 0;
   }
   .client-home .client-results__heading {
     align-items: flex-start;
@@ -3319,7 +3400,8 @@ html[lang='es'] .client-home .client-hero__copy h1 {
     z-index: 9996;
     display: grid;
     grid-template-columns: 1.35fr 1fr 1fr;
-    min-height: 58px;
+    min-height: calc(58px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: env(safe-area-inset-bottom, 0px);
     color: #fff;
     background: rgba(2, 13, 23, .98);
     border-top: 1px solid rgba(89, 183, 235, .45);
@@ -3366,29 +3448,32 @@ html[lang='es'] .client-home .client-hero__copy h1 {
     height: 22px;
     margin-right: 7px;
     border-radius: 3px;
-    color: #fff;
-    font-size: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
   }
   .client-mobile-contactbar__whatsapp::before {
-    content: 'WA';
-    background: #23b866;
+    content: '';
+    background-color: #23b866;
+    background-image: url('../images/icon-whatsapp.svg');
   }
   .client-mobile-contactbar__instagram::before {
-    content: 'IG';
-    background: linear-gradient(135deg, #7d3fd2, #f05a45 58%, #f0b62c);
+    content: '';
+    background-image: url('../images/icon-instagram.svg'), linear-gradient(135deg, #7d3fd2, #f05a45 58%, #f0b62c);
+    background-size: 13px 13px, cover;
   }
   :is(.client-home, .client-site) .review-bar {
-    bottom: 72px;
+    bottom: calc(72px + env(safe-area-inset-bottom, 0px));
   }
   :is(.client-home, .client-site) .review-notice {
-    bottom: 188px;
+    bottom: calc(188px + env(safe-area-inset-bottom, 0px));
   }
 }
 
 @media (max-width: 680px) {
   .client-home .client-hero {
     min-height: 748px;
-    background-position: 52% center;
+    background-position: 48% top;
   }
   html[lang='es'] .client-home .client-hero {
     min-height: 785px;
@@ -3401,7 +3486,7 @@ html[lang='es'] .client-home .client-hero__copy h1 {
   }
   .client-home .client-hero__portrait {
     left: -7%;
-    width: 66%;
+    width: min(62%, 338px);
     height: 81%;
     opacity: .98;
   }
@@ -3409,17 +3494,17 @@ html[lang='es'] .client-home .client-hero__copy h1 {
     top: 5%;
   }
   .client-home .client-hero__copy {
-    width: 66%;
+    width: 68%;
     padding: 41px 0 128px 18px;
   }
   .client-home .client-hero__copy h1,
   html[lang='es'] .client-home .client-hero__copy h1 {
     max-width: 235px;
-    font-size: clamp(28px, 7.8vw, 33px);
-    line-height: 1.01;
+    font-size: clamp(25px, 7vw, 30px);
+    line-height: 1.03;
   }
   html[lang='es'] .client-home .client-hero__copy h1 {
-    font-size: clamp(26px, 7vw, 30px);
+    font-size: clamp(23px, 6.3vw, 27px);
   }
   .client-home .client-rule {
     width: 78px;
@@ -3470,15 +3555,19 @@ html[lang='es'] .client-home .client-hero__copy h1 {
     font-size: 9px;
   }
   .client-home .client-hero__book {
-    right: 2px;
-    bottom: 16px;
-    width: 76px;
+    right: -3px;
+    bottom: 12px;
+    width: 116px;
   }
   .client-home .client-proof__item {
     min-height: 110px;
   }
   .client-home .client-proof__item strong {
     font-size: 23px;
+  }
+  .client-home .client-proof__item:nth-child(4) strong {
+    font-size: clamp(15px, 4.8vw, 18px);
+    white-space: nowrap;
   }
   .client-home .client-results {
     padding: 64px 0 68px;
@@ -3512,31 +3601,33 @@ html[lang='es'] .client-home .client-hero__copy h1 {
 }
 
 @media (max-width: 420px) {
+  .client-header__inner {
+    gap: 8px;
+  }
   .client-logo {
     width: 151px;
+    column-gap: 10px;
   }
   .client-logo__name {
     font-size: 25px;
   }
   .client-logo__line {
-    gap: 4px;
-    margin-left: 13px;
     font-size: 12px;
   }
   .client-logo__line small {
-    font-size: 6px;
+    font-size: 8px;
   }
   :is(.client-home, .client-site) .mobile-header-controls {
     gap: 7px;
   }
   :is(.client-home, .client-site) .lang-pill-mobile {
-    min-height: 36px;
+    min-height: 44px;
     padding-inline: 8px;
-    font-size: 8px;
+    font-size: 9px;
   }
   :is(.client-home, .client-site) .nav-toggle {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
   }
   .client-mobile-contactbar__whatsapp,
   .client-mobile-contactbar__instagram {
