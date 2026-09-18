@@ -19,7 +19,7 @@ Firm facts, biographies, address, phone number, case results, and credentials co
 - The supplied Super Lawyers logo
 - Licensed supporting practice-area photographs listed in [images/IMAGE-CREDITS.md](images/IMAGE-CREDITS.md)
 
-The current review branch restores the August 24 document's wording verbatim at the user's request. Unfinished attorney and testimonial placeholders are excluded and disclosed in the [copy comparison report](docs/verbatim-copy/index.html). The contact form is a preview interaction and does not send information to the firm.
+The current review branch fits the August 24 document's passages into the approved design. Jason's newer approved results and credentials remain, per user confirmation. The [comparison report](docs/verbatim-copy/index.html) includes exact text checks, explicit result overrides and before-and-after screenshots. The contact form is a preview interaction and does not send information to the firm.
 
 ## Structure
 

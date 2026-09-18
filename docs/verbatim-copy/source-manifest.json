@@ -4284,5 +4284,233 @@
       "text": "Lo que necesitamos de Jason: el nombre completo correcto del abogado, una biografía actual y una fotografía. El perfil se publica el mismo día en que llegue.",
       "group": ""
     }
-  ]
+  ],
+  "approved_overrides": [
+    {
+      "page": "index.html",
+      "id": 81,
+      "role": "Heading",
+      "text": "$5,645,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 83,
+      "role": "Paragraph",
+      "text": "Jury Verdict",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 85,
+      "role": "Heading",
+      "text": "$4,000,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 87,
+      "role": "Paragraph",
+      "text": "Settlement",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 89,
+      "role": "Heading",
+      "text": "$3,000,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 91,
+      "role": "Heading",
+      "text": "$2,500,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 93,
+      "role": "Heading",
+      "text": "$2,100,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 486,
+      "role": "Heading",
+      "text": "$5,645,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 488,
+      "role": "Paragraph",
+      "text": "Jury Verdict",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 490,
+      "role": "Heading",
+      "text": "$4,000,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 492,
+      "role": "Paragraph",
+      "text": "Settlement",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 494,
+      "role": "Heading",
+      "text": "$3,000,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 496,
+      "role": "Heading",
+      "text": "$2,500,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 498,
+      "role": "Heading",
+      "text": "$2,100,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 624,
+      "role": "Heading",
+      "text": "$5,645,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 626,
+      "role": "Paragraph",
+      "text": "Veredicto del Jurado",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 628,
+      "role": "Heading",
+      "text": "$4,000,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 630,
+      "role": "Paragraph",
+      "text": "Acuerdo",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 632,
+      "role": "Heading",
+      "text": "$3,000,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 634,
+      "role": "Heading",
+      "text": "$2,500,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 636,
+      "role": "Heading",
+      "text": "$2,100,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1029,
+      "role": "Heading",
+      "text": "$5,645,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1031,
+      "role": "Paragraph",
+      "text": "Veredicto del Jurado",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1033,
+      "role": "Heading",
+      "text": "$4,000,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1035,
+      "role": "Paragraph",
+      "text": "Acuerdo",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1037,
+      "role": "Heading",
+      "text": "$3,000,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1039,
+      "role": "Heading",
+      "text": "$2,500,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1041,
+      "role": "Heading",
+      "text": "$2,100,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    }
+  ],
+  "design_baseline": "d4615c5",
+  "policy": "Document passages in approved components; newer approved results and credentials retained per user confirmation."
 }

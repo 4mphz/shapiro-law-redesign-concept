@@ -1,6 +1,6 @@
 {
   "pages_checked": 18,
-  "exact_records_checked": 677,
+  "exact_records_checked": 649,
   "failures": [],
   "pages": [
     {
@@ -76,5 +76,7 @@
       "source_records": 35
     }
   ],
+  "approved_component_checks": 140,
+  "approved_newer_result_overrides": 28,
   "editorial_records_excluded": 26
 }
