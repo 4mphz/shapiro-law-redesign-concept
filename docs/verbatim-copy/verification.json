@@ -1,0 +1,82 @@
+{
+  "pages_checked": 18,
+  "exact_records_checked": 649,
+  "failures": [],
+  "pages": [
+    {
+      "page": "index.html",
+      "source_records": 95
+    },
+    {
+      "page": "about.html",
+      "source_records": 33
+    },
+    {
+      "page": "practice-areas.html",
+      "source_records": 48
+    },
+    {
+      "page": "practice-areas/construction-scaffold.html",
+      "source_records": 26
+    },
+    {
+      "page": "practice-areas/motor-vehicle.html",
+      "source_records": 23
+    },
+    {
+      "page": "practice-areas/premises.html",
+      "source_records": 27
+    },
+    {
+      "page": "practice-areas/medical-malpractice.html",
+      "source_records": 20
+    },
+    {
+      "page": "results.html",
+      "source_records": 24
+    },
+    {
+      "page": "contact.html",
+      "source_records": 34
+    },
+    {
+      "page": "es/index.html",
+      "source_records": 97
+    },
+    {
+      "page": "es/about.html",
+      "source_records": 35
+    },
+    {
+      "page": "es/practice-areas.html",
+      "source_records": 50
+    },
+    {
+      "page": "es/practice-areas/construction-scaffold.html",
+      "source_records": 28
+    },
+    {
+      "page": "es/practice-areas/motor-vehicle.html",
+      "source_records": 25
+    },
+    {
+      "page": "es/practice-areas/premises.html",
+      "source_records": 29
+    },
+    {
+      "page": "es/practice-areas/medical-malpractice.html",
+      "source_records": 22
+    },
+    {
+      "page": "es/results.html",
+      "source_records": 26
+    },
+    {
+      "page": "es/contact.html",
+      "source_records": 35
+    }
+  ],
+  "approved_component_checks": 140,
+  "approved_newer_result_overrides": 28,
+  "editorial_records_excluded": 26
+}

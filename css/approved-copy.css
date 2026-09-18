@@ -1,0 +1,24 @@
+/* Small accommodations for verbatim source passages in the approved components. */
+.client-document-copy .client-attorneys .client-intro { color: #bac9d5; }
+.client-document-copy .client-copy-subhead { font-family: 'Source Serif 4',serif; font-size: 22px; line-height: 1.4; margin: 20px 0; }
+.client-document-copy .client-firm > .client-shell > h2 { max-width: 1000px; }
+.client-copy-benefits { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px 32px; margin-top: 24px; }
+.client-copy-benefits h4 { color: #24394c; font-family: 'Source Serif 4',serif; font-size: 19px; line-height: 1.3; margin-bottom: 10px; }
+.client-copy-benefits p { font-size: 14px; line-height: 1.7; color: #637181; }
+.client-copy-portrait { width: 104px; height: 108px; object-fit: cover; float: right; margin: 0 0 18px 18px; }
+.client-document-copy .client-attorney-card p { line-height: 1.8; }
+.client-document-copy .client-attorney-card .client-text-link { display: inline-block; margin-top: 20px; }
+.client-document-copy .client-practice-card h3 + h3 { margin-top: 16px; }
+.client-source-strip { padding: 18px 0; background: #071925; color: #c4d1dc; border-top: 1px solid #18354a; }
+.client-source-strip ul { display:flex; flex-wrap:wrap; justify-content:center; gap:12px 28px; list-style:none; font-size:12px; line-height:1.6; }
+.client-source-contact-line { font-size: 13px; letter-spacing: .02em; margin-bottom: 28px; color:#506779; }
+.client-document-copy .client-footer__social > span { font-size:11px; }
+.client-document-copy .client-contact-card__heading { font-size:clamp(23px,2.3vw,32px); line-height:1.25; }
+.client-document-copy .client-mobile-contactbar { width:100vw; max-width:100vw; box-sizing:border-box; }
+@media(max-width:680px) {
+ .client-copy-benefits { grid-template-columns:1fr; gap:24px; }
+ .client-document-copy .client-hero__promises li { white-space:normal; font-size:10px; line-height:1.5; }
+ .client-document-copy .client-hero__copy > .client-btn { white-space:normal; line-height:1.4; }
+ .client-document-copy .client-book__copy h2 { font-size:30px; }
+ .client-document-copy .client-cta__actions { gap:12px; }
+}
