@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 import re
+import copy
 from bs4 import BeautifulSoup, Tag
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -17,7 +18,17 @@ for path in files:
     link=soup.select_one('link[href*="design-refinement.css"]')
     if not link:
         link=soup.new_tag('link',rel='stylesheet');soup.head.append(link)
-    link['href']=prefix+'css/design-refinement.css?v=20260927-3'
+    link['href']=prefix+'css/design-refinement.css?v=20260927-4'
+    # One supplied logo asset for both navigation and footer branding.
+    header_logo=soup.select_one('.client-header .client-logo')
+    footer_brand=soup.select_one('.client-footer__brand')
+    if header_logo and footer_brand:
+        footer_brand.find_parent('footer')['id']='site-footer'
+        footer_logo=copy.deepcopy(header_logo)
+        footer_logo['class']=['client-footer__logo']
+        current=footer_brand.find('a',recursive=False)
+        if current:current.replace_with(footer_logo)
+        else:footer_brand.insert(0,footer_logo)
     for script in soup.select('script[src]'):
         if script['src'].split('?')[0].endswith('js/main.js'):script['src']=prefix+'js/main.js?v=20260927-design'
     # Replaced source headings had lost their original accessibility IDs.

@@ -138,9 +138,11 @@
 .design-refined .client-cta h5 { color:#78c5ec; font-family:'Libre Franklin',Arial,sans-serif; font-size:11px; letter-spacing:.08em; line-height:1.6; }
 .design-refined .client-cta p { max-width:730px; font-size:15px; line-height:1.8; margin:20px auto 28px; }
 .design-refined .client-cta__actions { gap:12px; }
-.design-refined .client-footer { padding-top:56px; }
+.design-refined .client-footer { padding-top:56px; scroll-margin-top:112px; }
 .design-refined .client-footer p { line-height:1.85; }
 .design-refined .client-footer__social { justify-content:flex-start; }
+.design-refined .client-footer__logo { display:block; width:250px; max-width:100%; margin-bottom:16px; }
+.design-refined .client-footer__logo img { display:block; width:100%; height:auto; }
 /* Keep preview tools accessible without covering the website by default. */
 .design-refined > .wa-float { display:none; }
 .design-refined .review-notice { display:none; }

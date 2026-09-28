@@ -24,6 +24,8 @@ Shared serif interior headings, restrained navy consultation bands, consistent r
 
 The event photo subsequently received a tighter 5:4 in-page crop that focuses on the upper bodies, award and event branding. This uses CSS framing on both attorney pages; the original photograph is unchanged. Checks at five widths are recorded in `event-crop-checks.json`.
 
+Header and footer branding now use the exact same supplied `shapiro-official-logo.png` asset on all 38 pages. The footer no longer recreates the firm name as plain text. Source colors and proportions are preserved; three-width checks are recorded in `shared-logo-checks.json`.
+
 ## Verification
 
 - 38 pages at 320, 390, 768, 1024 and 1440 pixels: 190 page/viewport combinations.
