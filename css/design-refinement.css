@@ -1,0 +1,189 @@
+/* Shared editorial system. No photography or background-overlay changes. */
+.design-refined { --design-line:#d5dfe5; --design-ink:#203748; --design-muted:#506574; }
+.design-refined .client-shell { width:min(1160px,calc(100% - 64px)); margin-inline:auto; }
+.design-refined h2,.design-refined h3 { text-wrap:balance; }
+.design-refined a:focus-visible,.design-refined summary:focus-visible,.design-refined button:focus-visible { outline:3px solid #38aef2; outline-offset:5px; }
+.design-refined .client-section { padding-block:72px; }
+.design-refined .client-section h2 { font-size:clamp(30px,3vw,42px); line-height:1.2; margin:0 0 24px; }
+.design-refined .client-section h3 { font-size:25px; line-height:1.3; }
+.design-refined .client-section p { line-height:1.85; }
+.design-refined .client-eyebrow { margin-bottom:16px; }
+.design-refined.client-site .client-section ul { list-style:disc outside; padding-left:24px; margin:20px 0 28px; }
+.design-refined.client-site .client-section ul > li { list-style:disc outside; position:static; padding:0 0 0 5px; margin:0 0 12px; line-height:1.8; }
+.design-refined.client-site .client-section ul > li::before { content:none; display:none; }
+.design-refined.client-site .client-section li::marker { color:#0877ac; }
+.design-refined .client-btn { min-height:48px; padding:16px 24px; font-size:11px; line-height:1.4; letter-spacing:.045em; white-space:normal; }
+.design-refined .client-inner-hero { min-height:355px; padding:152px 0 52px; }
+.design-refined .client-inner-hero h1 { font-family:'Source Serif 4',Georgia,serif; font-size:clamp(36px,4.2vw,58px); line-height:1.12; font-weight:500; text-transform:none; letter-spacing:-.025em; max-width:900px; }
+.design-refined .client-inner-hero__eyebrow { font-size:10px; letter-spacing:.16em; }
+.design-refined .client-breadcrumbs { margin-top:22px; }
+.design-refined .client-breadcrumbs li { line-height:1.6; text-transform:none; letter-spacing:.015em; font-size:11px; }
+.design-refined .client-inner-intro p { max-width:850px; font-size:17px; }
+.design-refined .client-inner-intro h2 { max-width:820px; }
+/* Practice content: a reading column, real sections, and useful navigation. */
+.design-refined .editorial-content .client-shell { max-width:1160px; }
+.editorial-layout { display:grid; grid-template-columns:240px minmax(0,1fr); gap:72px; align-items:start; }
+.editorial-toc { position:sticky; top:120px; padding:24px 0; border-block:1px solid var(--design-line); }
+.editorial-toc p { color:#203748; font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; margin-bottom:18px; }
+.editorial-toc a { display:block; color:#526776; font-size:13px; line-height:1.5; padding:10px 0; border-bottom:1px solid #e1e7eb; }
+.editorial-toc a:last-child { border:0; }
+.editorial-toc a:hover { color:#0076b5; }
+.editorial-article { min-width:0; }
+.design-refined .editorial-article p { color:var(--design-muted); font-size:16px; line-height:1.85; margin:0 0 20px; }
+.design-refined .editorial-lead > p:first-child,.design-refined .editorial-lead--media > div > p:first-child { font-size:18px; line-height:1.8; color:var(--design-ink); }
+.editorial-lead { margin-bottom:44px; }
+.editorial-lead--media { display:grid; gap:24px; }
+.design-refined .editorial-lead .client-september-media { float:none; width:100%; margin:0; max-width:680px; }
+.editorial-lead img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; }
+.editorial-lead figcaption { padding:10px 14px; background:#e6edf1; color:#566976; font-size:11px; line-height:1.6; }
+.design-refined .editorial-section { border-top:1px solid var(--design-line); padding:36px 0; }
+.design-refined .editorial-section > h2 { font-size:30px; margin:0 0 20px; scroll-margin-top:120px; }
+.editorial-section > :last-child { margin-bottom:0; }
+.design-refined .editorial-article p.editorial-legal { font-size:12px; line-height:1.7; padding-top:24px; color:#667887; }
+.editorial-question { border-bottom:1px solid var(--design-line); padding:20px 0; }
+.editorial-question:last-child { border-bottom:0; }
+.editorial-question summary { cursor:pointer; list-style:none; position:relative; padding-right:32px; color:#203748; font-size:17px; line-height:1.55; font-weight:600; }
+.editorial-question summary::-webkit-details-marker { display:none; }
+.editorial-question summary::after { content:'+'; position:absolute; right:0; top:0; color:#067eb5; font-size:24px; font-weight:400; }
+.editorial-question[open] summary::after { content:'−'; }
+.design-refined .editorial-question p { margin:16px 0 0; }
+/* Practice index: contained topics and a readable guide directory. */
+.design-refined .editorial-overview .editorial-lead > p { max-width:870px; }
+.design-refined .client-practice-index__grid { gap:24px; margin:36px 0 0; }
+.design-refined .client-practice-index-card { padding:32px; border:1px solid var(--design-line); border-top:3px solid #1688ba; box-shadow:none; min-height:0; }
+.design-refined .client-practice-index-card h3 { margin:0 0 18px; font-size:29px; text-align:left; }
+.design-refined .client-practice-index-card p { margin-bottom:24px; }
+.design-refined .client-practice-index-card .client-text-link { margin-top:auto; font-size:13px; line-height:1.65; padding-top:14px; border-top:1px solid #e1e7eb; }
+.design-refined .editorial-overview .editorial-section { padding:40px 0; }
+.design-refined.client-site .client-section .client-guide-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 32px; columns:unset; padding:0; margin:24px 0 0; }
+.design-refined.client-site .client-section .client-guide-links li { list-style:none; margin:0; padding:0; border-bottom:1px solid var(--design-line); }
+.client-guide-links a { display:block; padding:17px 28px 17px 0; color:#26485e; text-decoration:none; font-size:15px; line-height:1.55; position:relative; }
+.client-guide-links a::after { content:'↗'; position:absolute; right:4px; color:#1383b7; }
+.client-guide-links a:hover { color:#007cb6; background:#eaf0f3; }
+/* Results have a clear amount/title/description hierarchy. */
+.design-refined .editorial-results .editorial-lead { max-width:850px; }
+.design-refined .client-complete-results { grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.design-refined .client-case-result { padding:30px; border:1px solid var(--design-line); border-top:3px solid #147faa; background:#fff; }
+.design-refined .client-case-result strong { font-family:'Source Serif 4',Georgia,serif; font-size:38px; line-height:1.2; color:#096c98; font-weight:500; }
+.design-refined .client-case-result h3 { font-size:23px; margin:16px 0 14px; text-align:left; }
+.design-refined .client-case-result p { font-size:14px; margin:0; }
+.design-refined .client-case-result:first-child { background:#0c2435; border-color:#0c2435; }
+.design-refined .client-case-result:first-child :is(strong,h3) { color:#fff; }
+.design-refined .client-case-result:first-child p { color:#c7d5df; }
+/* Attorney profiles and contact content use the same spacing scale. */
+.design-refined .client-attorney-profile__grid { box-shadow:none; border-top:1px solid var(--design-line); }
+.design-refined .client-attorney-profile__content { padding:40px; }
+.design-refined .client-attorney-profile__content h2 { font-size:36px; }
+.design-refined .client-attorney-profile__content .client-attorney-role { font-size:11px!important; line-height:1.6; margin:0 0 24px!important; }
+.design-refined .client-attorney-profile--dark .client-attorney-profile__content h2 { color:#fff; }
+.design-refined .client-attorney-profile--dark .client-attorney-profile__content p,.design-refined .client-attorney-profile--dark .client-attorney-profile__content li { color:#cedae2; }
+.design-refined .client-attorney-quote { margin:32px; padding:8px 0 8px 28px; }
+.design-refined .client-attorney-quote h3 { margin-bottom:18px; }
+.design-refined .client-recognition__grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.design-refined .client-recognition-card { min-height:0; padding:28px; box-shadow:none; border:1px solid var(--design-line); }
+.design-refined .client-recognition-card p { font-size:15px!important; line-height:1.8!important; }
+.design-refined .client-contact-card { box-shadow:none; border:1px solid var(--design-line); border-top:3px solid #147faa; padding:32px; }
+.design-refined .client-contact-card__heading { font-size:30px!important; }
+.design-refined .client-contact__map iframe { height:300px; }
+.design-refined .client-contact__map { background:#e9f1f5; border:1px solid #d4e2ea; }
+.design-refined .client-contact__map a { display:block; padding:20px; font-size:15px; font-weight:600; color:#056899; }
+.design-refined .client-contact__map a:hover { background:#deebf2; }
+.design-refined .client-contact__field :is(input,select,textarea) { border:1px solid #bccbd5; border-radius:2px; background:#fbfcfd; }
+.design-refined .client-contact__field textarea { min-height:160px; }
+.design-refined #contact-form { scroll-margin-top:120px; }
+.design-refined .client-contact__disclaimer { font-size:12px!important; line-height:1.7!important; margin:20px 0!important; }
+.editorial-contact-column { display:grid; gap:24px; }
+.design-refined .editorial-contact-column .editorial-contact-guidance { width:100%; margin:0; padding:28px; }
+.design-refined .editorial-contact-column .editorial-contact-guidance h2 { font-size:25px; }
+.design-refined .editorial-contact-column .editorial-contact-guidance li { font-size:14px; }
+.design-refined .editorial-contact-column .editorial-contact-guidance p { font-size:14px; }
+.design-refined .client-book-feature__art > a { display:block; width:100%; max-width:260px; }
+.design-refined .client-book-feature__art img { display:block; width:100%; height:auto; }
+.design-refined .editorial-contact-guidance { max-width:850px; padding:36px; border:1px solid var(--design-line); background:#fff; }
+.design-refined .editorial-contact-guidance h2 { font-size:30px; }
+/* Homepage and shared conversion/footer sections. */
+.design-refined.client-home .client-hero__copy h1 { font-size:clamp(34px,3.15vw,46px); line-height:1.1; }
+.design-refined.client-home .client-hero__copy h2 { font-size:26px; letter-spacing:0; }
+.design-refined.client-home .client-hero__biography,.design-refined.client-home .client-hero__description { font-size:14px; line-height:1.8; }
+.design-refined.client-home .client-results__heading { align-items:start; gap:32px; }
+.design-refined.client-home .client-results .client-intro { font-size:16px; line-height:1.85; }
+.design-refined.client-home .client-result-card { padding:28px; justify-content:flex-start; }
+.design-refined.client-home .client-result-card__matter { margin-bottom:0; }
+.design-refined.client-home .client-result-card strong { margin:28px 0 14px; }
+.design-refined.client-home .client-result-card p { font-size:14px; line-height:1.8; }
+.design-refined.client-home .client-result-card strong { font-size:36px; }
+.design-refined.client-home .client-practice-card { padding:28px; min-height:0; }
+.design-refined.client-home .client-practice-card h3 { font-size:24px; }
+.design-refined.client-home .client-practice-card p { font-size:14px; line-height:1.8; }
+.design-refined.client-home .client-firm__panel p { font-size:15px; line-height:1.8; }
+.design-refined.client-home .client-attorney-card { padding:32px; }
+.design-refined.client-home .client-attorney-card h3 { font-size:27px; }
+.design-refined.client-home .client-attorney-card p { font-size:15px; line-height:1.8; }
+.design-refined.client-home .client-attorney-card h3 + p { font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:#0c739f; margin:10px 0 18px; }
+.design-refined .client-cta { padding:64px 0; background:#0d2a40; border-top:1px solid #234658; }
+.design-refined .client-cta h2 { max-width:750px; margin:0 auto 20px; font-size:clamp(30px,3.2vw,44px); line-height:1.2; }
+.design-refined .client-cta h5 { color:#78c5ec; font-family:'Libre Franklin',Arial,sans-serif; font-size:11px; letter-spacing:.08em; line-height:1.6; }
+.design-refined .client-cta p { max-width:730px; font-size:15px; line-height:1.8; margin:20px auto 28px; }
+.design-refined .client-cta__actions { gap:12px; }
+.design-refined .client-footer { padding-top:56px; }
+.design-refined .client-footer p { line-height:1.85; }
+.design-refined .client-footer__social { justify-content:flex-start; }
+/* Keep preview tools accessible without covering the website by default. */
+.design-refined > .wa-float { display:none; }
+.design-refined .review-notice { display:none; }
+.design-refined .review-status { pointer-events:none; bottom:calc(100% + 8px); }
+.design-refined .review-status:empty { display:none; }
+.design-refined .review-bar { padding:6px; box-shadow:0 3px 14px #001b3026; border:1px solid #cdd9e1; border-radius:5px; }
+.design-refined .review-badge { appearance:none; border:0; cursor:pointer; background:#17384e; font:600 12px/1.4 Arial,sans-serif; padding:10px 14px; }
+.design-refined .review-bar--collapsed > :not(.review-badge) { display:none; }
+.design-refined .review-bar.review-bar--collapsed { left:auto; right:16px; }
+@media(max-width:1100px){
+ .editorial-layout { grid-template-columns:200px minmax(0,1fr); gap:40px; }
+ .design-refined.client-home .client-practice__grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:800px){
+ .editorial-layout { display:block; }
+ .editorial-toc { position:static; padding:20px; margin-bottom:36px; background:#e7eef2; display:grid; grid-template-columns:1fr 1fr; gap:0 20px; }
+ .editorial-toc p { grid-column:1/-1; }
+ .design-refined .client-inner-hero { min-height:310px; padding:128px 0 40px; }
+ .design-refined .client-practice-index__grid { grid-template-columns:1fr; }
+ .design-refined .client-attorney-profile__grid { grid-template-columns:1fr; }
+ .design-refined .client-attorney-profile__media { max-height:540px; min-height:0; }
+ .design-refined .client-attorney-profile__media img { max-height:540px; object-fit:contain; }
+}
+@media(max-width:680px){
+ .design-refined .client-shell { width:calc(100% - 40px); }
+ .design-refined .client-logo { width:clamp(135px,40vw,175px); }
+ .design-refined .client-mobile-socials { grid-template-columns:40px 40px; gap:4px; }
+ .design-refined .client-mobile-socials > a { width:40px; min-height:30px; }
+ .design-refined .client-mobile-socials .client-social { width:40px; }
+ .design-refined .client-mobile-socials .lang-pill-mobile { min-height:30px; }
+ .design-refined .editorial-lead > p:first-child { font-size:17px; }
+ .design-refined .client-section { padding-block:48px; }
+ .design-refined .client-inner-hero h1 { font-size:36px; line-height:1.14; }
+ .design-refined .client-section h2 { font-size:30px; }
+ .design-refined .editorial-section > h2 { font-size:27px; }
+ .design-refined .editorial-section { padding:28px 0; }
+ .editorial-toc { grid-template-columns:1fr; }
+ .editorial-lead { margin-bottom:28px; }
+ .design-refined .client-case-result { padding:24px; }
+ .design-refined .client-complete-results,.design-refined .client-recognition__grid,.design-refined.client-site .client-section .client-guide-links { grid-template-columns:1fr; }
+ .design-refined .client-practice-index-card { padding:26px; }
+ .design-refined .client-practice-index-card h3 { font-size:27px; }
+ .design-refined .client-attorney-profile__content { padding:28px 24px; }
+ .design-refined .client-attorney-profile__content h2 { font-size:30px; }
+ .design-refined .client-attorney-quote { margin:24px; }
+ .design-refined .client-contact-card { padding:24px; }
+ .design-refined .client-contact__grid { display:flex; flex-direction:column; }
+ .design-refined .client-contact__grid > .client-contact-card { order:-1; width:100%; }
+ .design-refined .editorial-contact-guidance { padding:24px; }
+ .design-refined.client-home .client-hero__copy h1 { font-size:28px; }
+ .design-refined.client-home .client-hero__copy h2 { font-size:20px; }
+ .design-refined.client-home .client-hero__biography,.design-refined.client-home .client-hero__description { font-size:14px; }
+ .design-refined.client-home .client-practice__grid { grid-template-columns:1fr; }
+ .design-refined.client-home .client-results__heading { display:block; }
+ .design-refined.client-home .client-results__heading .client-text-link { display:inline-block; margin-top:20px; }
+ .design-refined .client-cta { padding:48px 0; }
+ .design-refined .client-cta h2 { font-size:32px; }
+}
+@media(prefers-reduced-motion:reduce){.design-refined *{scroll-behavior:auto!important;transition:none!important;}}

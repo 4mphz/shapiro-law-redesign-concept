@@ -376,7 +376,16 @@ document.addEventListener('DOMContentLoaded', function () {
     notice.innerHTML = '<strong>Review mode</strong><span>Click anything to leave a comment. Comments are collected for the site owner and do not change the website automatically.</span>';
     var bar = make('aside', 'review-bar');
     bar.setAttribute('aria-label', 'Website review');
-    var badge = make('span', 'review-badge', 'Preview');
+    var badge = make('button', 'review-badge', 'Feedback');
+    badge.type = 'button';
+    badge.setAttribute('aria-expanded', 'false');
+    bar.classList.add('review-bar--collapsed');
+    badge.addEventListener('click', function () {
+      var collapsed = bar.classList.toggle('review-bar--collapsed');
+      badge.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      badge.textContent = collapsed ? 'Feedback' : 'Close feedback';
+      if (collapsed && selecting) toggleSelection();
+    });
     var add = make('button', 'review-button', 'Add comment');
     add.type = 'button';
     add.addEventListener('click', toggleSelection);

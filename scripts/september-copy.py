@@ -360,3 +360,4 @@ for path in (ROOT/'es').rglob('*.html'):
 out=ROOT/'docs/september-update';out.mkdir(parents=True,exist_ok=True)
 (out/'source-audit.json').write_text(json.dumps({'source':SOURCE.name,'sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'pages':[{'file':filename(p['url']),'title':p['title']} for p in pages],'exceptions':exceptions,'background':'Unchanged by explicit request','spanish':'Shared header/assets updated; September Spanish copy migration pending'},indent=2,ensure_ascii=False)+'\n')
 print(f'Updated {len(pages)} English pages and shared assets on Spanish pages.')
+subprocess.run([sys.executable,str(ROOT/'scripts/refine-design.py')],check=True)
