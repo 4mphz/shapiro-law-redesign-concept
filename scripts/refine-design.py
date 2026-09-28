@@ -18,7 +18,7 @@ for path in files:
     link=soup.select_one('link[href*="design-refinement.css"]')
     if not link:
         link=soup.new_tag('link',rel='stylesheet');soup.head.append(link)
-    link['href']=prefix+'css/design-refinement.css?v=20260927-5'
+    link['href']=prefix+'css/design-refinement.css?v=20260927-6'
     # One compact, native-text wordmark shared by navigation and footer.
     header_logo=soup.select_one('.client-header .client-logo')
     footer_brand=soup.select_one('.client-footer__brand')
@@ -27,7 +27,9 @@ for path in files:
         wordmark=soup.new_tag('span',attrs={'class':'brand-wordmark','aria-hidden':'true'})
         name=soup.new_tag('span',attrs={'class':'brand-wordmark__name'});name.string='SHAPIRO'
         line=soup.new_tag('span',attrs={'class':'brand-wordmark__line'})
-        offices=soup.new_tag('span');offices.string='LAW OFFICES,'
+        offices=soup.new_tag('span',attrs={'class':'brand-wordmark__offices'})
+        for letter in 'LAW OFFICES':
+            glyph=soup.new_tag('span');glyph.string=letter if letter!=' ' else '\u00a0';offices.append(glyph)
         suffix=soup.new_tag('small');suffix.string='PLLC'
         line.append(offices);line.append(suffix);wordmark.append(name);wordmark.append(line);header_logo.append(wordmark)
         footer_brand.find_parent('footer')['id']='site-footer'

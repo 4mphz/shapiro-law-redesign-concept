@@ -2,1713 +2,2473 @@
   "checks": [
     {
       "file": "practice-areas.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "index.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "about.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "contact.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "results.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/medical-malpractice.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/construction-scaffold.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/construction-falls.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/bronx-sidewalk-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/ceiling-collapse.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/falling-objects.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/premises.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/stairway-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/scaffold-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/lead-paint-poisoning.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/brain-injuries.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/parking-garage-design.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/demolition-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/aggravation-preexisting-condition.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/wet-floor-restaurant.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/motor-vehicle.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/wrongful-death.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/snow-ice-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/bus-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/rear-end-low-impact.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/pedestrian-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/birth-injury.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/commercial-vehicle-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/ladder-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/index.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/about.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/contact.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/results.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas/medical-malpractice.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas/construction-scaffold.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas/premises.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas/motor-vehicle.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "index.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "about.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "contact.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "results.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/medical-malpractice.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/construction-scaffold.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/construction-falls.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/bronx-sidewalk-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/ceiling-collapse.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/falling-objects.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/premises.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/stairway-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/scaffold-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/lead-paint-poisoning.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/brain-injuries.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/parking-garage-design.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/demolition-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/aggravation-preexisting-condition.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/wet-floor-restaurant.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/motor-vehicle.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/wrongful-death.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/snow-ice-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/bus-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/rear-end-low-impact.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/pedestrian-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/birth-injury.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/commercial-vehicle-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas/ladder-accidents.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/index.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/about.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/contact.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/results.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas/medical-malpractice.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas/construction-scaffold.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas/premises.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "es/practice-areas/motor-vehicle.html",
-      "width": 136.234375,
+      "width": 134.703125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.008749999999992042,
+        0.008749999999992042
+      ]
     },
     {
       "file": "practice-areas.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "index.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "about.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "contact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "results.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/medical-malpractice.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/construction-scaffold.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/construction-falls.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/bronx-sidewalk-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/ceiling-collapse.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/falling-objects.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/premises.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/stairway-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/scaffold-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/lead-paint-poisoning.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/brain-injuries.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/parking-garage-design.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/demolition-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/aggravation-preexisting-condition.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/wet-floor-restaurant.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/motor-vehicle.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/wrongful-death.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/snow-ice-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/bus-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/rear-end-low-impact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/pedestrian-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/birth-injury.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/commercial-vehicle-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/ladder-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/index.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/about.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/contact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/results.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/medical-malpractice.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/construction-scaffold.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/premises.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/motor-vehicle.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "index.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "about.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "contact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "results.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/medical-malpractice.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/construction-scaffold.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/construction-falls.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/bronx-sidewalk-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/ceiling-collapse.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/falling-objects.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/premises.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/stairway-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/scaffold-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/lead-paint-poisoning.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/brain-injuries.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/parking-garage-design.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/demolition-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/aggravation-preexisting-condition.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/wet-floor-restaurant.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/motor-vehicle.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/wrongful-death.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/snow-ice-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/bus-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/rear-end-low-impact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/pedestrian-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/birth-injury.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/commercial-vehicle-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/ladder-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/index.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/about.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/contact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/results.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/medical-malpractice.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/construction-scaffold.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/premises.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/motor-vehicle.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "index.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "about.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "contact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "results.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/medical-malpractice.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/construction-scaffold.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/construction-falls.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/bronx-sidewalk-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/ceiling-collapse.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/falling-objects.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/premises.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/stairway-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/scaffold-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/lead-paint-poisoning.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/brain-injuries.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/parking-garage-design.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/demolition-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/aggravation-preexisting-condition.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/wet-floor-restaurant.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/motor-vehicle.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/wrongful-death.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/snow-ice-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/bus-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/rear-end-low-impact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/pedestrian-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/birth-injury.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/commercial-vehicle-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "practice-areas/ladder-accidents.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/index.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/about.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/contact.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/results.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/medical-malpractice.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/construction-scaffold.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/premises.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     },
     {
       "file": "es/practice-areas/motor-vehicle.html",
-      "width": 165.4375,
+      "width": 163.578125,
       "sameMarkup": true,
       "noLogoImages": true,
       "sameWidth": true,
       "leftAligned": true,
-      "overflow": false
+      "overflow": false,
+      "edgeAlignment": [
+        0.010625000000004547,
+        0.010625000000004547
+      ]
     }
   ]
 }
