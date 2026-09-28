@@ -16,7 +16,9 @@ for item in manifest['pages']:
     for a in soup.select('a[href]'):
         href=a['href'].split('#')[0].split('?')[0]
         if href and not re.match(r'\w+:|//',href) and not (path.parent/href).exists():errors.append([item['file'],'Missing link '+href])
-    assert soup.select_one('.client-logo img')['src'].endswith('shapiro-official-logo.png')
+    assert soup.select_one('.client-logo .brand-wordmark__name').get_text()=='SHAPIRO'
+    assert not soup.select('.client-logo img, .client-footer__logo img')
+    assert soup.select_one('.client-logo .brand-wordmark').decode_contents()==soup.select_one('.client-footer__logo .brand-wordmark').decode_contents()
     assert len(soup.select('.client-mobile-socials .client-social'))==2
 home=BeautifulSoup((root/'index.html').read_text(),'html.parser')
 assert home.h1.get_text()=='Personal Injury Trial Attorneys'

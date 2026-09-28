@@ -24,7 +24,7 @@ Shared serif interior headings, restrained navy consultation bands, consistent r
 
 The event photo subsequently received a tighter 5:4 in-page crop that focuses on the upper bodies, award and event branding. This uses CSS framing on both attorney pages; the original photograph is unchanged. Checks at five widths are recorded in `event-crop-checks.json`.
 
-Header and footer branding now use the exact same supplied `shapiro-official-logo.png` asset on all 38 pages. The footer no longer recreates the firm name as plain text. Source colors and proportions are preserved; three-width checks are recorded in `shared-logo-checks.json`.
+Header and footer branding now share a compact HTML/CSS wordmark on all 38 pages, replacing the oversized logo image. Both locations use identical typography, white and site-blue colors, and left-aligned SHAPIRO / LAW OFFICES, PLLC text. The original image asset remains available but is no longer used in either location. Checks at five widths (320, 390, 768, 1024 and 1440 pixels) verify matching markup and dimensions, aligned left edges, no logo images, and no horizontal overflow. All 190 checks passed; results are recorded in `shared-logo-checks.json`, with desktop and mobile header/footer screenshots in `screenshots/shared-logo-*.jpg`.
 
 ## Verification
 

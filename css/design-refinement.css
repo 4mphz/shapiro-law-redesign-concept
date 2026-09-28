@@ -141,8 +141,12 @@
 .design-refined .client-footer { padding-top:56px; scroll-margin-top:112px; }
 .design-refined .client-footer p { line-height:1.85; }
 .design-refined .client-footer__social { justify-content:flex-start; }
-.design-refined .client-footer__logo { display:block; width:250px; max-width:100%; margin-bottom:16px; }
-.design-refined .client-footer__logo img { display:block; width:100%; height:auto; }
+.design-refined :is(.client-logo,.client-footer__logo) { display:block; width:190px; max-width:100%; flex:0 0 auto; color:#fff; }
+.design-refined .client-footer__logo { margin-bottom:16px; }
+.brand-wordmark { display:block; width:max-content; max-width:100%; font-family:'Source Serif 4',Georgia,serif; font-weight:500; text-align:left; }
+.brand-wordmark__name { display:block; font-size:34px; letter-spacing:.055em; line-height:1; }
+.brand-wordmark__line { display:flex; align-items:baseline; gap:4px; margin-top:3px; color:var(--client-blue); font-size:18px; letter-spacing:.025em; line-height:1.1; white-space:nowrap; }
+.brand-wordmark__line small { font:600 8px/1.1 'Libre Franklin',Arial,sans-serif; letter-spacing:.02em; color:#c7d6e0; }
 /* Keep preview tools accessible without covering the website by default. */
 .design-refined > .wa-float { display:none; }
 .design-refined .review-notice { display:none; }
@@ -170,7 +174,10 @@
 }
 @media(max-width:680px){
  .design-refined .client-shell { width:calc(100% - 40px); }
- .design-refined .client-logo { width:clamp(135px,40vw,175px); }
+ .design-refined :is(.client-logo,.client-footer__logo) { width:150px; }
+ .brand-wordmark__name { font-size:28px; }
+ .brand-wordmark__line { font-size:14.5px; gap:3px; }
+ .brand-wordmark__line small { font-size:7px; }
  .design-refined .client-mobile-socials { grid-template-columns:40px 40px; gap:4px; }
  .design-refined .client-mobile-socials > a { width:40px; min-height:30px; }
  .design-refined .client-mobile-socials .client-social { width:40px; }

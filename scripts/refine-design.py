@@ -18,11 +18,18 @@ for path in files:
     link=soup.select_one('link[href*="design-refinement.css"]')
     if not link:
         link=soup.new_tag('link',rel='stylesheet');soup.head.append(link)
-    link['href']=prefix+'css/design-refinement.css?v=20260927-4'
-    # One supplied logo asset for both navigation and footer branding.
+    link['href']=prefix+'css/design-refinement.css?v=20260927-5'
+    # One compact, native-text wordmark shared by navigation and footer.
     header_logo=soup.select_one('.client-header .client-logo')
     footer_brand=soup.select_one('.client-footer__brand')
     if header_logo and footer_brand:
+        header_logo.clear()
+        wordmark=soup.new_tag('span',attrs={'class':'brand-wordmark','aria-hidden':'true'})
+        name=soup.new_tag('span',attrs={'class':'brand-wordmark__name'});name.string='SHAPIRO'
+        line=soup.new_tag('span',attrs={'class':'brand-wordmark__line'})
+        offices=soup.new_tag('span');offices.string='LAW OFFICES,'
+        suffix=soup.new_tag('small');suffix.string='PLLC'
+        line.append(offices);line.append(suffix);wordmark.append(name);wordmark.append(line);header_logo.append(wordmark)
         footer_brand.find_parent('footer')['id']='site-footer'
         footer_logo=copy.deepcopy(header_logo)
         footer_logo['class']=['client-footer__logo']
