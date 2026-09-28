@@ -15,6 +15,13 @@ Baseline: c01003d. Review branch only. No merge and no edits to the firm's produ
 
 Shared serif interior headings, restrained navy consultation bands, consistent reading widths and spacing, revised practice cards, guide directory, results hierarchy, attorney profiles, recognition cards, and contact information. The courthouse image and overlays are unchanged. Approved logo, 3D book and portrait remain. Direct directions links replace unreliable embedded maps. Mobile social buttons retain equal sizing.
 
+## Follow-up refinements
+
+- Professional recognition is now a native bullet list on both attorney pages, replacing the four cards.
+- Jason's biography uses the existing, uncropped 2026 Top Lawyers event photo (`images/jason-top-lawyers-2026.jpg`) on the English and Spanish attorney pages. The homepage hero portrait is unchanged.
+- Opening paragraphs now sit directly beneath their page headline in all 36 interior headers. Their wording is unchanged and the old standalone introductions are removed. Introductory subheadings and existing summaries are preserved within the header.
+- Event photo and recognition-list screenshots are included at 390, 768 and 1440 pixels.
+
 ## Verification
 
 - 38 pages at 320, 390, 768, 1024 and 1440 pixels: 190 page/viewport combinations.

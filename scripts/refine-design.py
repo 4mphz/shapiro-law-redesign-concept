@@ -17,7 +17,7 @@ for path in files:
     link=soup.select_one('link[href*="design-refinement.css"]')
     if not link:
         link=soup.new_tag('link',rel='stylesheet');soup.head.append(link)
-    link['href']=prefix+'css/design-refinement.css?v=20260927-1'
+    link['href']=prefix+'css/design-refinement.css?v=20260927-2'
     for script in soup.select('script[src]'):
         if script['src'].split('?')[0].endswith('js/main.js'):script['src']=prefix+'js/main.js?v=20260927-design'
     # Replaced source headings had lost their original accessibility IDs.
@@ -109,6 +109,49 @@ for path in files:
     for profile in soup.select('.client-attorney-profile__content'):
         role=profile.select_one('h2 + p')
         if role:role['class']=list(dict.fromkeys(role.get('class',[])+['client-attorney-role']))
+    # Recognition belongs in one concise list, not four mostly empty cards.
+    for grid in soup.select('.client-recognition__grid'):
+        grid.name='ul';grid['class']=['client-recognition-list'];grid['role']='list'
+        for card in grid.find_all(recursive=False):
+            card.name='li';card.attrs={}
+    for img in soup.select('#jason-shapiro .client-attorney-profile__media img'):
+        img['src']=prefix+'images/jason-top-lawyers-2026.jpg'
+        img['width']='600';img['height']='800'
+        img['alt']='Jason Shapiro at the 2026 Top Lawyers of Long Island event' if soup.html.get('lang')!='es' else 'Jason Shapiro en el evento Top Lawyers de Long Island de 2026'
+        figure=img.find_parent('figure')
+        if figure:figure['class']=list(dict.fromkeys(figure.get('class',[])+['client-attorney-profile__media--event']))
+    # Integrate introductory passages with their page title, above breadcrumbs.
+    hero=soup.select_one('.client-inner-hero__content')
+    if hero and not hero.select_one('.client-inner-hero__intro'):
+        intro=soup.new_tag('div',attrs={'class':'client-inner-hero__intro'})
+        summary=hero.select_one('.client-inner-hero__summary')
+        if summary:intro.append(summary.extract())
+        lead=soup.select_one('.editorial-lead')
+        if lead:
+            source=lead.find('div',recursive=False) if 'editorial-lead--media' in lead.get('class',[]) else lead
+            for p in list(source.find_all('p',recursive=False)):intro.append(p.extract())
+            if source!=lead and not source.get_text(strip=True):source.decompose()
+            if not lead.get_text(strip=True) and not lead.find('img'):lead.decompose()
+        else:
+            firm=soup.select_one('.client-inner-intro')
+            if firm:
+                shell=firm.select_one('.client-shell')
+                for n in list(shell.find_all(recursive=False)):
+                    if n.name in ['h2','p']:intro.append(n.extract())
+                if not shell.get_text(strip=True):firm.decompose()
+            for p in list(soup.select('.client-contact .client-september-intro > p, .client-practice-index > .client-shell > .client-intro, .client-results-page__content > .client-shell > .client-intro')):
+                parent=p.parent;intro.append(p.extract())
+                if 'client-september-intro' in parent.get('class',[]) and not parent.get_text(strip=True):parent.decompose()
+            # Existing Spanish practice pages use the older detail template.
+            detail=soup.select_one('.client-practice-detail__content')
+            if detail:
+                for n in list(detail.find_all(recursive=False)):
+                    if n.name not in ['h2','p']:break
+                    intro.append(n.extract())
+        if intro.get_text(strip=True):hero.h1.insert_after(intro)
+        # Removing a lead should not leave a redundant gap above the cards.
+        for lead in soup.select('.editorial-lead'):
+            if lead.select_one('.client-practice-index__grid'):lead['class']=list(dict.fromkeys(lead.get('class',[])+['editorial-lead--cards']))
     after={key(n.get_text(' ',strip=True)) for n in soup.select('main p, main li, main h1, main h2, main h3, main summary')}
     missing=sorted(before-after)
     if missing:raise ValueError((str(path),missing))

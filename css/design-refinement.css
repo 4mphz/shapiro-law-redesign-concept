@@ -16,6 +16,14 @@
 .design-refined .client-inner-hero { min-height:355px; padding:152px 0 52px; }
 .design-refined .client-inner-hero h1 { font-family:'Source Serif 4',Georgia,serif; font-size:clamp(36px,4.2vw,58px); line-height:1.12; font-weight:500; text-transform:none; letter-spacing:-.025em; max-width:900px; }
 .design-refined .client-inner-hero__eyebrow { font-size:10px; letter-spacing:.16em; }
+.design-refined .client-inner-hero__intro { max-width:920px; margin-top:24px; }
+.design-refined .client-inner-hero__intro p { color:#edf3f7; font-size:16px; line-height:1.8; margin:0 0 16px; text-shadow:0 1px 3px #00132299; }
+.design-refined .client-inner-hero__intro p:last-child { margin-bottom:0; }
+.design-refined .client-inner-hero__intro h2 { color:#fff; font-size:24px; line-height:1.35; margin:0 0 16px; }
+.design-refined .client-inner-hero__intro .client-eyebrow { font-size:11px; color:#8ad1f4; }
+.design-refined .client-inner-hero__intro .client-inner-hero__summary { max-width:none; }
+.design-refined .editorial-lead--cards .client-practice-index__grid { margin-top:0; }
+.design-refined .editorial-article > .editorial-section:first-child { border-top:0; padding-top:0; }
 .design-refined .client-breadcrumbs { margin-top:22px; }
 .design-refined .client-breadcrumbs li { line-height:1.6; text-transform:none; letter-spacing:.015em; font-size:11px; }
 .design-refined .client-inner-intro p { max-width:850px; font-size:17px; }
@@ -82,6 +90,11 @@
 .design-refined .client-recognition__grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
 .design-refined .client-recognition-card { min-height:0; padding:28px; box-shadow:none; border:1px solid var(--design-line); }
 .design-refined .client-recognition-card p { font-size:15px!important; line-height:1.8!important; }
+.design-refined.client-site .client-recognition-list { max-width:980px; margin:24px 0 0; padding-left:24px; }
+.design-refined.client-site .client-recognition-list > li { margin-bottom:18px; padding-left:8px; }
+.design-refined .client-recognition-list p { margin:0; font-size:16px; line-height:1.8; }
+.design-refined .client-attorney-profile__media--event { min-height:0; max-height:none; align-self:center; }
+.design-refined .client-attorney-profile__media--event img { display:block; width:100%; height:auto; max-height:none; object-fit:contain; }
 .design-refined .client-contact-card { box-shadow:none; border:1px solid var(--design-line); border-top:3px solid #147faa; padding:32px; }
 .design-refined .client-contact-card__heading { font-size:30px!important; }
 .design-refined .client-contact__map iframe { height:300px; }
@@ -150,6 +163,8 @@
  .design-refined .client-attorney-profile__grid { grid-template-columns:1fr; }
  .design-refined .client-attorney-profile__media { max-height:540px; min-height:0; }
  .design-refined .client-attorney-profile__media img { max-height:540px; object-fit:contain; }
+ .design-refined .client-attorney-profile__media--event { max-height:none; }
+ .design-refined .client-attorney-profile__media--event img { width:min(100%,420px); margin-inline:auto; max-height:none; }
 }
 @media(max-width:680px){
  .design-refined .client-shell { width:calc(100% - 40px); }

@@ -15,6 +15,11 @@ for(const width of (stage==='before'?[390,1440]:[320,390,768,1024,1440])){
   checks++;
   if(state.overflow||state.broken.length||state.h1!==1||(stage==='after'&&(state.missingLabels.length||state.looseBullets)))errors.push({file,width,...state});
   if(stage==='after'){
+   if(await p.locator('.client-inner-hero').count()&&!(await p.locator('.client-inner-hero__intro').count()))errors.push({file,width,issue:'Missing header introduction'});
+   if(file==='about.html'||file==='es/about.html'){
+    if(await p.locator('.client-recognition-list li').count()!==4)errors.push({file,width,issue:'Recognition list must have four bullets'});
+    if(!(await p.locator('#jason-shapiro .client-attorney-profile__media img').getAttribute('src')).endsWith('jason-top-lawyers-2026.jpg'))errors.push({file,width,issue:'Incorrect biography photo'});
+   }
    const hiddenImages=await p.locator('main img').evaluateAll(es=>es.filter(e=>e.getBoundingClientRect().width<1&&getComputedStyle(e).display!=='none').map(e=>e.src));
    if(hiddenImages.length)errors.push({file,width,hiddenImages});
   }
