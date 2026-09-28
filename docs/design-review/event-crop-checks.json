@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "file": "about.html",
+      "ratio": 1.2500420946287254,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "file": "es/about.html",
+      "ratio": 1.2500420946287254,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "file": "about.html",
+      "ratio": 1.2500323373431639,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "file": "es/about.html",
+      "ratio": 1.2500323373431639,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "file": "about.html",
+      "ratio": 1.25,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "file": "es/about.html",
+      "ratio": 1.25,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "file": "about.html",
+      "ratio": 1.2500117619383675,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "file": "es/about.html",
+      "ratio": 1.2500117619383675,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "file": "about.html",
+      "ratio": 1.250009734065335,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "file": "es/about.html",
+      "ratio": 1.250009734065335,
+      "fit": "cover",
+      "loaded": true,
+      "overflow": false
+    }
+  ]
+}

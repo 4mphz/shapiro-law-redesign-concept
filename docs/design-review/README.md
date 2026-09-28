@@ -22,6 +22,8 @@ Shared serif interior headings, restrained navy consultation bands, consistent r
 - Opening paragraphs now sit directly beneath their page headline in all 36 interior headers. Their wording is unchanged and the old standalone introductions are removed. Introductory subheadings and existing summaries are preserved within the header.
 - Event photo and recognition-list screenshots are included at 390, 768 and 1440 pixels.
 
+The event photo subsequently received a tighter 5:4 in-page crop that focuses on the upper bodies, award and event branding. This uses CSS framing on both attorney pages; the original photograph is unchanged. Checks at five widths are recorded in `event-crop-checks.json`.
+
 ## Verification
 
 - 38 pages at 320, 390, 768, 1024 and 1440 pixels: 190 page/viewport combinations.

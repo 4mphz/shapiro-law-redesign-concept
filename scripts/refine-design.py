@@ -17,7 +17,7 @@ for path in files:
     link=soup.select_one('link[href*="design-refinement.css"]')
     if not link:
         link=soup.new_tag('link',rel='stylesheet');soup.head.append(link)
-    link['href']=prefix+'css/design-refinement.css?v=20260927-2'
+    link['href']=prefix+'css/design-refinement.css?v=20260927-3'
     for script in soup.select('script[src]'):
         if script['src'].split('?')[0].endswith('js/main.js'):script['src']=prefix+'js/main.js?v=20260927-design'
     # Replaced source headings had lost their original accessibility IDs.
