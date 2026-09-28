@@ -165,7 +165,7 @@ def shared(soup, relative, english=True):
             n.decompose()
     style=soup.select_one('link[href*="approved-copy.css"]')
     if style:
-        style['href']=prefix+'css/approved-copy.css?v=20260927-2'
+        style['href']=prefix+'css/approved-copy.css?v=20260927-3'
     if english:
         for a in soup.select('.client-btn[href*="contact.html"]'):
             a.string='Request a Free Consultation'
@@ -215,7 +215,11 @@ for page in pages:
         section=node(soup,'section',cls='client-section client-september-intro')
         shell=node(soup,'div',cls='client-shell')
         section.append(shell)
-        render(soup,shell,g['New York Personal Injury Trial Attorneys'])
+        hero_intro=node(soup,'div')
+        render(soup,hero_intro,g['New York Personal Injury Trial Attorneys'])
+        for paragraph in list(hero_intro.children):
+            paragraph['class']=['client-hero__description']
+            soup.select_one('.client-hero__promises').insert_before(paragraph)
         shell.append(node(soup,'h2','Led by Jason Shapiro'))
         render(soup,shell,g['Led by Jason Shapiro'])
         soup.select_one('.client-proof').insert_after(section)

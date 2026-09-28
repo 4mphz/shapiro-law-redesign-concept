@@ -84,6 +84,9 @@
 .client-home .client-results .client-intro { max-width:850px; line-height:1.85; }
 .client-home .client-result-card { min-height:0; }
 .client-home .client-contact { border-top:1px solid #d6dfe4; padding-block:56px; }
+.client-home .client-contact > .client-shell { text-align:center; }
+.client-home .client-contact p { margin-inline:auto; }
+.client-home .client-hero__description { color:#fff; font-size:15px; line-height:1.7; margin:20px 0; text-shadow:0 1px 4px rgba(0,0,0,.8); }
 .client-home .client-contact + .client-cta { padding-block:48px; }
 .client-hero__book img, .client-book__art img, .client-book-feature__art img {
  transform:none; filter:drop-shadow(0 14px 18px rgba(0,0,0,.18)); background:transparent; border:0; box-shadow:none;
@@ -120,6 +123,9 @@
  .client-home .client-hero__book { position:relative; inset:auto; grid-column:2; grid-row:5; width:100px; margin:8px auto 0; }
  .client-home .client-hero__promises { grid-column:1 / -1; grid-row:6; width:100%; margin:16px 0 8px; }
  .client-home .client-hero__copy > .client-btn { grid-column:1 / -1; grid-row:7; width:100%; margin:0; font-size:11px; }
+ .client-home .client-hero__description { grid-column:1 / -1; grid-row:6; margin:16px 0 0; }
+ .client-home .client-hero__copy:has(.client-hero__description) .client-hero__promises { grid-row:7; }
+ .client-home .client-hero__copy:has(.client-hero__description) > .client-btn { grid-row:8; }
  .client-home .client-book__inner { gap:24px; }
  .client-home .client-book__art { width:210px; min-height:0; }
  .client-home .client-book__copy h2 { font-size:30px; line-height:1.2; }
