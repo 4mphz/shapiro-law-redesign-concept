@@ -132,6 +132,13 @@ templates = {name:original(name) for name in ['index.html','about.html','contact
 
 def shared(soup, relative, english=True):
     prefix = '../' * (len(Path(relative).parts)-1)
+    hero=soup.select_one('.client-hero__copy')
+    if hero:
+        hero.select_one('h2').string='Led by Jason Shapiro' if english else 'Dirigido por Jason Shapiro'
+        for old in hero.select('.client-hero__credential, .client-hero__author, .client-hero__biography'):
+            old.decompose()
+        bio='The firm is led by Jason Shapiro, an Ivy League-educated trial attorney with more than 30 years of experience and the author of The Lawyers’ Guide to Personal Injury Law, a comprehensive textbook for plaintiffs’ personal injury lawyers.' if english else 'El bufete está dirigido por Jason Shapiro, un abogado litigante formado en una universidad de la Ivy League, con más de 30 años de experiencia y autor de The Lawyers’ Guide to Personal Injury Law, un libro de texto integral para abogados que representan a demandantes en casos de lesiones personales.'
+        hero.select_one('h2').insert_after(node(soup,'p',bio,'client-hero__biography'))
     for n in soup.select('[data-copy-id]'):
         del n['data-copy-id']
     for img in soup.select('img[src*="lawyers-guide-book"]'):
@@ -165,7 +172,7 @@ def shared(soup, relative, english=True):
             n.decompose()
     style=soup.select_one('link[href*="approved-copy.css"]')
     if style:
-        style['href']=prefix+'css/approved-copy.css?v=20260927-3'
+        style['href']=prefix+'css/approved-copy.css?v=20260927-4'
     if english:
         for a in soup.select('.client-btn[href*="contact.html"]'):
             a.string='Request a Free Consultation'
@@ -212,17 +219,11 @@ for page in pages:
         # Put source copy into the approved sections, not a replacement page layout.
         strip=soup.select_one('.client-source-strip')
         if strip: strip.decompose()
-        section=node(soup,'section',cls='client-section client-september-intro')
-        shell=node(soup,'div',cls='client-shell')
-        section.append(shell)
         hero_intro=node(soup,'div')
         render(soup,hero_intro,g['New York Personal Injury Trial Attorneys'])
         for paragraph in list(hero_intro.children):
             paragraph['class']=['client-hero__description']
             soup.select_one('.client-hero__promises').insert_before(paragraph)
-        shell.append(node(soup,'h2','Led by Jason Shapiro'))
-        render(soup,shell,g['Led by Jason Shapiro'])
-        soup.select_one('.client-proof').insert_after(section)
         settext(soup,'.client-results h2','Results That Changed Lives')
         settext(soup,'.client-results .client-intro',clean(g['Proven Results. Personal Attention.'][0]['text']))
         settext(soup,'.client-results .client-text-link','View More Case Results')

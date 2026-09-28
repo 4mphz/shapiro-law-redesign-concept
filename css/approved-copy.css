@@ -87,6 +87,7 @@
 .client-home .client-contact > .client-shell { text-align:center; }
 .client-home .client-contact p { margin-inline:auto; }
 .client-home .client-hero__description { color:#fff; font-size:15px; line-height:1.7; margin:20px 0; text-shadow:0 1px 4px rgba(0,0,0,.8); }
+.client-home .client-hero__biography { color:#fff; font-size:15px; line-height:1.7; margin:16px 0; text-shadow:0 1px 4px rgba(0,0,0,.8); }
 .client-home .client-contact + .client-cta { padding-block:48px; }
 .client-hero__book img, .client-book__art img, .client-book-feature__art img {
  transform:none; filter:drop-shadow(0 14px 18px rgba(0,0,0,.18)); background:transparent; border:0; box-shadow:none;
@@ -126,6 +127,11 @@
  .client-home .client-hero__description { grid-column:1 / -1; grid-row:6; margin:16px 0 0; }
  .client-home .client-hero__copy:has(.client-hero__description) .client-hero__promises { grid-row:7; }
  .client-home .client-hero__copy:has(.client-hero__description) > .client-btn { grid-row:8; }
+ .client-home .client-hero__inner:has(.client-hero__biography) .client-hero__book { grid-row:3 / 6; align-self:center; width:120px; }
+ .client-home .client-hero__biography { grid-column:1 / -1; grid-row:6; margin:16px 0 0; }
+ .client-home .client-hero__copy:has(.client-hero__biography) .client-hero__description { grid-row:7; }
+ .client-home .client-hero__copy:has(.client-hero__biography) .client-hero__promises { grid-row:8; }
+ .client-home .client-hero__copy:has(.client-hero__biography) > .client-btn { grid-row:9; }
  .client-home .client-book__inner { gap:24px; }
  .client-home .client-book__art { width:210px; min-height:0; }
  .client-home .client-book__copy h2 { font-size:30px; line-height:1.2; }

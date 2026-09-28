@@ -12,6 +12,11 @@ for(const width of [320,390,768,1024,1440]) {
   await page.evaluate(async()=>{await document.fonts.ready;for(const img of document.images)img.loading='eager';await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});
   const state=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth,broken:[...document.images].filter(i=>!i.naturalWidth).map(i=>i.src)}));
   if(state.overflow||state.broken.length)errors.push({file,width,...state});
+  if(file==='index.html'||file==='es/index.html') {
+   if(await page.locator('.client-hero__biography').count()!==1)errors.push({file,width,issue:'Missing hero biography'});
+   if(await page.locator('.client-hero__credential, .client-hero__author').count())errors.push({file,width,issue:'Old credential block remains'});
+   if(file==='index.html'&&await page.getByRole('heading',{name:'Led by Jason Shapiro',exact:true}).count()!==1)errors.push({file,width,issue:'Missing or duplicated leadership heading'});
+  }
   if([390,1440].includes(width)) {
    const name=file.replaceAll('/','-').replace('.html','');
    await page.screenshot({path:`${output}/screenshots/${name}-${width}-${stage}.jpg`,fullPage:true,quality:78});
