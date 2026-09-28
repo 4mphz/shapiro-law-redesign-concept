@@ -1,0 +1,4516 @@
+{
+  "source": "ShapiroLawOffices-WebsiteCopy(allpages)-2026-08-24 (1).docx",
+  "source_sha256": "a2453f83a42f37aca07c49c748ed0178abd856b66cc5b808fbaa3ee9a783546d",
+  "pages": {
+    "index.html": [
+      {
+        "id": 44,
+        "role": "Page title (browser tab)",
+        "text": "Personal Injury Attorneys - Shapiro Law Offices, PLLC | New York",
+        "group": ""
+      },
+      {
+        "id": 46,
+        "role": "Search-results description",
+        "text": "Shapiro Law Offices, PLLC is a New York personal injury law firm representing accident victims. No fee unless we win. Call today for a free consultation: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 48,
+        "role": "Image description",
+        "text": "Jason Shapiro, Esq. — New York personal injury attorney",
+        "group": ""
+      },
+      {
+        "id": 51,
+        "role": "Main headline",
+        "text": "Personal Injury Attorneys",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 53,
+        "role": "Paragraph",
+        "text": "No Fee Unless We Win Your Case!",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 55,
+        "role": "List item",
+        "text": "Ivy League–Educated Trial Attorney",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 57,
+        "role": "List item",
+        "text": "Author of The Lawyers’ Guide to Personal Injury Law",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 59,
+        "role": "List item",
+        "text": "Super Lawyers Selectee",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 61,
+        "role": "List item",
+        "text": "Martindale-Hubbell AV Preeminent",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 63,
+        "role": "Paragraph",
+        "text": "★ Se Habla Español ★",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 66,
+        "role": "List item",
+        "text": "Scaffold Accidents",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 68,
+        "role": "List item",
+        "text": "Construction Accidents",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 70,
+        "role": "List item",
+        "text": "Motor Vehicle Accidents",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 72,
+        "role": "List item",
+        "text": "Premises Accidents",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 74,
+        "role": "List item",
+        "text": "Medical Malpractice",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 77,
+        "role": "Section heading",
+        "text": "Proven Results For Injured New Yorkers",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 79,
+        "role": "Button",
+        "text": "View Case Results",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 81,
+        "role": "Heading",
+        "text": "$5,645,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 83,
+        "role": "Paragraph",
+        "text": "Jury Verdict",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 85,
+        "role": "Heading",
+        "text": "$4,000,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 87,
+        "role": "Paragraph",
+        "text": "Settlement",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 89,
+        "role": "Heading",
+        "text": "$3,000,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 91,
+        "role": "Heading",
+        "text": "$2,500,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 93,
+        "role": "Heading",
+        "text": "$2,100,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 96,
+        "role": "Section heading",
+        "text": "Premier Personal Injury Law Firm No Fee Unless We Win Your Case!",
+        "group": "ABOUT THE FIRM"
+      },
+      {
+        "id": 98,
+        "role": "Small heading",
+        "text": "We are dedicated to representing victims of accidents every step of the way.",
+        "group": "ABOUT THE FIRM"
+      },
+      {
+        "id": 100,
+        "role": "Paragraph",
+        "text": "Founded by Jason Shapiro — an accomplished trial attorney, lecturer, and author of the textbook The Lawyers’ Guide to Personal Injury Law — the firm handles scaffold, construction, motor vehicle, and premises accidents, and medical malpractice.",
+        "group": "ABOUT THE FIRM"
+      },
+      {
+        "id": 102,
+        "role": "Small heading",
+        "text": "We Will Show Up For You",
+        "group": "ABOUT THE FIRM"
+      },
+      {
+        "id": 105,
+        "role": "Section heading",
+        "text": "Types Of Cases We Handle",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 107,
+        "role": "Heading",
+        "text": "Scaffold Accidents",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 109,
+        "role": "Heading",
+        "text": "Construction Accidents",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 111,
+        "role": "Heading",
+        "text": "Car Accidents",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 113,
+        "role": "Heading",
+        "text": "Truck Accidents",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 115,
+        "role": "Heading",
+        "text": "Pedestrian Accidents",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 117,
+        "role": "Heading",
+        "text": "Premises Accidents",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 119,
+        "role": "Heading",
+        "text": "Medical Malpractice",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 121,
+        "role": "Heading",
+        "text": "Childbirth Malpractice",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 124,
+        "role": "Section heading",
+        "text": "Meet Our Attorneys",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 126,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC is a trial firm. Your case is handled by attorneys who try cases — it is not passed down a chain.",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 128,
+        "role": "Image description",
+        "text": "Jason Shapiro, Esq. — New York personal injury attorney",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 130,
+        "role": "Heading",
+        "text": "Jason Shapiro, Esq",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 132,
+        "role": "Paragraph",
+        "text": "Founder",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 134,
+        "role": "Paragraph",
+        "text": "An Ivy League–educated trial attorney who represents victims of accidents throughout New York City and the surrounding counties. He is a lecturer and the author of the textbook The Lawyers’ Guide to Personal Injury Law, a comprehensive guide for plaintiffs’ personal injury attorneys.",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 136,
+        "role": "Paragraph",
+        "text": "He has been selected to Super Lawyers and holds Martindale-Hubbell’s AV Preeminent rating — the highest peer-review distinction for legal ability and ethical standards.",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 138,
+        "role": "Button",
+        "text": "View Profile",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 148,
+        "role": "Image description",
+        "text": "The Lawyers' Guide to Personal Injury Law by Jason Shapiro, Esq.",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 151,
+        "role": "Small heading",
+        "text": "He Wrote The Book On It",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 153,
+        "role": "Section heading",
+        "text": "The Lawyers’ Guide to Personal Injury Law",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 155,
+        "role": "Paragraph",
+        "text": "Written by Jason Shapiro, this comprehensive textbook for plaintiffs’ personal injury attorneys discusses, in depth, the handling of all types of accident and injury-related cases. When other lawyers want to learn how to handle an injury case, this is the book they turn to — and its author is the attorney who will handle yours.",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 157,
+        "role": "Button",
+        "text": "Purchase The Book",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 159,
+        "role": "Button",
+        "text": "About The Author",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 162,
+        "role": "Section heading",
+        "text": "Why Choose Shapiro Law Offices, PLLC",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 164,
+        "role": "Small heading",
+        "text": "No Fee Until We Win Your Case",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 166,
+        "role": "Paragraph",
+        "text": "You will not pay attorney’s fees unless we win your case",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 168,
+        "role": "Small heading",
+        "text": "Ivy League Trial Attorney",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 170,
+        "role": "Paragraph",
+        "text": "The firm is led by an Ivy League–educated, accomplished trial attorney",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 172,
+        "role": "Small heading",
+        "text": "Free Consultations",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 174,
+        "role": "Paragraph",
+        "text": "Call or schedule a consultation completely free of charge",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 176,
+        "role": "Small heading",
+        "text": "Published Author",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 178,
+        "role": "Paragraph",
+        "text": "Author of The Lawyers’ Guide to Personal Injury Law, the textbook on accident and injury cases",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 180,
+        "role": "Small heading",
+        "text": "Personal Approach",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 182,
+        "role": "Paragraph",
+        "text": "A personal, hands-on approach to guide you through your difficult times",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 184,
+        "role": "Small heading",
+        "text": "Se Habla Español",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 186,
+        "role": "Paragraph",
+        "text": "Serving New York City and the surrounding counties in English and Spanish",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 189,
+        "role": "List item",
+        "text": "Have You Been Injured? ─ Call 718.295.7000",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 203,
+        "role": "Section heading",
+        "text": "Office Location",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 205,
+        "role": "Section heading",
+        "text": "Get in Touch Today With a Member of Our Team.",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 207,
+        "role": "Paragraph",
+        "text": "Fields marked with an “*” are required",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 209,
+        "role": "Form label",
+        "text": "Name *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 211,
+        "role": "Form field",
+        "text": "Name *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 213,
+        "role": "Form label",
+        "text": "Phone *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 215,
+        "role": "Form field",
+        "text": "Phone *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 217,
+        "role": "Form label",
+        "text": "Email *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 219,
+        "role": "Form field",
+        "text": "Email *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 221,
+        "role": "Form label",
+        "text": "Date of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 223,
+        "role": "Form field",
+        "text": "Date of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 225,
+        "role": "Form label",
+        "text": "Location of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 227,
+        "role": "Form field",
+        "text": "Location of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 229,
+        "role": "Form label",
+        "text": "Description of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 231,
+        "role": "Form field",
+        "text": "Description of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 233,
+        "role": "Paragraph",
+        "text": "Disclaimer: The use of the internet or this form for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this form.",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 235,
+        "role": "Form label",
+        "text": "I Have Read The Disclaimer *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 237,
+        "role": "Button",
+        "text": "Submit",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "about.html": [
+      {
+        "id": 242,
+        "role": "Page title (browser tab)",
+        "text": "Our Attorneys | New York Personal Injury Lawyers - Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 244,
+        "role": "Search-results description",
+        "text": "Meet the attorneys of Shapiro Law Offices, PLLC in New York - founder Jason Shapiro, Esq., an Ivy League-educated trial attorney and published author.",
+        "group": ""
+      },
+      {
+        "id": 246,
+        "role": "Section heading",
+        "text": "About The Firm",
+        "group": ""
+      },
+      {
+        "id": 248,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC is a personal injury law firm dedicated to representing victims of accidents. Founded by Jason Shapiro, the firm’s attorneys try cases — between them they have handled multi-million dollar accident matters in state and federal court for decades.",
+        "group": ""
+      },
+      {
+        "id": 250,
+        "role": "Paragraph",
+        "text": "The firm focuses on all areas of accidents — scaffold and construction accidents, motor vehicle accidents, premises accidents, and medical malpractice — serving clients throughout Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 252,
+        "role": "Heading",
+        "text": "Jason Shapiro, Esq",
+        "group": ""
+      },
+      {
+        "id": 254,
+        "role": "Paragraph",
+        "text": "Founder",
+        "group": ""
+      },
+      {
+        "id": 256,
+        "role": "Paragraph",
+        "text": "An Ivy League–educated trial attorney, lecturer, and author of the textbook The Lawyers’ Guide to Personal Injury Law. He represents victims of accidents throughout New York City and the surrounding counties.",
+        "group": ""
+      },
+      {
+        "id": 258,
+        "role": "List item",
+        "text": "Super Lawyers selectee.",
+        "group": ""
+      },
+      {
+        "id": 260,
+        "role": "List item",
+        "text": "Martindale-Hubbell AV Preeminent® — the highest peer-review rating for legal ability and ethical standards.",
+        "group": ""
+      },
+      {
+        "id": 262,
+        "role": "List item",
+        "text": "Published author — The Lawyers’ Guide to Personal Injury Law, a comprehensive textbook discussing, in depth, the handling of all types of accident and injury-related cases.",
+        "group": ""
+      },
+      {
+        "id": 264,
+        "role": "List item",
+        "text": "Lecturer on personal injury litigation.",
+        "group": ""
+      },
+      {
+        "id": 266,
+        "role": "Image description",
+        "text": "Jason Shapiro, Esq. — founder of Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 276,
+        "role": "Heading",
+        "text": "Recognized By The Profession",
+        "group": ""
+      },
+      {
+        "id": 278,
+        "role": "List item",
+        "text": "Super Lawyers selectee — Jason Shapiro.",
+        "group": ""
+      },
+      {
+        "id": 280,
+        "role": "List item",
+        "text": "Published author — The Lawyers’ Guide to Personal Injury Law.",
+        "group": ""
+      },
+      {
+        "id": 282,
+        "role": "List item",
+        "text": "Se habla español — the firm serves clients in English and Spanish.",
+        "group": ""
+      },
+      {
+        "id": 284,
+        "role": "Image description",
+        "text": "The Lawyers' Guide to Personal Injury Law by Jason Shapiro, Esq.",
+        "group": ""
+      },
+      {
+        "id": 286,
+        "role": "Heading",
+        "text": "The Lawyers’ Guide to Personal Injury Law",
+        "group": ""
+      },
+      {
+        "id": 288,
+        "role": "Paragraph",
+        "text": "Written by Jason Shapiro, this is a comprehensive textbook for plaintiffs’ personal injury attorneys. The textbook discusses, in-depth, the handling of all types of accident and injury-related cases.",
+        "group": ""
+      },
+      {
+        "id": 290,
+        "role": "Button",
+        "text": "Purchase Book",
+        "group": ""
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "practice-areas.html": [
+      {
+        "id": 295,
+        "role": "Page title (browser tab)",
+        "text": "Practice Areas | Shapiro Law Offices, PLLC - Bronx, NY",
+        "group": ""
+      },
+      {
+        "id": 297,
+        "role": "Search-results description",
+        "text": "Scaffold and construction accidents, motor vehicle accidents, premises accidents, and medical malpractice - Shapiro Law Offices, PLLC represents injury victims across the Bronx and greater NYC.",
+        "group": ""
+      },
+      {
+        "id": 299,
+        "role": "Section heading",
+        "text": "Types Of Cases We Handle",
+        "group": ""
+      },
+      {
+        "id": 301,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC focuses on all areas of accidents, including the following:",
+        "group": ""
+      },
+      {
+        "id": 303,
+        "role": "Heading",
+        "text": "Scaffold & Construction Accidents",
+        "group": ""
+      },
+      {
+        "id": 305,
+        "role": "List item",
+        "text": "Scaffold accidents",
+        "group": ""
+      },
+      {
+        "id": 307,
+        "role": "List item",
+        "text": "Construction accidents",
+        "group": ""
+      },
+      {
+        "id": 309,
+        "role": "List item",
+        "text": "Sidewalk bridge accidents",
+        "group": ""
+      },
+      {
+        "id": 311,
+        "role": "List item",
+        "text": "Window washing accidents",
+        "group": ""
+      },
+      {
+        "id": 313,
+        "role": "List item",
+        "text": "Ladder accidents",
+        "group": ""
+      },
+      {
+        "id": 315,
+        "role": "List item",
+        "text": "Falling objects accidents",
+        "group": ""
+      },
+      {
+        "id": 317,
+        "role": "List item",
+        "text": "Crane/forklift accidents",
+        "group": ""
+      },
+      {
+        "id": 319,
+        "role": "List item",
+        "text": "Demolition and excavation accidents",
+        "group": ""
+      },
+      {
+        "id": 321,
+        "role": "Button",
+        "text": "Scaffold & Construction Accidents",
+        "group": ""
+      },
+      {
+        "id": 323,
+        "role": "Heading",
+        "text": "Motor Vehicle Accidents",
+        "group": ""
+      },
+      {
+        "id": 325,
+        "role": "List item",
+        "text": "Car accidents",
+        "group": ""
+      },
+      {
+        "id": 327,
+        "role": "List item",
+        "text": "Truck and tractor-trailer accidents",
+        "group": ""
+      },
+      {
+        "id": 329,
+        "role": "List item",
+        "text": "Pedestrian and bicyclist accidents",
+        "group": ""
+      },
+      {
+        "id": 331,
+        "role": "List item",
+        "text": "Motorcycle accidents",
+        "group": ""
+      },
+      {
+        "id": 333,
+        "role": "List item",
+        "text": "Bus/subway/train accidents",
+        "group": ""
+      },
+      {
+        "id": 335,
+        "role": "Button",
+        "text": "Motor Vehicle Accidents",
+        "group": ""
+      },
+      {
+        "id": 337,
+        "role": "Heading",
+        "text": "Premises Accidents",
+        "group": ""
+      },
+      {
+        "id": 339,
+        "role": "List item",
+        "text": "Sidewalk accidents",
+        "group": ""
+      },
+      {
+        "id": 341,
+        "role": "List item",
+        "text": "Snow and ice accidents",
+        "group": ""
+      },
+      {
+        "id": 343,
+        "role": "List item",
+        "text": "Stairway accidents",
+        "group": ""
+      },
+      {
+        "id": 345,
+        "role": "List item",
+        "text": "Lead paint poisoning",
+        "group": ""
+      },
+      {
+        "id": 347,
+        "role": "List item",
+        "text": "Wet floor accidents",
+        "group": ""
+      },
+      {
+        "id": 349,
+        "role": "List item",
+        "text": "Elevator and escalator accidents",
+        "group": ""
+      },
+      {
+        "id": 351,
+        "role": "List item",
+        "text": "Building accidents",
+        "group": ""
+      },
+      {
+        "id": 353,
+        "role": "List item",
+        "text": "Falls from windows",
+        "group": ""
+      },
+      {
+        "id": 355,
+        "role": "List item",
+        "text": "Dog bites",
+        "group": ""
+      },
+      {
+        "id": 357,
+        "role": "Button",
+        "text": "Premises Accidents",
+        "group": ""
+      },
+      {
+        "id": 359,
+        "role": "Heading",
+        "text": "Medical Malpractice",
+        "group": ""
+      },
+      {
+        "id": 361,
+        "role": "List item",
+        "text": "Childbirth malpractice",
+        "group": ""
+      },
+      {
+        "id": 363,
+        "role": "List item",
+        "text": "Other medical malpractice",
+        "group": ""
+      },
+      {
+        "id": 365,
+        "role": "Button",
+        "text": "Medical Malpractice",
+        "group": ""
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "practice-areas/construction-scaffold.html": [
+      {
+        "id": 370,
+        "role": "Page title (browser tab)",
+        "text": "New York Scaffold & Construction Accident Lawyer | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 372,
+        "role": "Search-results description",
+        "text": "New York Labor Law protects construction workers injured in scaffold falls, ladder accidents, falling objects, and demolition accidents. Free consultation: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 374,
+        "role": "Main headline",
+        "text": "Scaffold & Construction Accidents",
+        "group": ""
+      },
+      {
+        "id": 376,
+        "role": "Section heading",
+        "text": "New York’s Strongest Worker Protections",
+        "group": ""
+      },
+      {
+        "id": 378,
+        "role": "Paragraph",
+        "text": "New York’s Labor Law §240 (the “Scaffold Law”) and §241(6) give construction workers some of the strongest injury protections in the country, holding owners and contractors accountable for gravity-related and unsafe-condition injuries on job sites. Shapiro Law Offices, PLLC represents workers hurt in incidents involving:",
+        "group": ""
+      },
+      {
+        "id": 380,
+        "role": "List item",
+        "text": "Scaffold accidents",
+        "group": ""
+      },
+      {
+        "id": 382,
+        "role": "List item",
+        "text": "Construction accidents",
+        "group": ""
+      },
+      {
+        "id": 384,
+        "role": "List item",
+        "text": "Sidewalk bridge accidents",
+        "group": ""
+      },
+      {
+        "id": 386,
+        "role": "List item",
+        "text": "Window washing accidents",
+        "group": ""
+      },
+      {
+        "id": 388,
+        "role": "List item",
+        "text": "Ladder accidents",
+        "group": ""
+      },
+      {
+        "id": 390,
+        "role": "List item",
+        "text": "Falling objects accidents",
+        "group": ""
+      },
+      {
+        "id": 392,
+        "role": "List item",
+        "text": "Crane/forklift accidents",
+        "group": ""
+      },
+      {
+        "id": 394,
+        "role": "List item",
+        "text": "Demolition and excavation accidents",
+        "group": ""
+      },
+      {
+        "id": 396,
+        "role": "Paragraph",
+        "text": "Job-site evidence changes daily, and insurers for owners and contractors begin building their defense immediately. If you or a family member was hurt on a construction site, contact Shapiro Law Offices, PLLC for a free consultation.",
+        "group": ""
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "practice-areas/motor-vehicle.html": [
+      {
+        "id": 401,
+        "role": "Page title (browser tab)",
+        "text": "New York Motor Vehicle Accident Lawyer | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 403,
+        "role": "Search-results description",
+        "text": "Representing drivers, passengers, pedestrians, cyclists, and transit riders hurt in New York motor vehicle accidents. Free consultation: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 405,
+        "role": "Main headline",
+        "text": "Motor Vehicle Accidents",
+        "group": ""
+      },
+      {
+        "id": 407,
+        "role": "Section heading",
+        "text": "Hurt By A Negligent Driver?",
+        "group": ""
+      },
+      {
+        "id": 409,
+        "role": "Paragraph",
+        "text": "From Bronx side streets to the Grand Concourse and the highways beyond, negligent drivers cause life-changing injuries every day. Shapiro Law Offices, PLLC represents victims of:",
+        "group": ""
+      },
+      {
+        "id": 411,
+        "role": "List item",
+        "text": "Car accidents",
+        "group": ""
+      },
+      {
+        "id": 413,
+        "role": "List item",
+        "text": "Truck and tractor-trailer accidents",
+        "group": ""
+      },
+      {
+        "id": 415,
+        "role": "List item",
+        "text": "Pedestrian and bicyclist accidents",
+        "group": ""
+      },
+      {
+        "id": 417,
+        "role": "List item",
+        "text": "Motorcycle accidents",
+        "group": ""
+      },
+      {
+        "id": 419,
+        "role": "List item",
+        "text": "Bus/subway/train accidents",
+        "group": ""
+      },
+      {
+        "id": 421,
+        "role": "Paragraph",
+        "text": "New York’s no-fault insurance system and serious-injury threshold make motor vehicle claims more complicated than they first appear. The firm knows how to build the record insurers cannot ignore.",
+        "group": ""
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "practice-areas/premises.html": [
+      {
+        "id": 426,
+        "role": "Page title (browser tab)",
+        "text": "New York Premises Accident Lawyer | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 428,
+        "role": "Search-results description",
+        "text": "Property owners owe every visitor a duty of reasonable care. Sidewalk falls, snow and ice, elevator accidents, dog bites, and more. Free consultation: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 430,
+        "role": "Main headline",
+        "text": "Premises Accidents",
+        "group": ""
+      },
+      {
+        "id": 432,
+        "role": "Section heading",
+        "text": "Property Owners Owe You Safety",
+        "group": ""
+      },
+      {
+        "id": 434,
+        "role": "Paragraph",
+        "text": "Property owners, landlords, and building managers in New York have a legal duty to keep their premises reasonably safe. When they fail to and someone gets hurt, Shapiro Law Offices, PLLC holds them accountable. We handle:",
+        "group": ""
+      },
+      {
+        "id": 436,
+        "role": "List item",
+        "text": "Sidewalk accidents",
+        "group": ""
+      },
+      {
+        "id": 438,
+        "role": "List item",
+        "text": "Snow and ice accidents",
+        "group": ""
+      },
+      {
+        "id": 440,
+        "role": "List item",
+        "text": "Stairway accidents",
+        "group": ""
+      },
+      {
+        "id": 442,
+        "role": "List item",
+        "text": "Lead paint poisoning",
+        "group": ""
+      },
+      {
+        "id": 444,
+        "role": "List item",
+        "text": "Wet floor accidents",
+        "group": ""
+      },
+      {
+        "id": 446,
+        "role": "List item",
+        "text": "Elevator and escalator accidents",
+        "group": ""
+      },
+      {
+        "id": 448,
+        "role": "List item",
+        "text": "Building accidents",
+        "group": ""
+      },
+      {
+        "id": 450,
+        "role": "List item",
+        "text": "Falls from windows",
+        "group": ""
+      },
+      {
+        "id": 452,
+        "role": "List item",
+        "text": "Dog bites",
+        "group": ""
+      },
+      {
+        "id": 454,
+        "role": "Paragraph",
+        "text": "Premises cases often turn on notice — whether the owner knew, or should have known, about the dangerous condition. Prompt investigation matters. If you were hurt on someone else’s property, contact us before evidence disappears.",
+        "group": ""
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "practice-areas/medical-malpractice.html": [
+      {
+        "id": 459,
+        "role": "Page title (browser tab)",
+        "text": "New York Medical Malpractice Lawyer | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 461,
+        "role": "Search-results description",
+        "text": "Holding hospitals, doctors, and medical providers accountable for negligent care, including childbirth malpractice. Free consultation: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 463,
+        "role": "Main headline",
+        "text": "Medical Malpractice",
+        "group": ""
+      },
+      {
+        "id": 465,
+        "role": "Section heading",
+        "text": "When Medical Care Goes Wrong",
+        "group": ""
+      },
+      {
+        "id": 467,
+        "role": "Paragraph",
+        "text": "When a medical provider deviates from the accepted standard of care and a patient is harmed as a result, that provider — and the hospital or practice behind them — can be held legally responsible. Shapiro Law Offices, PLLC handles:",
+        "group": ""
+      },
+      {
+        "id": 469,
+        "role": "List item",
+        "text": "Childbirth malpractice",
+        "group": ""
+      },
+      {
+        "id": 471,
+        "role": "List item",
+        "text": "Other medical malpractice",
+        "group": ""
+      },
+      {
+        "id": 473,
+        "role": "Paragraph",
+        "text": "Medical malpractice cases require detailed expert review and a firm command of both the medicine and the law. The firm brings that combination to every case it accepts.",
+        "group": ""
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "results.html": [
+      {
+        "id": 478,
+        "role": "Page title (browser tab)",
+        "text": "Verdicts & Settlements | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 480,
+        "role": "Search-results description",
+        "text": "Real case results from Shapiro Law Offices, PLLC, including a $5,645,000 verdict and multiple seven-figure settlements. Prior results do not guarantee a similar outcome.",
+        "group": ""
+      },
+      {
+        "id": 482,
+        "role": "Main headline",
+        "text": "Verdicts & Settlements",
+        "group": ""
+      },
+      {
+        "id": 484,
+        "role": "Section heading",
+        "text": "Published Case Results",
+        "group": ""
+      },
+      {
+        "id": 486,
+        "role": "Heading",
+        "text": "$5,645,000",
+        "group": ""
+      },
+      {
+        "id": 488,
+        "role": "Paragraph",
+        "text": "Jury Verdict",
+        "group": ""
+      },
+      {
+        "id": 490,
+        "role": "Heading",
+        "text": "$4,000,000",
+        "group": ""
+      },
+      {
+        "id": 492,
+        "role": "Paragraph",
+        "text": "Settlement",
+        "group": ""
+      },
+      {
+        "id": 494,
+        "role": "Heading",
+        "text": "$3,000,000",
+        "group": ""
+      },
+      {
+        "id": 496,
+        "role": "Heading",
+        "text": "$2,500,000",
+        "group": ""
+      },
+      {
+        "id": 498,
+        "role": "Heading",
+        "text": "$2,100,000",
+        "group": ""
+      },
+      {
+        "id": 500,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. Each case is different and must be judged on its own facts.",
+        "group": ""
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "contact.html": [
+      {
+        "id": 505,
+        "role": "Page title (browser tab)",
+        "text": "Contact Us | Shapiro Law Offices, PLLC - Bronx, NY",
+        "group": ""
+      },
+      {
+        "id": 507,
+        "role": "Search-results description",
+        "text": "Contact Shapiro Law Offices, PLLC - 3205 Grand Concourse, Suite 1, Bronx, NY 10468. Free consultation: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 509,
+        "role": "Main headline",
+        "text": "Contact Us",
+        "group": ""
+      },
+      {
+        "id": 512,
+        "role": "Section heading",
+        "text": "Office Location",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 514,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC 3205 Grand Concourse, Suite 1 Bronx, NY 10468 Phone: 718.295.7000 Se habla español",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 516,
+        "role": "Section heading",
+        "text": "Get in Touch Today With a Member of Our Team.",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 518,
+        "role": "Paragraph",
+        "text": "Fields marked with an “*” are required",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 520,
+        "role": "Form label",
+        "text": "Name *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 522,
+        "role": "Form field",
+        "text": "Name *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 524,
+        "role": "Form label",
+        "text": "Phone *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 526,
+        "role": "Form field",
+        "text": "Phone *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 528,
+        "role": "Form label",
+        "text": "Email *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 530,
+        "role": "Form field",
+        "text": "Email *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 532,
+        "role": "Form label",
+        "text": "Date of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 534,
+        "role": "Form field",
+        "text": "Date of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 536,
+        "role": "Form label",
+        "text": "Location of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 538,
+        "role": "Form field",
+        "text": "Location of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 540,
+        "role": "Form label",
+        "text": "Description of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 542,
+        "role": "Form field",
+        "text": "Description of Injury",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 544,
+        "role": "Paragraph",
+        "text": "Disclaimer: The use of the internet or this form for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this form.",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 546,
+        "role": "Form label",
+        "text": "I Have Read The Disclaimer *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 548,
+        "role": "Button",
+        "text": "Submit",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 14,
+        "role": "Paragraph",
+        "text": "Call for a Free Consultation",
+        "group": ""
+      },
+      {
+        "id": 16,
+        "role": "Button",
+        "text": "Book Your Free Consultation Now",
+        "group": ""
+      },
+      {
+        "id": 18,
+        "role": "Section heading",
+        "text": "We Show Up For You.",
+        "group": ""
+      },
+      {
+        "id": 20,
+        "role": "Small heading",
+        "text": "No Fee Until We Win!!",
+        "group": ""
+      },
+      {
+        "id": 22,
+        "role": "Paragraph",
+        "text": "Call now to speak with an attorney for a free consultation",
+        "group": ""
+      },
+      {
+        "id": 24,
+        "role": "Button",
+        "text": "Call 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 26,
+        "role": "Heading",
+        "text": "Location",
+        "group": ""
+      },
+      {
+        "id": 28,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 30,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC serves clients in and around Bronx County, New York County, Queens County, Kings County, Westchester County, Nassau County, Richmond County, and Rockland County.",
+        "group": ""
+      },
+      {
+        "id": 32,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 34,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • All Rights Reserved.",
+        "group": ""
+      },
+      {
+        "id": 36,
+        "role": "Paragraph",
+        "text": "Attorney Advertising. Prior results do not guarantee a similar outcome. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. Photo credits.",
+        "group": ""
+      }
+    ],
+    "es/index.html": [
+      {
+        "id": 587,
+        "role": "Page title (browser tab)",
+        "text": "Abogados de Lesiones Personales - Shapiro Law Offices, PLLC | Nueva York",
+        "group": ""
+      },
+      {
+        "id": 589,
+        "role": "Search-results description",
+        "text": "Shapiro Law Offices, PLLC es un bufete de lesiones personales en Nueva York que representa a víctimas de accidentes. No paga si no ganamos. Consulta gratis: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 591,
+        "role": "Image description",
+        "text": "Jason Shapiro, Esq. — abogado de lesiones personales en Nueva York",
+        "group": ""
+      },
+      {
+        "id": 594,
+        "role": "Main headline",
+        "text": "Abogados de Lesiones Personales",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 596,
+        "role": "Paragraph",
+        "text": "¡No Paga Si No Ganamos Su Caso!",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 598,
+        "role": "List item",
+        "text": "Abogado Litigante Educado en la Ivy League",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 600,
+        "role": "List item",
+        "text": "Autor de The Lawyers’ Guide to Personal Injury Law",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 602,
+        "role": "List item",
+        "text": "Seleccionado a Super Lawyers",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 604,
+        "role": "List item",
+        "text": "Martindale-Hubbell AV Preeminent",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 606,
+        "role": "Paragraph",
+        "text": "★ Se Habla Español ★",
+        "group": "TOP OF THE PAGE"
+      },
+      {
+        "id": 609,
+        "role": "List item",
+        "text": "Accidentes de Andamios",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 611,
+        "role": "List item",
+        "text": "Accidentes de Construcción",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 613,
+        "role": "List item",
+        "text": "Accidentes de Vehículos",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 615,
+        "role": "List item",
+        "text": "Accidentes en Propiedades",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 617,
+        "role": "List item",
+        "text": "Negligencia Médica",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 620,
+        "role": "Section heading",
+        "text": "Resultados Comprobados Para Neoyorquinos Lesionados",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 622,
+        "role": "Button",
+        "text": "Ver Resultados de Casos",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 624,
+        "role": "Heading",
+        "text": "$5,645,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 626,
+        "role": "Paragraph",
+        "text": "Veredicto del Jurado",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 628,
+        "role": "Heading",
+        "text": "$4,000,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 630,
+        "role": "Paragraph",
+        "text": "Acuerdo",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 632,
+        "role": "Heading",
+        "text": "$3,000,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 634,
+        "role": "Heading",
+        "text": "$2,500,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 636,
+        "role": "Heading",
+        "text": "$2,100,000",
+        "group": "CASE RESULTS"
+      },
+      {
+        "id": 639,
+        "role": "Section heading",
+        "text": "Bufete Líder en Lesiones Personales ¡No Paga Si No Ganamos Su Caso!",
+        "group": "ABOUT THE FIRM"
+      },
+      {
+        "id": 641,
+        "role": "Small heading",
+        "text": "Estamos dedicados a representar a las víctimas de accidentes en cada paso del camino.",
+        "group": "ABOUT THE FIRM"
+      },
+      {
+        "id": 643,
+        "role": "Paragraph",
+        "text": "Fundado por Jason Shapiro — un destacado abogado litigante, conferencista y autor del libro de texto The Lawyers’ Guide to Personal Injury Law (Guía del Abogado sobre la Ley de Lesiones Personales) — el bufete maneja accidentes de andamios, construcción, vehículos motorizados y propiedades, y negligencia médica.",
+        "group": "ABOUT THE FIRM"
+      },
+      {
+        "id": 645,
+        "role": "Small heading",
+        "text": "Estaremos A Su Lado",
+        "group": "ABOUT THE FIRM"
+      },
+      {
+        "id": 648,
+        "role": "Section heading",
+        "text": "Tipos De Casos Que Manejamos",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 650,
+        "role": "Heading",
+        "text": "Accidentes de Andamios",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 652,
+        "role": "Heading",
+        "text": "Accidentes de Construcción",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 654,
+        "role": "Heading",
+        "text": "Accidentes de Auto",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 656,
+        "role": "Heading",
+        "text": "Accidentes de Camión",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 658,
+        "role": "Heading",
+        "text": "Accidentes de Peatones",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 660,
+        "role": "Heading",
+        "text": "Accidentes en Propiedades",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 662,
+        "role": "Heading",
+        "text": "Negligencia Médica",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 664,
+        "role": "Heading",
+        "text": "Negligencia en el Parto",
+        "group": "PRACTICE AREAS"
+      },
+      {
+        "id": 667,
+        "role": "Section heading",
+        "text": "Conozca a Nuestros Abogados",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 669,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC es un bufete litigante. Su caso lo manejan abogados que llevan casos a juicio — no se pasa de mano en mano.",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 671,
+        "role": "Image description",
+        "text": "Jason Shapiro, Esq. — abogado de lesiones personales en Nueva York",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 673,
+        "role": "Heading",
+        "text": "Jason Shapiro, Esq",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 675,
+        "role": "Paragraph",
+        "text": "Fundador",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 677,
+        "role": "Paragraph",
+        "text": "Abogado litigante educado en una universidad de la Ivy League que representa a víctimas de accidentes en la ciudad de Nueva York y los condados vecinos. Es conferencista y autor del libro de texto The Lawyers’ Guide to Personal Injury Law, una guía integral para abogados de lesiones personales.",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 679,
+        "role": "Paragraph",
+        "text": "Ha sido seleccionado para Super Lawyers y posee la calificación AV Preeminent de Martindale-Hubbell — la más alta distinción entre colegas por capacidad legal y ética profesional.",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 681,
+        "role": "Button",
+        "text": "Ver Perfil",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 691,
+        "role": "Image description",
+        "text": "La Guía de los Abogados para el Derecho de Lesiones Personales, por Jason Shapiro, Esq.",
+        "group": "MEET OUR ATTORNEYS"
+      },
+      {
+        "id": 694,
+        "role": "Small heading",
+        "text": "Él Escribió El Libro",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 696,
+        "role": "Section heading",
+        "text": "The Lawyers’ Guide to Personal Injury Law",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 698,
+        "role": "Paragraph",
+        "text": "Escrito por Jason Shapiro, este libro de texto integral para abogados de lesiones personales analiza, en profundidad, el manejo de todo tipo de casos de accidentes y lesiones. Cuando otros abogados quieren aprender cómo manejar un caso de lesiones, este es el libro que consultan — y su autor es el abogado que manejará el suyo.",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 700,
+        "role": "Button",
+        "text": "Comprar El Libro",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 702,
+        "role": "Button",
+        "text": "Sobre El Autor",
+        "group": "THE BOOK"
+      },
+      {
+        "id": 705,
+        "role": "Section heading",
+        "text": "Por Qué Elegir Shapiro Law Offices, PLLC",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 707,
+        "role": "Small heading",
+        "text": "No Paga Si No Ganamos Su Caso",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 709,
+        "role": "Paragraph",
+        "text": "Usted no pagará honorarios de abogado a menos que ganemos su caso",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 711,
+        "role": "Small heading",
+        "text": "Abogado Litigante de la Ivy League",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 713,
+        "role": "Paragraph",
+        "text": "El bufete es dirigido por un destacado abogado litigante educado en la Ivy League",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 715,
+        "role": "Small heading",
+        "text": "Consultas Gratis",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 717,
+        "role": "Paragraph",
+        "text": "Llame o agende una consulta completamente gratis",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 719,
+        "role": "Small heading",
+        "text": "Autor Publicado",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 721,
+        "role": "Paragraph",
+        "text": "Autor de The Lawyers’ Guide to Personal Injury Law, el libro de texto sobre casos de accidentes y lesiones",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 723,
+        "role": "Small heading",
+        "text": "Atención Personal",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 725,
+        "role": "Paragraph",
+        "text": "Un enfoque personal y directo para guiarlo en sus momentos difíciles",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 727,
+        "role": "Small heading",
+        "text": "Se Habla Español",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 729,
+        "role": "Paragraph",
+        "text": "Sirviendo la ciudad de Nueva York y los condados vecinos en inglés y español",
+        "group": "WHY CHOOSE US"
+      },
+      {
+        "id": 732,
+        "role": "List item",
+        "text": "¿Ha Sufrido Una Lesión? ─ Llame 718.295.7000",
+        "group": "MOVING PRACTICE-AREA STRIP"
+      },
+      {
+        "id": 746,
+        "role": "Section heading",
+        "text": "Ubicación de la Oficina",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 748,
+        "role": "Section heading",
+        "text": "Contáctenos Hoy Con Un Miembro de Nuestro Equipo.",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 750,
+        "role": "Paragraph",
+        "text": "Los campos marcados con “*” son obligatorios",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 752,
+        "role": "Form label",
+        "text": "Nombre *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 754,
+        "role": "Form field",
+        "text": "Nombre *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 756,
+        "role": "Form label",
+        "text": "Teléfono *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 758,
+        "role": "Form field",
+        "text": "Teléfono *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 760,
+        "role": "Form label",
+        "text": "Correo Electrónico *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 762,
+        "role": "Form field",
+        "text": "Correo Electrónico *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 764,
+        "role": "Form label",
+        "text": "Fecha de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 766,
+        "role": "Form field",
+        "text": "Fecha de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 768,
+        "role": "Form label",
+        "text": "Lugar de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 770,
+        "role": "Form field",
+        "text": "Lugar de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 772,
+        "role": "Form label",
+        "text": "Descripción de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 774,
+        "role": "Form field",
+        "text": "Descripción de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 776,
+        "role": "Paragraph",
+        "text": "Aviso Legal: El uso del internet o de este formulario para comunicarse con el bufete o con cualquiera de sus miembros no establece una relación abogado-cliente. No envíe información confidencial o urgente a través de este formulario.",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 778,
+        "role": "Form label",
+        "text": "He Leído el Aviso Legal *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 780,
+        "role": "Button",
+        "text": "Enviar",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ],
+    "es/about.html": [
+      {
+        "id": 785,
+        "role": "Page title (browser tab)",
+        "text": "Nuestros Abogados | Lesiones Personales en Nueva York - Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 787,
+        "role": "Search-results description",
+        "text": "Conozca a los abogados de Shapiro Law Offices, PLLC en Nueva York - el fundador Jason Shapiro, Esq., abogado litigante, conferencista y autor publicado.",
+        "group": ""
+      },
+      {
+        "id": 789,
+        "role": "Section heading",
+        "text": "Sobre El Bufete",
+        "group": ""
+      },
+      {
+        "id": 791,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC es un bufete de lesiones personales dedicado a representar a víctimas de accidentes. Fundado por Jason Shapiro, los abogados del bufete llevan casos a juicio — entre ambos han manejado casos de accidentes multimillonarios en tribunales estatales y federales durante décadas.",
+        "group": ""
+      },
+      {
+        "id": 793,
+        "role": "Paragraph",
+        "text": "El bufete se enfoca en todas las áreas de accidentes — accidentes de andamios y construcción, accidentes de vehículos motorizados, accidentes en propiedades y negligencia médica — sirviendo a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 795,
+        "role": "Heading",
+        "text": "Jason Shapiro, Esq",
+        "group": ""
+      },
+      {
+        "id": 797,
+        "role": "Paragraph",
+        "text": "Fundador",
+        "group": ""
+      },
+      {
+        "id": 799,
+        "role": "Paragraph",
+        "text": "Abogado litigante educado en una universidad de la Ivy League, conferencista y autor del libro de texto The Lawyers’ Guide to Personal Injury Law (Guía del Abogado sobre la Ley de Lesiones Personales). Representa a víctimas de accidentes en El Bronx y toda la ciudad de Nueva York.",
+        "group": ""
+      },
+      {
+        "id": 801,
+        "role": "List item",
+        "text": "Seleccionado para Super Lawyers.",
+        "group": ""
+      },
+      {
+        "id": 803,
+        "role": "List item",
+        "text": "Martindale-Hubbell AV Preeminent® — la más alta calificación entre colegas por capacidad legal y ética profesional.",
+        "group": ""
+      },
+      {
+        "id": 805,
+        "role": "List item",
+        "text": "Autor publicado — The Lawyers’ Guide to Personal Injury Law, un libro de texto integral que analiza, en profundidad, el manejo de todo tipo de casos de accidentes y lesiones.",
+        "group": ""
+      },
+      {
+        "id": 807,
+        "role": "List item",
+        "text": "Conferencista sobre litigios de lesiones personales.",
+        "group": ""
+      },
+      {
+        "id": 809,
+        "role": "Image description",
+        "text": "Jason Shapiro, Esq. — fundador de Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 819,
+        "role": "Heading",
+        "text": "Reconocido Por La Profesión",
+        "group": ""
+      },
+      {
+        "id": 821,
+        "role": "List item",
+        "text": "Seleccionado para Super Lawyers — Jason Shapiro.",
+        "group": ""
+      },
+      {
+        "id": 823,
+        "role": "List item",
+        "text": "Autor publicado — The Lawyers’ Guide to Personal Injury Law.",
+        "group": ""
+      },
+      {
+        "id": 825,
+        "role": "List item",
+        "text": "Se habla español — el bufete atiende a sus clientes en inglés y español.",
+        "group": ""
+      },
+      {
+        "id": 827,
+        "role": "Image description",
+        "text": "La Guía de los Abogados para el Derecho de Lesiones Personales, por Jason Shapiro, Esq.",
+        "group": ""
+      },
+      {
+        "id": 829,
+        "role": "Heading",
+        "text": "The Lawyers’ Guide to Personal Injury Law",
+        "group": ""
+      },
+      {
+        "id": 831,
+        "role": "Paragraph",
+        "text": "Escrito por Jason Shapiro, este es un libro de texto integral para abogados de lesiones personales. El libro analiza, en profundidad, el manejo de todo tipo de casos de accidentes y lesiones.",
+        "group": ""
+      },
+      {
+        "id": 833,
+        "role": "Button",
+        "text": "Comprar El Libro",
+        "group": ""
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ],
+    "es/practice-areas.html": [
+      {
+        "id": 838,
+        "role": "Page title (browser tab)",
+        "text": "Áreas de Práctica | Shapiro Law Offices, PLLC - Bronx, NY",
+        "group": ""
+      },
+      {
+        "id": 840,
+        "role": "Search-results description",
+        "text": "Accidentes de andamios y construcción, vehículos motorizados, propiedades y negligencia médica - Shapiro Law Offices, PLLC representa a víctimas de lesiones en El Bronx y toda la ciudad de Nueva York.",
+        "group": ""
+      },
+      {
+        "id": 842,
+        "role": "Section heading",
+        "text": "Tipos De Casos Que Manejamos",
+        "group": ""
+      },
+      {
+        "id": 844,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC se enfoca en todas las áreas de accidentes, incluyendo las siguientes:",
+        "group": ""
+      },
+      {
+        "id": 846,
+        "role": "Heading",
+        "text": "Accidentes de Andamios y Construcción",
+        "group": ""
+      },
+      {
+        "id": 848,
+        "role": "List item",
+        "text": "Accidentes de andamios",
+        "group": ""
+      },
+      {
+        "id": 850,
+        "role": "List item",
+        "text": "Accidentes de construcción",
+        "group": ""
+      },
+      {
+        "id": 852,
+        "role": "List item",
+        "text": "Accidentes de puentes de acera (sidewalk bridges)",
+        "group": ""
+      },
+      {
+        "id": 854,
+        "role": "List item",
+        "text": "Accidentes de limpieza de ventanas",
+        "group": ""
+      },
+      {
+        "id": 856,
+        "role": "List item",
+        "text": "Accidentes de escaleras de mano",
+        "group": ""
+      },
+      {
+        "id": 858,
+        "role": "List item",
+        "text": "Accidentes por objetos que caen",
+        "group": ""
+      },
+      {
+        "id": 860,
+        "role": "List item",
+        "text": "Accidentes de grúas y montacargas",
+        "group": ""
+      },
+      {
+        "id": 862,
+        "role": "List item",
+        "text": "Accidentes de demolición y excavación",
+        "group": ""
+      },
+      {
+        "id": 864,
+        "role": "Button",
+        "text": "Accidentes de Andamios y Construcción",
+        "group": ""
+      },
+      {
+        "id": 866,
+        "role": "Heading",
+        "text": "Accidentes de Vehículos Motorizados",
+        "group": ""
+      },
+      {
+        "id": 868,
+        "role": "List item",
+        "text": "Accidentes de auto",
+        "group": ""
+      },
+      {
+        "id": 870,
+        "role": "List item",
+        "text": "Accidentes de camión y tractocamión",
+        "group": ""
+      },
+      {
+        "id": 872,
+        "role": "List item",
+        "text": "Accidentes de peatones y ciclistas",
+        "group": ""
+      },
+      {
+        "id": 874,
+        "role": "List item",
+        "text": "Accidentes de motocicleta",
+        "group": ""
+      },
+      {
+        "id": 876,
+        "role": "List item",
+        "text": "Accidentes de autobús, metro y tren",
+        "group": ""
+      },
+      {
+        "id": 878,
+        "role": "Button",
+        "text": "Accidentes de Vehículos Motorizados",
+        "group": ""
+      },
+      {
+        "id": 880,
+        "role": "Heading",
+        "text": "Accidentes en Propiedades",
+        "group": ""
+      },
+      {
+        "id": 882,
+        "role": "List item",
+        "text": "Accidentes en aceras",
+        "group": ""
+      },
+      {
+        "id": 884,
+        "role": "List item",
+        "text": "Accidentes por nieve y hielo",
+        "group": ""
+      },
+      {
+        "id": 886,
+        "role": "List item",
+        "text": "Accidentes en escaleras",
+        "group": ""
+      },
+      {
+        "id": 888,
+        "role": "List item",
+        "text": "Envenenamiento por pintura con plomo",
+        "group": ""
+      },
+      {
+        "id": 890,
+        "role": "List item",
+        "text": "Accidentes por pisos mojados",
+        "group": ""
+      },
+      {
+        "id": 892,
+        "role": "List item",
+        "text": "Accidentes de ascensores y escaleras eléctricas",
+        "group": ""
+      },
+      {
+        "id": 894,
+        "role": "List item",
+        "text": "Accidentes en edificios",
+        "group": ""
+      },
+      {
+        "id": 896,
+        "role": "List item",
+        "text": "Caídas de ventanas",
+        "group": ""
+      },
+      {
+        "id": 898,
+        "role": "List item",
+        "text": "Mordeduras de perro",
+        "group": ""
+      },
+      {
+        "id": 900,
+        "role": "Button",
+        "text": "Accidentes en Propiedades",
+        "group": ""
+      },
+      {
+        "id": 902,
+        "role": "Heading",
+        "text": "Negligencia Médica",
+        "group": ""
+      },
+      {
+        "id": 904,
+        "role": "List item",
+        "text": "Negligencia en el parto",
+        "group": ""
+      },
+      {
+        "id": 906,
+        "role": "List item",
+        "text": "Otra negligencia médica",
+        "group": ""
+      },
+      {
+        "id": 908,
+        "role": "Button",
+        "text": "Negligencia Médica",
+        "group": ""
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ],
+    "es/practice-areas/construction-scaffold.html": [
+      {
+        "id": 913,
+        "role": "Page title (browser tab)",
+        "text": "Abogado de Accidentes de Andamios y Construcción en Nueva York | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 915,
+        "role": "Search-results description",
+        "text": "La Ley Laboral de Nueva York protege a los trabajadores de la construcción lesionados en caídas de andamios, escaleras, objetos que caen y más. Consulta gratis: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 917,
+        "role": "Main headline",
+        "text": "Accidentes de Andamios y Construcción",
+        "group": ""
+      },
+      {
+        "id": 919,
+        "role": "Section heading",
+        "text": "Las Protecciones Laborales Más Fuertes de Nueva York",
+        "group": ""
+      },
+      {
+        "id": 921,
+        "role": "Paragraph",
+        "text": "La Ley Laboral de Nueva York §240 (la “Ley de Andamios”) y §241(6) otorgan a los trabajadores de la construcción algunas de las protecciones más fuertes del país, responsabilizando a dueños y contratistas por lesiones relacionadas con caídas y condiciones inseguras en las obras. Shapiro Law Offices, PLLC representa a trabajadores lesionados en incidentes que involucran:",
+        "group": ""
+      },
+      {
+        "id": 923,
+        "role": "List item",
+        "text": "Accidentes de andamios",
+        "group": ""
+      },
+      {
+        "id": 925,
+        "role": "List item",
+        "text": "Accidentes de construcción",
+        "group": ""
+      },
+      {
+        "id": 927,
+        "role": "List item",
+        "text": "Accidentes de puentes de acera (sidewalk bridges)",
+        "group": ""
+      },
+      {
+        "id": 929,
+        "role": "List item",
+        "text": "Accidentes de limpieza de ventanas",
+        "group": ""
+      },
+      {
+        "id": 931,
+        "role": "List item",
+        "text": "Accidentes de escaleras de mano",
+        "group": ""
+      },
+      {
+        "id": 933,
+        "role": "List item",
+        "text": "Accidentes por objetos que caen",
+        "group": ""
+      },
+      {
+        "id": 935,
+        "role": "List item",
+        "text": "Accidentes de grúas y montacargas",
+        "group": ""
+      },
+      {
+        "id": 937,
+        "role": "List item",
+        "text": "Accidentes de demolición y excavación",
+        "group": ""
+      },
+      {
+        "id": 939,
+        "role": "Paragraph",
+        "text": "La evidencia en una obra cambia a diario, y las aseguradoras de dueños y contratistas comienzan a preparar su defensa de inmediato. Si usted o un familiar se lesionó en una obra de construcción, contacte a Shapiro Law Offices, PLLC para una consulta gratis.",
+        "group": ""
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ],
+    "es/practice-areas/motor-vehicle.html": [
+      {
+        "id": 944,
+        "role": "Page title (browser tab)",
+        "text": "Abogado de Accidentes de Vehículos en Nueva York | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 946,
+        "role": "Search-results description",
+        "text": "Representamos a conductores, pasajeros, peatones, ciclistas y pasajeros del transporte público lesionados en accidentes en NYC. Consulta gratis: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 948,
+        "role": "Main headline",
+        "text": "Accidentes de Vehículos Motorizados",
+        "group": ""
+      },
+      {
+        "id": 950,
+        "role": "Section heading",
+        "text": "¿Lesionado Por Un Conductor Negligente?",
+        "group": ""
+      },
+      {
+        "id": 952,
+        "role": "Paragraph",
+        "text": "Desde las calles de El Bronx hasta el Grand Concourse y las autopistas, los conductores negligentes causan lesiones que cambian vidas todos los días. Shapiro Law Offices, PLLC representa a víctimas de:",
+        "group": ""
+      },
+      {
+        "id": 954,
+        "role": "List item",
+        "text": "Accidentes de auto",
+        "group": ""
+      },
+      {
+        "id": 956,
+        "role": "List item",
+        "text": "Accidentes de camión y tractocamión",
+        "group": ""
+      },
+      {
+        "id": 958,
+        "role": "List item",
+        "text": "Accidentes de peatones y ciclistas",
+        "group": ""
+      },
+      {
+        "id": 960,
+        "role": "List item",
+        "text": "Accidentes de motocicleta",
+        "group": ""
+      },
+      {
+        "id": 962,
+        "role": "List item",
+        "text": "Accidentes de autobús, metro y tren",
+        "group": ""
+      },
+      {
+        "id": 964,
+        "role": "Paragraph",
+        "text": "El sistema de seguro sin culpa (no-fault) de Nueva York y el umbral de lesión grave hacen que estos reclamos sean más complicados de lo que parecen. El bufete sabe cómo construir el expediente que las aseguradoras no pueden ignorar.",
+        "group": ""
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ],
+    "es/practice-areas/premises.html": [
+      {
+        "id": 969,
+        "role": "Page title (browser tab)",
+        "text": "Abogado de Accidentes en Propiedades en Nueva York | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 971,
+        "role": "Search-results description",
+        "text": "Los dueños de propiedades deben mantenerlas seguras. Caídas en aceras, nieve y hielo, ascensores, mordeduras de perro y más. Consulta gratis: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 973,
+        "role": "Main headline",
+        "text": "Accidentes en Propiedades",
+        "group": ""
+      },
+      {
+        "id": 975,
+        "role": "Section heading",
+        "text": "Los Dueños de Propiedades Le Deben Seguridad",
+        "group": ""
+      },
+      {
+        "id": 977,
+        "role": "Paragraph",
+        "text": "Los dueños de propiedades, arrendadores y administradores de edificios en Nueva York tienen el deber legal de mantener sus propiedades razonablemente seguras. Cuando fallan y alguien se lesiona, Shapiro Law Offices, PLLC los hace responsables. Manejamos:",
+        "group": ""
+      },
+      {
+        "id": 979,
+        "role": "List item",
+        "text": "Accidentes en aceras",
+        "group": ""
+      },
+      {
+        "id": 981,
+        "role": "List item",
+        "text": "Accidentes por nieve y hielo",
+        "group": ""
+      },
+      {
+        "id": 983,
+        "role": "List item",
+        "text": "Accidentes en escaleras",
+        "group": ""
+      },
+      {
+        "id": 985,
+        "role": "List item",
+        "text": "Envenenamiento por pintura con plomo",
+        "group": ""
+      },
+      {
+        "id": 987,
+        "role": "List item",
+        "text": "Accidentes por pisos mojados",
+        "group": ""
+      },
+      {
+        "id": 989,
+        "role": "List item",
+        "text": "Accidentes de ascensores y escaleras eléctricas",
+        "group": ""
+      },
+      {
+        "id": 991,
+        "role": "List item",
+        "text": "Accidentes en edificios",
+        "group": ""
+      },
+      {
+        "id": 993,
+        "role": "List item",
+        "text": "Caídas de ventanas",
+        "group": ""
+      },
+      {
+        "id": 995,
+        "role": "List item",
+        "text": "Mordeduras de perro",
+        "group": ""
+      },
+      {
+        "id": 997,
+        "role": "Paragraph",
+        "text": "Estos casos suelen depender del aviso — si el dueño sabía, o debía saber, de la condición peligrosa. La investigación rápida importa. Si se lesionó en la propiedad de otra persona, contáctenos antes de que la evidencia desaparezca.",
+        "group": ""
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ],
+    "es/practice-areas/medical-malpractice.html": [
+      {
+        "id": 1002,
+        "role": "Page title (browser tab)",
+        "text": "Abogado de Negligencia Médica en Nueva York | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 1004,
+        "role": "Search-results description",
+        "text": "Responsabilizamos a hospitales y médicos por atención negligente, incluyendo negligencia en el parto. Consulta gratis: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 1006,
+        "role": "Main headline",
+        "text": "Negligencia Médica",
+        "group": ""
+      },
+      {
+        "id": 1008,
+        "role": "Section heading",
+        "text": "Cuando La Atención Médica Sale Mal",
+        "group": ""
+      },
+      {
+        "id": 1010,
+        "role": "Paragraph",
+        "text": "Cuando un proveedor médico se desvía del estándar de atención aceptado y un paciente resulta perjudicado, ese proveedor — y el hospital o consultorio detrás de él — pueden ser legalmente responsables. Shapiro Law Offices, PLLC maneja:",
+        "group": ""
+      },
+      {
+        "id": 1012,
+        "role": "List item",
+        "text": "Negligencia en el parto",
+        "group": ""
+      },
+      {
+        "id": 1014,
+        "role": "List item",
+        "text": "Otra negligencia médica",
+        "group": ""
+      },
+      {
+        "id": 1016,
+        "role": "Paragraph",
+        "text": "Los casos de negligencia médica requieren una revisión experta detallada y un dominio firme tanto de la medicina como del derecho. El bufete aporta esa combinación a cada caso que acepta.",
+        "group": ""
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ],
+    "es/results.html": [
+      {
+        "id": 1021,
+        "role": "Page title (browser tab)",
+        "text": "Veredictos y Acuerdos | Shapiro Law Offices, PLLC",
+        "group": ""
+      },
+      {
+        "id": 1023,
+        "role": "Search-results description",
+        "text": "Resultados reales de Shapiro Law Offices, PLLC, incluyendo un veredicto de $5,645,000 y múltiples acuerdos de siete cifras. Los resultados anteriores no garantizan un resultado similar.",
+        "group": ""
+      },
+      {
+        "id": 1025,
+        "role": "Main headline",
+        "text": "Veredictos y Acuerdos",
+        "group": ""
+      },
+      {
+        "id": 1027,
+        "role": "Section heading",
+        "text": "Resultados Publicados",
+        "group": ""
+      },
+      {
+        "id": 1029,
+        "role": "Heading",
+        "text": "$5,645,000",
+        "group": ""
+      },
+      {
+        "id": 1031,
+        "role": "Paragraph",
+        "text": "Veredicto del Jurado",
+        "group": ""
+      },
+      {
+        "id": 1033,
+        "role": "Heading",
+        "text": "$4,000,000",
+        "group": ""
+      },
+      {
+        "id": 1035,
+        "role": "Paragraph",
+        "text": "Acuerdo",
+        "group": ""
+      },
+      {
+        "id": 1037,
+        "role": "Heading",
+        "text": "$3,000,000",
+        "group": ""
+      },
+      {
+        "id": 1039,
+        "role": "Heading",
+        "text": "$2,500,000",
+        "group": ""
+      },
+      {
+        "id": 1041,
+        "role": "Heading",
+        "text": "$2,100,000",
+        "group": ""
+      },
+      {
+        "id": 1043,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. Cada caso es diferente y debe evaluarse según sus propios hechos.",
+        "group": ""
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ],
+    "es/contact.html": [
+      {
+        "id": 1048,
+        "role": "Page title (browser tab)",
+        "text": "Contáctenos | Shapiro Law Offices, PLLC - Bronx, NY",
+        "group": ""
+      },
+      {
+        "id": 1050,
+        "role": "Search-results description",
+        "text": "Contacte a Shapiro Law Offices, PLLC - 3205 Grand Concourse, Suite 1, Bronx, NY 10468. Consulta gratis: 718.295.7000.",
+        "group": ""
+      },
+      {
+        "id": 1053,
+        "role": "Section heading",
+        "text": "Ubicación de la Oficina",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1055,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC 3205 Grand Concourse, Suite 1 Bronx, NY 10468 Teléfono: 718.295.7000 Se habla español",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1057,
+        "role": "Section heading",
+        "text": "Contáctenos Hoy Con Un Miembro de Nuestro Equipo.",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1059,
+        "role": "Paragraph",
+        "text": "Los campos marcados con “*” son obligatorios",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1061,
+        "role": "Form label",
+        "text": "Nombre *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1063,
+        "role": "Form field",
+        "text": "Nombre *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1065,
+        "role": "Form label",
+        "text": "Teléfono *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1067,
+        "role": "Form field",
+        "text": "Teléfono *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1069,
+        "role": "Form label",
+        "text": "Correo Electrónico *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1071,
+        "role": "Form field",
+        "text": "Correo Electrónico *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1073,
+        "role": "Form label",
+        "text": "Fecha de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1075,
+        "role": "Form field",
+        "text": "Fecha de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1077,
+        "role": "Form label",
+        "text": "Lugar de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1079,
+        "role": "Form field",
+        "text": "Lugar de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1081,
+        "role": "Form label",
+        "text": "Descripción de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1083,
+        "role": "Form field",
+        "text": "Descripción de la Lesión",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1085,
+        "role": "Paragraph",
+        "text": "Aviso Legal: El uso del internet o de este formulario para comunicarse con el bufete o con cualquiera de sus miembros no establece una relación abogado-cliente. No envíe información confidencial o urgente a través de este formulario.",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1087,
+        "role": "Form label",
+        "text": "He Leído el Aviso Legal *",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 1089,
+        "role": "Button",
+        "text": "Enviar",
+        "group": "OFFICE LOCATION AND CONTACT FORM"
+      },
+      {
+        "id": 553,
+        "role": "Paragraph",
+        "text": "Llame para una Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 555,
+        "role": "Paragraph",
+        "text": "Síganos :",
+        "group": ""
+      },
+      {
+        "id": 557,
+        "role": "List item",
+        "text": "Contacto",
+        "group": ""
+      },
+      {
+        "id": 559,
+        "role": "Button",
+        "text": "Reserve Su Consulta Gratis",
+        "group": ""
+      },
+      {
+        "id": 561,
+        "role": "Section heading",
+        "text": "Estaremos A Su Lado.",
+        "group": ""
+      },
+      {
+        "id": 563,
+        "role": "Small heading",
+        "text": "¡No Paga Si No Ganamos!",
+        "group": ""
+      },
+      {
+        "id": 565,
+        "role": "Paragraph",
+        "text": "Llame ahora para hablar con un abogado — la consulta es gratis",
+        "group": ""
+      },
+      {
+        "id": 567,
+        "role": "Button",
+        "text": "Llame 718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 569,
+        "role": "Heading",
+        "text": "Ubicación",
+        "group": ""
+      },
+      {
+        "id": 571,
+        "role": "Paragraph",
+        "text": "3205 Grand Concourse, Suite 1 Bronx, NY 10468",
+        "group": ""
+      },
+      {
+        "id": 573,
+        "role": "Paragraph",
+        "text": "Shapiro Law Offices, PLLC sirve a clientes en los condados de Bronx, Nueva York, Queens, Kings, Westchester, Nassau, Richmond y Rockland.",
+        "group": ""
+      },
+      {
+        "id": 575,
+        "role": "Paragraph",
+        "text": "718.295.7000",
+        "group": ""
+      },
+      {
+        "id": 577,
+        "role": "Paragraph",
+        "text": "Copyright © 2026 - Shapiro Law Offices, PLLC • Todos Los Derechos Reservados.",
+        "group": ""
+      },
+      {
+        "id": 579,
+        "role": "Paragraph",
+        "text": "Attorney Advertising (Publicidad de Abogados). Los resultados anteriores no garantizan un resultado similar. La información presentada en este sitio no debe interpretarse como asesoramiento legal formal ni como la formación de una relación abogado-cliente. Créditos de fotos.",
+        "group": ""
+      }
+    ]
+  },
+  "editorial_omissions": [
+    {
+      "page": "index.html",
+      "id": 140,
+      "role": "Heading",
+      "text": "Second Attorney",
+      "group": "MEET OUR ATTORNEYS"
+    },
+    {
+      "page": "index.html",
+      "id": 142,
+      "role": "Paragraph",
+      "text": "Profile pending — name to be confirmed",
+      "group": "MEET OUR ATTORNEYS"
+    },
+    {
+      "page": "index.html",
+      "id": 144,
+      "role": "Paragraph",
+      "text": "[ Placeholder ] This profile is drafted and ready. Two sources give this attorney a different name, so we are not publishing either one until the firm confirms which is correct.",
+      "group": "MEET OUR ATTORNEYS"
+    },
+    {
+      "page": "index.html",
+      "id": 146,
+      "role": "Paragraph",
+      "text": "Jason: confirm the name and send a current biography and a photograph, and this card fills in.",
+      "group": "MEET OUR ATTORNEYS"
+    },
+    {
+      "page": "index.html",
+      "id": 192,
+      "role": "Small heading",
+      "text": "Client reviews[ Google rating — pending collection ]",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "index.html",
+      "id": 194,
+      "role": "Section heading",
+      "text": "What People Are Saying",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "index.html",
+      "id": 196,
+      "role": "Small heading",
+      "text": "[ Client testimonial — pending collection ]",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "index.html",
+      "id": 198,
+      "role": "Paragraph",
+      "text": "Real client reviews will appear here once collected and approved for publication.",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "index.html",
+      "id": 200,
+      "role": "Button",
+      "text": "View Our Reviews",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "about.html",
+      "id": 268,
+      "role": "Heading",
+      "text": "Second Attorney",
+      "group": ""
+    },
+    {
+      "page": "about.html",
+      "id": 270,
+      "role": "Paragraph",
+      "text": "Profile pending — name to be confirmed",
+      "group": ""
+    },
+    {
+      "page": "about.html",
+      "id": 272,
+      "role": "Paragraph",
+      "text": "[ Placeholder ] This profile is drafted and ready to publish. It is being held back for one reason: two sources give this attorney a different name — the firm’s own Attorney Profiles page, which has not been updated since March 2023, and the notes from our website meeting on 24 July 2026. We will not publish a name, a biography or a credential we cannot confirm.",
+      "group": ""
+    },
+    {
+      "page": "about.html",
+      "id": 274,
+      "role": "Paragraph",
+      "text": "What we need from Jason: the attorney’s correct full name, a current biography, and a photograph. The profile goes live the same day it arrives.",
+      "group": ""
+    },
+    {
+      "page": "es/index.html",
+      "id": 683,
+      "role": "Heading",
+      "text": "Segundo Abogado",
+      "group": "MEET OUR ATTORNEYS"
+    },
+    {
+      "page": "es/index.html",
+      "id": 685,
+      "role": "Paragraph",
+      "text": "Perfil pendiente — nombre por confirmar",
+      "group": "MEET OUR ATTORNEYS"
+    },
+    {
+      "page": "es/index.html",
+      "id": 687,
+      "role": "Paragraph",
+      "text": "[ Marcador de posición ] Este perfil ya está redactado. Dos fuentes dan un nombre distinto para este abogado, así que no publicamos ninguno hasta que el bufete confirme cuál es el correcto.",
+      "group": "MEET OUR ATTORNEYS"
+    },
+    {
+      "page": "es/index.html",
+      "id": 689,
+      "role": "Paragraph",
+      "text": "Jason: confirme el nombre y envíe una biografía actual y una fotografía, y esta tarjeta se completa.",
+      "group": "MEET OUR ATTORNEYS"
+    },
+    {
+      "page": "es/index.html",
+      "id": 735,
+      "role": "Small heading",
+      "text": "Reseñas de clientes[ Calificación de Google — pendiente ]",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "es/index.html",
+      "id": 737,
+      "role": "Section heading",
+      "text": "Lo Que Dice La Gente",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "es/index.html",
+      "id": 739,
+      "role": "Small heading",
+      "text": "[ Testimonio de cliente — pendiente de recopilación ]",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "es/index.html",
+      "id": 741,
+      "role": "Paragraph",
+      "text": "Las reseñas reales de clientes aparecerán aquí una vez recopiladas y aprobadas para su publicación.",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "es/index.html",
+      "id": 743,
+      "role": "Button",
+      "text": "Ver Nuestras Reseñas",
+      "group": "CLIENT REVIEWS"
+    },
+    {
+      "page": "es/about.html",
+      "id": 811,
+      "role": "Heading",
+      "text": "Segundo Abogado",
+      "group": ""
+    },
+    {
+      "page": "es/about.html",
+      "id": 813,
+      "role": "Paragraph",
+      "text": "Perfil pendiente — nombre por confirmar",
+      "group": ""
+    },
+    {
+      "page": "es/about.html",
+      "id": 815,
+      "role": "Paragraph",
+      "text": "[ Marcador de posición ] Este perfil ya está redactado y listo para publicarse. Se mantiene en espera por una sola razón: dos fuentes dan un nombre distinto para este abogado — la propia página Attorney Profiles del bufete, que no se actualiza desde marzo de 2023, y las notas de nuestra reunión sobre el sitio web del 24 de julio de 2026. No publicamos un nombre, una biografía ni una credencial que no podamos confirmar.",
+      "group": ""
+    },
+    {
+      "page": "es/about.html",
+      "id": 817,
+      "role": "Paragraph",
+      "text": "Lo que necesitamos de Jason: el nombre completo correcto del abogado, una biografía actual y una fotografía. El perfil se publica el mismo día en que llegue.",
+      "group": ""
+    }
+  ],
+  "approved_overrides": [
+    {
+      "page": "index.html",
+      "id": 81,
+      "role": "Heading",
+      "text": "$5,645,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 83,
+      "role": "Paragraph",
+      "text": "Jury Verdict",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 85,
+      "role": "Heading",
+      "text": "$4,000,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 87,
+      "role": "Paragraph",
+      "text": "Settlement",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 89,
+      "role": "Heading",
+      "text": "$3,000,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 91,
+      "role": "Heading",
+      "text": "$2,500,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "index.html",
+      "id": 93,
+      "role": "Heading",
+      "text": "$2,100,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 486,
+      "role": "Heading",
+      "text": "$5,645,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 488,
+      "role": "Paragraph",
+      "text": "Jury Verdict",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 490,
+      "role": "Heading",
+      "text": "$4,000,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 492,
+      "role": "Paragraph",
+      "text": "Settlement",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 494,
+      "role": "Heading",
+      "text": "$3,000,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 496,
+      "role": "Heading",
+      "text": "$2,500,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "results.html",
+      "id": 498,
+      "role": "Heading",
+      "text": "$2,100,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 624,
+      "role": "Heading",
+      "text": "$5,645,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 626,
+      "role": "Paragraph",
+      "text": "Veredicto del Jurado",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 628,
+      "role": "Heading",
+      "text": "$4,000,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 630,
+      "role": "Paragraph",
+      "text": "Acuerdo",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 632,
+      "role": "Heading",
+      "text": "$3,000,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 634,
+      "role": "Heading",
+      "text": "$2,500,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/index.html",
+      "id": 636,
+      "role": "Heading",
+      "text": "$2,100,000",
+      "group": "CASE RESULTS",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1029,
+      "role": "Heading",
+      "text": "$5,645,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1031,
+      "role": "Paragraph",
+      "text": "Veredicto del Jurado",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1033,
+      "role": "Heading",
+      "text": "$4,000,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1035,
+      "role": "Paragraph",
+      "text": "Acuerdo",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1037,
+      "role": "Heading",
+      "text": "$3,000,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1039,
+      "role": "Heading",
+      "text": "$2,500,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    },
+    {
+      "page": "es/results.html",
+      "id": 1041,
+      "role": "Heading",
+      "text": "$2,100,000",
+      "group": "",
+      "reason": "User explicitly retained newer approved case results."
+    }
+  ],
+  "design_baseline": "d4615c5",
+  "policy": "Document passages in approved components; newer approved results and credentials retained per user confirmation."
+}

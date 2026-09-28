@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "Mobile menu opens",
+    "Mobile menu closes with Escape",
+    "Guide navigation reaches expected page",
+    "FAQ expands",
+    "FAQ collapses with keyboard",
+    "On-page navigation targets real heading",
+    "Long form description accepted",
+    "Preview form clearly reports that nothing was sent",
+    "Feedback tools start collapsed",
+    "Large review notice does not cover page by default",
+    "Feedback controls remain available",
+    "Comment selection still works"
+  ]
+}

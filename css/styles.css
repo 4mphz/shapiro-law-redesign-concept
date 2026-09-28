@@ -2051,6 +2051,7 @@ a.cmn-btn {
 .client-book__art img { width: 260px; filter: brightness(.78) saturate(.85); }
 .client-book__copy h2 { margin-bottom: 31px; }
 .client-book__copy > p:not(.client-eyebrow) { max-width: 690px; margin: 0 0 25px; color: #637181; font-size: 13px; line-height: 1.7; }
+.client-book__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; }
 
 .client-cta { padding: 46px 0 43px; color: #fff; text-align: center; background: linear-gradient(105deg, #1597e5 0%, #0872bb 100%); }
 .client-cta h2 { color: #fff; font-size: clamp(39px, 4.2vw, 59px); }
@@ -2148,6 +2149,7 @@ a.cmn-btn {
   .client-book__art { width: 250px; max-width: 100%; margin-inline: auto; }
   .client-book__copy { text-align: center; }
   .client-book__copy h2 br { display: none; }
+  .client-book__actions { justify-content: center; }
   .client-footer__inner { display: grid; }
   .client-footer__inner > div:last-child { text-align: left; }
 }
