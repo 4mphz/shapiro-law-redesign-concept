@@ -135,8 +135,8 @@ def shared(soup, relative, english=True):
     for n in soup.select('[data-copy-id]'):
         del n['data-copy-id']
     for img in soup.select('img[src*="lawyers-guide-book"]'):
-        img['src'] = prefix + 'images/lawyers-guide-actual-cover.png'
-        img['width'],img['height'] = '310','466'
+        img['src'] = prefix + 'images/lawyers-guide-book-3d.png'
+        img['width'],img['height'] = '1024','1536'
     for logo in soup.select('.client-logo'):
         logo.clear()
         logo.append(node(soup,'img',src=prefix+'images/shapiro-official-logo.png',alt='Shapiro Law Offices, PLLC',width='280',height='77'))
@@ -165,7 +165,7 @@ def shared(soup, relative, english=True):
             n.decompose()
     style=soup.select_one('link[href*="approved-copy.css"]')
     if style:
-        style['href']=prefix+'css/approved-copy.css?v=20260927-1'
+        style['href']=prefix+'css/approved-copy.css?v=20260927-2'
     if english:
         for a in soup.select('.client-btn[href*="contact.html"]'):
             a.string='Request a Free Consultation'
